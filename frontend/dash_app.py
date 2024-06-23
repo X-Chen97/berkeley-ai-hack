@@ -283,16 +283,16 @@ app.layout = dbc.Container(
             ],
             className="align-items-center mt-4",
         ),
-        dbc.Row([
-            dbc.Col(
-                [
-                    dcc.Graph(
-                        id='compositions-energies',
-                        figure=fig
-                    ),
-                ]
-            )
-        ])
+        # dbc.Row([
+        #     dbc.Col(
+        #         [
+        #             dcc.Graph(
+        #                 id='compositions-energies',
+        #                 figure=fig
+        #             ),
+        #         ]
+        #     )
+        # ])
     ],
     fluid=True,
 )
