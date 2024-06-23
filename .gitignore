@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+finetune_annotation.json
 
 # C extensions
 *.so
