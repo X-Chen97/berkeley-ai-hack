@@ -20,8 +20,6 @@ import torch
 
 app = dash.Dash(prevent_initial_callbacks=True)
 
-# now we have two entries in our app layout,
-# the structure component's layout and the button
 
 #from huggingface_hub import login
 
@@ -124,35 +122,43 @@ app.layout = dbc.Container(
                 dbc.Col(
                     [
                         dbc.Row([
-                            html.H3("Chemical Formula"),
+                            html.H3("Chemical Formula", className="text-center"),
                             dcc.Textarea(
                                 id="chemical_formula",
                                 value="LiFePO4",
-                                style={"width": "20%", "height": "50px"}
+                                style={"width": "50%", "height": "50px"}
                             )
-                        ]),
+                        ], justify="center"),
                         dbc.Row([
-                            html.H3("Space Group"),
+                            html.H3("Space Group", className="text-center"),
                             dcc.Textarea(
                                 id="space_group",
                                 value="Pnma",
-                                style={"width": "15%", "height": "150px"},
+                                style={"width": "50%", "height": "50px"},
                             ),
-                        ]),
-
-                        dcc.Textarea(
-                            id="lattice_parameter",
-                            value="8.4",
-                            style={"width": "15%", "height": "150px"},
-                        ),
-                        html.Button(
-                            "Submit",
-                            id="add-new-candidate-button",
-                            className="mt-2",
-                            n_clicks=0
+                        ], justify="center"),
+                        dbc.Row([
+                            html.H3("Lattice Parameter", className="text-center"),
+                            dcc.Textarea(
+                                id="lattice_parameter",
+                                value="8.4",
+                                style={"width": "50%", "height": "50px"},
                             ),
+                        ], justify="center"),
+                        html.Div([
+                            html.Button(
+                                "Submit",
+                                id="add-new-candidate-button",
+                                className="text-center",
+                                n_clicks=0
+                            )
+                        ], style={'margin-bottom': '10px',
+                              'textAlign':'center',
+                              'width': '220px',
+                              'margin':'auto'}
+                        )
                     ],
-                    width=4,
+                    width=2
                 ),
                 dbc.Col(
                     [html.Div([structure_component.layout(), my_button], id="structure_output")],
