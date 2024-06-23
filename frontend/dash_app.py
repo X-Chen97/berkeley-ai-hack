@@ -319,7 +319,15 @@ def call_llm(input):
     return generated_poscar['generated_text']
 
 def call_gnn_relaxer(input):
-    return
+    url = f"http://146.152.224.107:8019/predict_predict_post"
+    response = requests.post(
+        url,
+        json={
+            'inputs': input
+        }
+    )
+    trajectory_energy = response.json()
+    return trajectory_energy
 
 ###############################################################################
 ###############################################################################
@@ -378,6 +386,7 @@ def update_robocyrsdescr(n_clicks, chemical_formula_value, space_group_value):
 def run_llm_inference(n_clicks, value):
     poscar = call_llm(value)
     stability = call_gnn_relaxer(poscar)
+    print("Length of Trajectory")
     return poscar
 
 ctc.register_crystal_toolkit(app=app, layout=app.layout)
