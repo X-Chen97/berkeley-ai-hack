@@ -10,14 +10,14 @@ import random
 import io
 import sys
 import re
-from mp_api.client import MPRester
+# from mp_api.client import MPRester
 from pymatgen.core import Lattice, Structure
 import crystal_toolkit.components as ctc
 import os
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import PeftModel, prepare_model_for_kbit_training
-import torch
+# from transformers import AutoModelForCausalLM, AutoTokenizer
+# from peft import PeftModel, prepare_model_for_kbit_training
+# import torch
 
 app = dash.Dash(prevent_initial_callbacks=True)
 
