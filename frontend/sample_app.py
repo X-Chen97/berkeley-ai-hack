@@ -10,6 +10,7 @@ import random
 import io
 import sys
 import re
+from mp_api.client import MPRester
 from pymatgen.core import Lattice, Structure
 import crystal_toolkit.components as ctc
 import os
@@ -64,8 +65,14 @@ fig.update_traces(marker_size=20)
 
 # now we give a list of structures to pick from
 structures = [
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.25, 0.5]]),
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.25, 0.25, 0.5]]),
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.25, 0.52]]),
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.25, 0.25, 0.5]]),
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.52, 0.25, 0.5]]),
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.25, 0.5, 0.25]]),
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.52, 0.5]]),
     Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.5, 0.5]]),
-    Structure(Lattice.cubic(5), ["K", "Cl"], [[0, 0, 0], [0.5, 0.5, 0.5]]),
 ]
 
 # we show the first structure by default
@@ -161,7 +168,18 @@ app.layout = dbc.Container(
                     width=2
                 ),
                 dbc.Col(
-                    [html.Div([structure_component.layout(), my_button], id="structure_output")],
+                    [
+                        html.Div(
+                            [
+                                structure_component.layout(),
+                                dcc.Slider(
+                                    id="relaxation_slider",
+                                    min=0,
+                                    max=len(structures)-1,
+                                    value=0
+                                )
+                            ], id="structure_output")
+                    ],
                     width=4,
                 ),
                 dbc.Col(
@@ -187,13 +205,12 @@ app.layout = dbc.Container(
 
 ###############################################################################
 ###############################################################################
-###########################    Function Pipeli   ##############################
+###########################    Function Pipeline ##############################
 ###############################################################################
 ###############################################################################
 
 # Input:
 # Composition, Symmetry, lattic parameter (angle+length), space group
-
 def call_llm(question):
     #when have model
 
@@ -241,6 +258,19 @@ def build_pymatgen_structure_from_poscar(poscar_file):
 #             structure_component.layout(),
 #         )
 
+ctc.register_crystal_toolkit(app=app, layout=app.layout)
+
+# for the interactivity, we use a standard Dash callback
+@app.callback(
+    Output(structure_component.id(), "data"),
+    [Input("relaxation_slider", "value")],
+    prevent_initial_call=True
+)
+def update_structure(slider_value):
+    # with MPRester("wOqaB77pMUmeQ7fY59PZCxdVeLd30eM2") as mpr:
+    #     mp_id = mpr.materials.search()
+    return structures[int(slider_value)]
+
 @app.callback(
     Output("compositions-energies", "figure"),
     Input("add-new-candidate-button", "n_clicks"),
@@ -260,17 +290,6 @@ def update_scatter_plot(n_clicks, value):
     fig.update_layout(clickmode='event+select')
     fig.update_traces(marker_size=20)
     return fig
-
-ctc.register_crystal_toolkit(app=app, layout=app.layout)
-
-# for the interactivity, we use a standard Dash callback
-@app.callback(
-    Output(structure_component.id(), "data"),
-    [Input("change_structure_button", "n_clicks")],
-    prevent_initial_call=True
-)
-def update_structure(n_clicks):
-    return structures[n_clicks % 2]
 
 
 if __name__ == "__main__":
