@@ -53,6 +53,8 @@ dataset = load_dataset('MaterialsAI/robocr_poscar_2col')
 with open('../data/formula_spacegroup_description_map.json', 'r') as fp:
     formula_spacegroup_description_map = json.load(fp)
 
+formula_spacegroup_description_map['Li4MnCo2NiO8_P2/m'] = "Li₄MnCo₂NiO₈ is Caswellsilverite-derived structured and crystallizes in the monoclinic P2/m space group. There are three inequivalent Li¹⁺ sites. In the first Li¹⁺ site, Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with three equivalent MnO₆ octahedra, corners with three equivalent NiO₆ octahedra, an edgeedge with one MnO₆ octahedra, an edgeedge with one NiO₆ octahedra, edges with four equivalent CoO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 1-9°. There are a spread of Li-O bond distances ranging from 2.01-2.29 Å. In the second Li¹⁺ site, Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with six equivalent CoO₆ octahedra, edges with two equivalent CoO₆ octahedra, edges with four equivalent MnO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles are 11°. There are two shorter (2.13 Å) and four longer (2.14 Å) Li-O bond lengths. In the third Li¹⁺ site, Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with six equivalent CoO₆ octahedra, edges with two equivalent CoO₆ octahedra, edges with four equivalent NiO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 0-6°. There are four shorter (2.14 Å) and two longer (2.21 Å) Li-O bond lengths. Mn⁴⁺ is bonded to six O²⁻ atoms to form MnO₆ octahedra that share corners with six equivalent LiO₆ octahedra, edges with two equivalent MnO₆ octahedra, edges with four equivalent CoO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 1-9°. There are two shorter (1.93 Å) and four longer (1.97 Å) Mn-O bond lengths. Co³⁺ is bonded to six O²⁻ atoms to form CoO₆ octahedra that share corners with six LiO₆ octahedra, edges with two equivalent MnO₆ octahedra, edges with two equivalent CoO₆ octahedra, edges with two equivalent NiO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 0-11°. There are a spread of Co-O bond distances ranging from 1.85-2.13 Å. Ni²⁺ is bonded to six O²⁻ atoms to form NiO₆ octahedra that share corners with six equivalent LiO₆ octahedra, edges with two equivalent NiO₆ octahedra, edges with four equivalent CoO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-9°. There are four shorter (2.07 Å) and two longer (2.12 Å) Ni-O bond lengths. There are four inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded to three Li¹⁺, two equivalent Mn⁴⁺, and one Co³⁺ atom to form a mixture of corner and edge-sharing OLi₃Mn₂Co octahedra. The corner-sharing octahedral tilt angles range from 0-8°. In the second O²⁻ site, O²⁻ is bonded to three Li¹⁺, one Mn⁴⁺, and two equivalent Co³⁺ atoms to form OLi₃MnCo₂ octahedra that share corners with six OLi₃MnCo₂ octahedra and edges with twelve OLi₃Mn₂Co octahedra. The corner-sharing octahedral tilt angles range from 0-11°. In the third O²⁻ site, O²⁻ is bonded to three Li¹⁺, one Co³⁺, and two equivalent Ni²⁺ atoms to form a mixture of corner and edge-sharing OLi₃CoNi₂ octahedra. The corner-sharing octahedral tilt angles range from 0-8°. In the fourth O²⁻ site, O²⁻ is bonded to three Li¹⁺, two equivalent Co³⁺, and one Ni²⁺ atom to form OLi₃Co₂Ni octahedra that share corners with six OLi₃MnCo₂ octahedra and edges with twelve OLi₃Mn₂Co octahedra. The corner-sharing octahedral tilt angles range from 0-11°."
+
 # now we give a list of structures to pick from
 with open('../script/trajectory.json', 'r') as fp:
     structures = [Structure.from_dict(s) for s in json.load(fp)]
@@ -159,7 +161,7 @@ app.layout = dbc.Container(
                             html.H3("Chemical Formula", className="text-center"),
                             dcc.Textarea(
                                 id="chemical_formula",
-                                value="CsLi(B3O5)2",
+                                value="Li4MnCo2NiO8",
                                 style={"width": "50%", "height": "50px"}
                             )
                         ], justify="center"),
@@ -167,7 +169,7 @@ app.layout = dbc.Container(
                             html.H3("Space Group", className="text-center"),
                             dcc.Textarea(
                                 id="space_group",
-                                value="I-42d",
+                                value="P2/m",
                                 style={"width": "50%", "height": "50px"},
                             ),
                         ], justify="center"),
@@ -202,12 +204,12 @@ app.layout = dbc.Container(
                             ),
                             dcc.Textarea(
                                 id="robocryst_description",
-                                value="CsLiB₆O₁₀ crystallizes in the tetragonal I̅42d space group. Cs¹⁺ is bonded in a 8-coordinate geometry to eight O²⁻ atoms. There are four shorter (3.29 Å) and four longer (3.59 Å) Cs-O bond lengths. Li¹⁺ is bonded to four equivalent O²⁻ atoms to form distorted LiO₄ trigonal pyramids that share corners with four equivalent BO₄ tetrahedra. All Li-O bond lengths are 1.97 Å. There are two inequivalent B³⁺ sites. In the first B³⁺ site, B³⁺ is bonded to four O²⁻ atoms to form BO₄ tetrahedra that share corners with two equivalent LiO₄ trigonal pyramids. All B-O bond lengths are 1.48 Å. In the second B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.36-1.40 Å. There are three inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded in a bent 120 degrees geometry to two equivalent Cs¹⁺ and two equivalent B³⁺ atoms. In the second O²⁻ site, O²⁻ is bonded in a bent 120 degrees geometry to one Cs¹⁺ and two B³⁺ atoms. In the third O²⁻ site, O²⁻ is bonded in a trigonal planar geometry to one Li¹⁺ and two B³⁺ atoms.",
+                                value="Li₄MnCo₂NiO₈ is Caswellsilverite-derived structured and crystallizes in the monoclinic P2/m space group. There are three inequivalent Li¹⁺ sites. In the first Li¹⁺ site, Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with three equivalent MnO₆ octahedra, corners with three equivalent NiO₆ octahedra, an edgeedge with one MnO₆ octahedra, an edgeedge with one NiO₆ octahedra, edges with four equivalent CoO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 1-9°. There are a spread of Li-O bond distances ranging from 2.01-2.29 Å. In the second Li¹⁺ site, Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with six equivalent CoO₆ octahedra, edges with two equivalent CoO₆ octahedra, edges with four equivalent MnO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles are 11°. There are two shorter (2.13 Å) and four longer (2.14 Å) Li-O bond lengths. In the third Li¹⁺ site, Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with six equivalent CoO₆ octahedra, edges with two equivalent CoO₆ octahedra, edges with four equivalent NiO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 0-6°. There are four shorter (2.14 Å) and two longer (2.21 Å) Li-O bond lengths. Mn⁴⁺ is bonded to six O²⁻ atoms to form MnO₆ octahedra that share corners with six equivalent LiO₆ octahedra, edges with two equivalent MnO₆ octahedra, edges with four equivalent CoO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 1-9°. There are two shorter (1.93 Å) and four longer (1.97 Å) Mn-O bond lengths. Co³⁺ is bonded to six O²⁻ atoms to form CoO₆ octahedra that share corners with six LiO₆ octahedra, edges with two equivalent MnO₆ octahedra, edges with two equivalent CoO₆ octahedra, edges with two equivalent NiO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 0-11°. There are a spread of Co-O bond distances ranging from 1.85-2.13 Å. Ni²⁺ is bonded to six O²⁻ atoms to form NiO₆ octahedra that share corners with six equivalent LiO₆ octahedra, edges with two equivalent NiO₆ octahedra, edges with four equivalent CoO₆ octahedra, and edges with six LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 7-9°. There are four shorter (2.07 Å) and two longer (2.12 Å) Ni-O bond lengths. There are four inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded to three Li¹⁺, two equivalent Mn⁴⁺, and one Co³⁺ atom to form a mixture of corner and edge-sharing OLi₃Mn₂Co octahedra. The corner-sharing octahedral tilt angles range from 0-8°. In the second O²⁻ site, O²⁻ is bonded to three Li¹⁺, one Mn⁴⁺, and two equivalent Co³⁺ atoms to form OLi₃MnCo₂ octahedra that share corners with six OLi₃MnCo₂ octahedra and edges with twelve OLi₃Mn₂Co octahedra. The corner-sharing octahedral tilt angles range from 0-11°. In the third O²⁻ site, O²⁻ is bonded to three Li¹⁺, one Co³⁺, and two equivalent Ni²⁺ atoms to form a mixture of corner and edge-sharing OLi₃CoNi₂ octahedra. The corner-sharing octahedral tilt angles range from 0-8°. In the fourth O²⁻ site, O²⁻ is bonded to three Li¹⁺, two equivalent Co³⁺, and one Ni²⁺ atom to form OLi₃Co₂Ni octahedra that share corners with six OLi₃MnCo₂ octahedra and edges with twelve OLi₃Mn₂Co octahedra. The corner-sharing octahedral tilt angles range from 0-11°.",
                                 style={"width": "80%", "height": "200px"},
                             ),
                         ], justify="center"),
                         dbc.Row([
-                            html.H3("Description generated by Robocrystallographer", className="text-center"),
+                            html.H3("Atomic coordinates generated by LLM", className="text-center"),
                             html.P(
                                 "LLM-generated atomic coordinates",
                                 className="text-center",
@@ -218,7 +220,7 @@ app.layout = dbc.Container(
                                 value="",
                                 style={"width": "80%", "height": "200px"},
                             ),
-                        ], justify="center"),
+                        ], justify="center", style={'margin-top': '10px'}),
                     ],
                     width=3
                 ),
@@ -313,7 +315,6 @@ def call_llm(input):
         }
     )
     generated_poscar = response.json()
-    pprint(generated_poscar)
 
     return generated_poscar['generated_text']
 
@@ -371,11 +372,11 @@ def update_robocyrsdescr(n_clicks, chemical_formula_value, space_group_value):
 @app.callback(
     Output("generated_poscar", "value"),
     Input("add-new-candidate-button", "n_clicks"),
-    State("robocryst_description", "value")
+    State("robocryst_description", "value"),
+    prevent_initial_call=True
 )
 def run_llm_inference(n_clicks, value):
     poscar = call_llm(value)
-    print(poscar)
     stability = call_gnn_relaxer(poscar)
     return poscar
 
