@@ -57,6 +57,7 @@ class TrajectoryObserver:
             atoms (Atoms): the structure to observe.
         """
         self.atoms = atoms
+        self.atoms_trajectory = []
         self.energies: list[float] = []
         self.forces: list[np.ndarray] = []
         self.stresses: list[np.ndarray] = []
@@ -65,6 +66,8 @@ class TrajectoryObserver:
 
     def __call__(self):
         """The logic for saving the properties of an Atoms during the relaxation."""
+        
+        self.atoms_trajectory.append(self.atoms)
         self.energies.append(self.compute_energy())
         self.forces.append(self.atoms.get_forces())
         self.stresses.append(self.atoms.get_stress())
@@ -222,7 +225,7 @@ class MaceRelaxer:
             atoms = atoms.atoms
         struct = AseAtomsAdaptor.get_structure(atoms)
 
-        return {"final_structure": struct, "trajectory": obs}
+        return {"final_structure": struct, "final_energy": atoms.get_total_energy() , "trajectory": obs}
 
 
 class ChgnetRelaxer(StructOptimizer):
