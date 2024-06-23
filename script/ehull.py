@@ -150,7 +150,7 @@ if __name__ == '__main__':
         relaxed_structure = aaa.get_structure(i)
         trajectory.append(relaxed_structure.as_dict())
         
-    trajectory.appennd(ehull*1000)
+    trajectory.append(ehull*1000)
     
     print(result)
     print("{} meV/atom".format(ehull*1000))
