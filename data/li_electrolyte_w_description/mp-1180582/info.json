@@ -1,1 +1,1 @@
-{"space_group": "Cmcm", "formula": "LiAl2BrO6", "lattice": [[2.842157, -4.862126, 0.0], [2.842157, 4.862126, 0.0], [0.0, 0.0, 10.274826]], "full_formula": "Li2 Al4 Br2 O12", "natoms": 20}
+{"space_group": "Cmcm", "formula": "LiAl2BrO6", "lattice": [[2.842157, -4.862126, 0.0], [2.842157, 4.862126, 0.0], [0.0, 0.0, 10.274826]], "full_formula": "Li2 Al4 Br2 O12", "natoms": 20, "ehull_mp": 549.1244867782718}

@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "K3LiSiO4", "lattice": [[9.86443, 0.0, 0.0], [0.0, 11.456557, 0.0], [0.0, 6.200647, 10.183965]], "full_formula": "K24 Li8 Si8 O32", "natoms": 72}
+{"space_group": "P2_1/c", "formula": "K3LiSiO4", "lattice": [[9.86443, 0.0, 0.0], [0.0, 11.456557, 0.0], [0.0, 6.200647, 10.183965]], "full_formula": "K24 Li8 Si8 O32", "natoms": 72, "ehull_mp": 0.0}

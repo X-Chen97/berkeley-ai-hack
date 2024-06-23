@@ -1,1 +1,1 @@
-{"space_group": "Pm", "formula": "LiSm4Tm4O12", "lattice": [[6.162281, 0.0, -0.084934], [0.0, 8.315758, 0.0], [-0.068773, 0.0, 5.685983]], "full_formula": "Li1 Sm4 Tm4 O12", "natoms": 21}
+{"space_group": "Pm", "formula": "LiSm4Tm4O12", "lattice": [[6.162281, 0.0, -0.084934], [0.0, 8.315758, 0.0], [-0.068773, 0.0, 5.685983]], "full_formula": "Li1 Sm4 Tm4 O12", "natoms": 21, "ehull_mp": 149.60796543650724}

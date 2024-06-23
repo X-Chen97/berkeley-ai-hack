@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "LiZn(ClO)3", "lattice": [[6.647061, 0.0, 0.0], [-0.40949, 10.110902, 0.0], [-0.529489, -1.120804, 11.210495]], "full_formula": "Li4 Zn4 Cl12 O12", "natoms": 32}
+{"space_group": "P1", "formula": "LiZn(ClO)3", "lattice": [[6.647061, 0.0, 0.0], [-0.40949, 10.110902, 0.0], [-0.529489, -1.120804, 11.210495]], "full_formula": "Li4 Zn4 Cl12 O12", "natoms": 32, "ehull_mp": 579.0092086718746}

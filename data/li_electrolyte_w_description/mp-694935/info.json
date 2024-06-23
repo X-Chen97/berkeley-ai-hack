@@ -1,1 +1,1 @@
-{"space_group": "Ccc2", "formula": "K3LiMg4(Si2O5)6", "lattice": [[5.212002, -9.041543, 0.0], [5.212002, 9.041543, 0.0], [0.0, 0.0, 14.032196]], "full_formula": "K6 Li2 Mg8 Si24 O60", "natoms": 100}
+{"space_group": "Ccc2", "formula": "K3LiMg4(Si2O5)6", "lattice": [[5.212002, -9.041543, 0.0], [5.212002, 9.041543, 0.0], [0.0, 0.0, 14.032196]], "full_formula": "K6 Li2 Mg8 Si24 O60", "natoms": 100, "ehull_mp": 0.0}

@@ -1,1 +1,1 @@
-{"space_group": "C2", "formula": "Li5Al(SiO4)2", "lattice": [[3.666549, 3.637343, 0.0], [-3.666549, 3.637343, 0.0], [0.0, 0.016214, 6.341256]], "full_formula": "Li5 Al1 Si2 O8", "natoms": 16}
+{"space_group": "C2", "formula": "Li5Al(SiO4)2", "lattice": [[3.666549, 3.637343, 0.0], [-3.666549, 3.637343, 0.0], [0.0, 0.016214, 6.341256]], "full_formula": "Li5 Al1 Si2 O8", "natoms": 16, "ehull_mp": 15.179103437501063}

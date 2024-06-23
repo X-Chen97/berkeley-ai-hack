@@ -1,1 +1,1 @@
-{"space_group": "Aea2", "formula": "LiBi3(P3O10)2", "lattice": [[5.168905, -7.361764, 0.0], [5.168905, 7.361764, 0.0], [0.0, 0.0, 13.383547]], "full_formula": "Li2 Bi6 P12 O40", "natoms": 60}
+{"space_group": "Aea2", "formula": "LiBi3(P3O10)2", "lattice": [[5.168905, -7.361764, 0.0], [5.168905, 7.361764, 0.0], [0.0, 0.0, 13.383547]], "full_formula": "Li2 Bi6 P12 O40", "natoms": 60, "ehull_mp": 64.92474716666675}

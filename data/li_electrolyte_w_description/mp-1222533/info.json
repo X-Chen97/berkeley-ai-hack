@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "Li4SiGe3O10", "lattice": [[5.064525, 0.0, 0.0], [0.041309, 6.214584, 0.0], [2.476004, 0.050122, 7.732113]], "full_formula": "Li4 Si1 Ge3 O10", "natoms": 18}
+{"space_group": "P1", "formula": "Li4SiGe3O10", "lattice": [[5.064525, 0.0, 0.0], [0.041309, 6.214584, 0.0], [2.476004, 0.050122, 7.732113]], "full_formula": "Li4 Si1 Ge3 O10", "natoms": 18, "ehull_mp": 41.55800046296054}

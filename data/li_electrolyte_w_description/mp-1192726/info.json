@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "NaLiSi2H4O7", "lattice": [[4.209516, 7.282402, 0.0], [-4.209516, 7.282402, 0.0], [0.0, 0.595881, 5.090887]], "full_formula": "Na2 Li2 Si4 H8 O14", "natoms": 30}
+{"space_group": "C2/c", "formula": "NaLiSi2H4O7", "lattice": [[4.209516, 7.282402, 0.0], [-4.209516, 7.282402, 0.0], [0.0, 0.595881, 5.090887]], "full_formula": "Na2 Li2 Si4 H8 O14", "natoms": 30, "ehull_mp": 11.991264750000674}

@@ -1,1 +1,1 @@
-{"space_group": "Pc", "formula": "LiTeH5O6", "lattice": [[7.614819, 0.0, 0.0], [0.0, 7.698191, 0.0], [0.0, 7.696519, 7.699832]], "full_formula": "Li4 Te4 H20 O24", "natoms": 52}
+{"space_group": "Pc", "formula": "LiTeH5O6", "lattice": [[7.614819, 0.0, 0.0], [0.0, 7.698191, 0.0], [0.0, 7.696519, 7.699832]], "full_formula": "Li4 Te4 H20 O24", "natoms": 52, "ehull_mp": 14.614351249999658}

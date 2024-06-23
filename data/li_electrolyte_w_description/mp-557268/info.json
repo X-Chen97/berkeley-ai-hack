@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "KLi4AlO4", "lattice": [[15.598774, 0.0, 0.0], [0.0, 5.601372, 0.0], [0.0, 3.742919, 10.500875]], "full_formula": "K8 Li32 Al8 O32", "natoms": 80}
+{"space_group": "P2_1/c", "formula": "KLi4AlO4", "lattice": [[15.598774, 0.0, 0.0], [0.0, 5.601372, 0.0], [0.0, 3.742919, 10.500875]], "full_formula": "K8 Li32 Al8 O32", "natoms": 80, "ehull_mp": 0.0}

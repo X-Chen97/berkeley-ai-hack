@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiEr(PO3)4", "lattice": [[3.597086, 8.265749, 0.0], [-3.597086, 8.265749, 0.0], [0.0, 5.655003, 7.912463]], "full_formula": "Li2 Er2 P8 O24", "natoms": 36}
+{"space_group": "C2/c", "formula": "LiEr(PO3)4", "lattice": [[3.597086, 8.265749, 0.0], [-3.597086, 8.265749, 0.0], [0.0, 5.655003, 7.912463]], "full_formula": "Li2 Er2 P8 O24", "natoms": 36, "ehull_mp": 80.2601195370487}

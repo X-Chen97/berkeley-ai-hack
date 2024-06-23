@@ -1,1 +1,1 @@
-{"space_group": "P4_32_12", "formula": "Li3B5(HO5)2", "lattice": [[6.940908, 0.0, 0.0], [0.0, 6.940908, 0.0], [0.0, 0.0, 14.695267]], "full_formula": "Li12 B20 H8 O40", "natoms": 80}
+{"space_group": "P4_32_12", "formula": "Li3B5(HO5)2", "lattice": [[6.940908, 0.0, 0.0], [0.0, 6.940908, 0.0], [0.0, 0.0, 14.695267]], "full_formula": "Li12 B20 H8 O40", "natoms": 80, "ehull_mp": 0.0}

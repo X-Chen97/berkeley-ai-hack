@@ -1,1 +1,1 @@
-{"space_group": "P4mm", "formula": "KLiMg6O7", "lattice": [[4.156657, 0.0, 0.0], [0.0, 4.156657, 0.0], [0.0, 0.0, 11.043279]], "full_formula": "K1 Li1 Mg6 O7", "natoms": 15}
+{"space_group": "P4mm", "formula": "KLiMg6O7", "lattice": [[4.156657, 0.0, 0.0], [0.0, 4.156657, 0.0], [0.0, 0.0, 11.043279]], "full_formula": "K1 Li1 Mg6 O7", "natoms": 15, "ehull_mp": 421.66333458333315}

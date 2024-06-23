@@ -1,1 +1,1 @@
-{"space_group": "Pm", "formula": "Sr3Li3La5O12", "lattice": [[3.593981, 0.0, 0.0], [0.0, 6.945238, 0.0], [0.0, 0.045368, 13.655617]], "full_formula": "Sr3 Li3 La5 O12", "natoms": 23}
+{"space_group": "Pm", "formula": "Sr3Li3La5O12", "lattice": [[3.593981, 0.0, 0.0], [0.0, 6.945238, 0.0], [0.0, 0.045368, 13.655617]], "full_formula": "Sr3 Li3 La5 O12", "natoms": 23, "ehull_mp": 39.70480940217236}

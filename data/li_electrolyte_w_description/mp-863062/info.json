@@ -1,1 +1,1 @@
-{"space_group": "P31c", "formula": "LiSiBiO4", "lattice": [[2.567454, -4.446961, 0.0], [2.567454, 4.446961, 0.0], [0.0, 0.0, 8.753248]], "full_formula": "Li2 Si2 Bi2 O8", "natoms": 14}
+{"space_group": "P31c", "formula": "LiSiBiO4", "lattice": [[2.567454, -4.446961, 0.0], [2.567454, 4.446961, 0.0], [0.0, 0.0, 8.753248]], "full_formula": "Li2 Si2 Bi2 O8", "natoms": 14, "ehull_mp": 60.56845738094907}

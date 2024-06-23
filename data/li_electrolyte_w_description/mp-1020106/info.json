@@ -1,1 +1,1 @@
-{"space_group": "Pc", "formula": "LiB(SO4)2", "lattice": [[9.554102, 0.0, 0.0], [0.0, 7.792671, 0.0], [0.0, 0.348021, 8.573364]], "full_formula": "Li4 B4 S8 O32", "natoms": 48}
+{"space_group": "Pc", "formula": "LiB(SO4)2", "lattice": [[9.554102, 0.0, 0.0], [0.0, 7.792671, 0.0], [0.0, 0.348021, 8.573364]], "full_formula": "Li4 B4 S8 O32", "natoms": 48, "ehull_mp": 0.0}

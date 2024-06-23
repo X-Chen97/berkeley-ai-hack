@@ -1,1 +1,1 @@
-{"space_group": "P6_3/m", "formula": "RbLi2CdC2O6F", "lattice": [[2.494213, -4.320103, 0.0], [2.494213, 4.320103, 0.0], [0.0, 0.0, 15.624048]], "full_formula": "Rb2 Li4 Cd2 C4 O12 F2", "natoms": 26}
+{"space_group": "P6_3/m", "formula": "RbLi2CdC2O6F", "lattice": [[2.494213, -4.320103, 0.0], [2.494213, 4.320103, 0.0], [0.0, 0.0, 15.624048]], "full_formula": "Rb2 Li4 Cd2 C4 O12 F2", "natoms": 26, "ehull_mp": 0.0}

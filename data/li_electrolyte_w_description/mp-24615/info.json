@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiH4SeNO4", "lattice": [[5.178157, 0.0, 0.0], [0.0, 5.430944, 0.0], [0.0, 0.0, 17.518647]], "full_formula": "Li4 H16 Se4 N4 O16", "natoms": 44}
+{"space_group": "Pna2_1", "formula": "LiH4SeNO4", "lattice": [[5.178157, 0.0, 0.0], [0.0, 5.430944, 0.0], [0.0, 0.0, 17.518647]], "full_formula": "Li4 H16 Se4 N4 O16", "natoms": 44, "ehull_mp": 111.43335335582006}

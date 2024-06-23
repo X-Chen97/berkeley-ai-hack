@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiSc(SiO3)2", "lattice": [[4.533221, 4.974448, 0.0], [-4.533221, 4.974448, 0.0], [0.0, 1.912053, 5.064799]], "full_formula": "Li2 Sc2 Si4 O12", "natoms": 20}
+{"space_group": "C2/c", "formula": "LiSc(SiO3)2", "lattice": [[4.533221, 4.974448, 0.0], [-4.533221, 4.974448, 0.0], [0.0, 1.912053, 5.064799]], "full_formula": "Li2 Sc2 Si4 O12", "natoms": 20, "ehull_mp": 2.8631996666614867}

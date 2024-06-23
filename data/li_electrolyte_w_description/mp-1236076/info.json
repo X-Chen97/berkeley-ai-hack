@@ -1,1 +1,1 @@
-{"space_group": "P-4m2", "formula": "LiTm2(ClO)2", "lattice": [[3.872156, 0.0, 0.0], [0.0, 3.872156, 0.0], [0.0, 0.0, 8.592541]], "full_formula": "Li1 Tm2 Cl2 O2", "natoms": 7}
+{"space_group": "P-4m2", "formula": "LiTm2(ClO)2", "lattice": [[3.872156, 0.0, 0.0], [0.0, 3.872156, 0.0], [0.0, 0.0, 8.592541]], "full_formula": "Li1 Tm2 Cl2 O2", "natoms": 7, "ehull_mp": 396.3069626587297}

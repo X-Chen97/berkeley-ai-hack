@@ -1,1 +1,1 @@
-{"space_group": "Pbca", "formula": "Li2P3NO9", "lattice": [[10.713356, 0.0, 0.0], [0.0, 12.464902, 0.0], [0.0, 0.0, 13.241536]], "full_formula": "Li16 P24 N8 O72", "natoms": 120}
+{"space_group": "Pbca", "formula": "Li2P3NO9", "lattice": [[10.713356, 0.0, 0.0], [0.0, 12.464902, 0.0], [0.0, 0.0, 13.241536]], "full_formula": "Li16 P24 N8 O72", "natoms": 120, "ehull_mp": 418.6360918055518}

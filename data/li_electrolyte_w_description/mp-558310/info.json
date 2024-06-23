@@ -1,1 +1,1 @@
-{"space_group": "P6_3cm", "formula": "BaLi2SiO4", "lattice": [[4.091692, -7.087019, 0.0], [4.091692, 7.087019, 0.0], [0.0, 0.0, 10.763525]], "full_formula": "Ba6 Li12 Si6 O24", "natoms": 48}
+{"space_group": "P6_3cm", "formula": "BaLi2SiO4", "lattice": [[4.091692, -7.087019, 0.0], [4.091692, 7.087019, 0.0], [0.0, 0.0, 10.763525]], "full_formula": "Ba6 Li12 Si6 O24", "natoms": 48, "ehull_mp": 0.0}

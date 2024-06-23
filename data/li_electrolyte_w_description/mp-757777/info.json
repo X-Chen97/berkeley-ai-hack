@@ -1,1 +1,1 @@
-{"space_group": "P6_3", "formula": "LiSiBi3O7", "lattice": [[4.292384, -7.434626, 0.0], [4.292384, 7.434626, 0.0], [0.0, 0.0, 5.224253]], "full_formula": "Li2 Si2 Bi6 O14", "natoms": 24}
+{"space_group": "P6_3", "formula": "LiSiBi3O7", "lattice": [[4.292384, -7.434626, 0.0], [4.292384, 7.434626, 0.0], [0.0, 0.0, 5.224253]], "full_formula": "Li2 Si2 Bi6 O14", "natoms": 24, "ehull_mp": 41.568846805557946}

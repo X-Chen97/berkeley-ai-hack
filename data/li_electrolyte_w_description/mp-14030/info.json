@@ -1,1 +1,1 @@
-{"space_group": "Cmce", "formula": "Na2LiY(Si2O5)3", "lattice": [[7.401903, -8.862697, 0.0], [7.401903, 8.862697, 0.0], [0.0, 0.0, 10.480569]], "full_formula": "Na8 Li4 Y4 Si24 O60", "natoms": 100}
+{"space_group": "Cmce", "formula": "Na2LiY(Si2O5)3", "lattice": [[7.401903, -8.862697, 0.0], [7.401903, 8.862697, 0.0], [0.0, 0.0, 10.480569]], "full_formula": "Na8 Li4 Y4 Si24 O60", "natoms": 100, "ehull_mp": 0.0}

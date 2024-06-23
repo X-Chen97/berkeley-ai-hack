@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "Cs3NaLi2(BO3)2", "lattice": [[6.814878, 0.0, 0.0], [-1.778055, 7.201797, 0.0], [-2.070898, -1.743806, 10.038687]], "full_formula": "Cs6 Na2 Li4 B4 O12", "natoms": 28}
+{"space_group": "P-1", "formula": "Cs3NaLi2(BO3)2", "lattice": [[6.814878, 0.0, 0.0], [-1.778055, 7.201797, 0.0], [-2.070898, -1.743806, 10.038687]], "full_formula": "Cs6 Na2 Li4 B4 O12", "natoms": 28, "ehull_mp": 0.0}

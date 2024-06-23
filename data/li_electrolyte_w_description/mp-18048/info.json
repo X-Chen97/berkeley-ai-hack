@@ -1,1 +1,1 @@
-{"space_group": "R3", "formula": "LiZnAsO4", "lattice": [[5.220237, -7.165545, 0.0], [5.220237, 7.165545, 0.0], [-4.615528, 0.0, 7.569201]], "full_formula": "Li6 Zn6 As6 O24", "natoms": 42}
+{"space_group": "R3", "formula": "LiZnAsO4", "lattice": [[5.220237, -7.165545, 0.0], [5.220237, 7.165545, 0.0], [-4.615528, 0.0, 7.569201]], "full_formula": "Li6 Zn6 As6 O24", "natoms": 42, "ehull_mp": 0.0}

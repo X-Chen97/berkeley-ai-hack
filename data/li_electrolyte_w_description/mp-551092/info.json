@@ -1,1 +1,1 @@
-{"space_group": "C2/m", "formula": "KLiZnO2", "lattice": [[1.693534, 5.482382, 0.0], [-1.693534, 5.482382, 0.0], [0.0, 4.176528, 7.213087]], "full_formula": "K2 Li2 Zn2 O4", "natoms": 10}
+{"space_group": "C2/m", "formula": "KLiZnO2", "lattice": [[1.693534, 5.482382, 0.0], [-1.693534, 5.482382, 0.0], [0.0, 4.176528, 7.213087]], "full_formula": "K2 Li2 Zn2 O4", "natoms": 10, "ehull_mp": 0.0}

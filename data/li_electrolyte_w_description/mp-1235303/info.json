@@ -1,1 +1,1 @@
-{"space_group": "Cm", "formula": "LiSb3TeClO6", "lattice": [[-4.181953, 0.0, 0.0], [-2.090976, -5.091701, 6.859131], [2.090976, 4.424338, 6.383189]], "full_formula": "Li1 Sb3 Te1 Cl1 O6", "natoms": 12}
+{"space_group": "Cm", "formula": "LiSb3TeClO6", "lattice": [[-4.181953, 0.0, 0.0], [-2.090976, -5.091701, 6.859131], [2.090976, 4.424338, 6.383189]], "full_formula": "Li1 Sb3 Te1 Cl1 O6", "natoms": 12, "ehull_mp": 221.28709619317544}

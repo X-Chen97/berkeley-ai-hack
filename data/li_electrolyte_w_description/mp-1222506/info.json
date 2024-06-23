@@ -1,1 +1,1 @@
-{"space_group": "P3", "formula": "LiY9(Si3O13)2", "lattice": [[4.727401, -8.188098, 0.0], [4.727401, 8.188098, 0.0], [0.0, 0.0, 6.781906]], "full_formula": "Li1 Y9 Si6 O26", "natoms": 42}
+{"space_group": "P3", "formula": "LiY9(Si3O13)2", "lattice": [[4.727401, -8.188098, 0.0], [4.727401, 8.188098, 0.0], [0.0, 0.0, 6.781906]], "full_formula": "Li1 Y9 Si6 O26", "natoms": 42, "ehull_mp": 29.051964543661768}

@@ -1,1 +1,1 @@
-{"space_group": "P2_1", "formula": "Li2H2SeO5", "lattice": [[5.070952, 0.0, 0.0], [0.0, 5.723111, 0.0], [0.0, 2.541711, 8.201328]], "full_formula": "Li4 H4 Se2 O10", "natoms": 20}
+{"space_group": "P2_1", "formula": "Li2H2SeO5", "lattice": [[5.070952, 0.0, 0.0], [0.0, 5.723111, 0.0], [0.0, 2.541711, 8.201328]], "full_formula": "Li4 H4 Se2 O10", "natoms": 20, "ehull_mp": 9.272727416670179}

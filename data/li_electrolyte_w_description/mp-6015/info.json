@@ -1,1 +1,1 @@
-{"space_group": "Pca2_1", "formula": "LiSiNO", "lattice": [[4.74235976, 0.0, 0.0], [0.0, 5.18100862, 0.0], [0.0, 0.0, 6.34067667]], "full_formula": "Li4 Si4 N4 O4", "natoms": 16}
+{"space_group": "Pca2_1", "formula": "LiSiNO", "lattice": [[4.74235976, 0.0, 0.0], [0.0, 5.18100862, 0.0], [0.0, 0.0, 6.34067667]], "full_formula": "Li4 Si4 N4 O4", "natoms": 16, "ehull_mp": 0.0}

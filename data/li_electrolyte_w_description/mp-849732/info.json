@@ -1,1 +1,1 @@
-{"space_group": "P2", "formula": "LiSb(TeO4)3", "lattice": [[8.556363, 0.0, 0.0], [0.0, 4.906855, 0.0], [0.0, 0.051447, 5.236804]], "full_formula": "Li1 Sb1 Te3 O12", "natoms": 17}
+{"space_group": "P2", "formula": "LiSb(TeO4)3", "lattice": [[8.556363, 0.0, 0.0], [0.0, 4.906855, 0.0], [0.0, 0.051447, 5.236804]], "full_formula": "Li1 Sb1 Te3 O12", "natoms": 17, "ehull_mp": 8.126136421570784}

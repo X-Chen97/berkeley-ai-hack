@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiSi2BiO6", "lattice": [[4.945602, 5.109388, 0.0], [-4.945602, 5.109388, 0.0], [0.0, 1.897119, 5.192499]], "full_formula": "Li2 Si4 Bi2 O12", "natoms": 20}
+{"space_group": "C2/c", "formula": "LiSi2BiO6", "lattice": [[4.945602, 5.109388, 0.0], [-4.945602, 5.109388, 0.0], [0.0, 1.897119, 5.192499]], "full_formula": "Li2 Si4 Bi2 O12", "natoms": 20, "ehull_mp": 58.46198066666375}

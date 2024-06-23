@@ -1,1 +1,1 @@
-{"space_group": "Pnnm", "formula": "Li2La(NO3)5", "lattice": [[9.056796, 0.0, 0.0], [0.0, 10.724266, 0.0], [0.0, 0.0, 11.926984]], "full_formula": "Li8 La4 N20 O60", "natoms": 92}
+{"space_group": "Pnnm", "formula": "Li2La(NO3)5", "lattice": [[9.056796, 0.0, 0.0], [0.0, 10.724266, 0.0], [0.0, 0.0, 11.926984]], "full_formula": "Li8 La4 N20 O60", "natoms": 92, "ehull_mp": 0.0}

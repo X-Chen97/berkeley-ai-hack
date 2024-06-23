@@ -1,1 +1,1 @@
-{"space_group": "Cm", "formula": "SrLiPrTeO6", "lattice": [[2.808561, 4.904026, 0.0], [-2.808561, 4.904026, 0.0], [0.0, 3.289131, 4.664887]], "full_formula": "Sr1 Li1 Pr1 Te1 O6", "natoms": 10}
+{"space_group": "Cm", "formula": "SrLiPrTeO6", "lattice": [[2.808561, 4.904026, 0.0], [-2.808561, 4.904026, 0.0], [0.0, 3.289131, 4.664887]], "full_formula": "Sr1 Li1 Pr1 Te1 O6", "natoms": 10, "ehull_mp": 17.087509416663593}

@@ -1,1 +1,1 @@
-{"space_group": "Pnma", "formula": "LiH4CSNO2", "lattice": [[5.888957, 0.0, 0.0], [0.0, 8.381545, 0.0], [0.0, 0.0, 9.905136]], "full_formula": "Li4 H16 C4 S4 N4 O8", "natoms": 40}
+{"space_group": "Pnma", "formula": "LiH4CSNO2", "lattice": [[5.888957, 0.0, 0.0], [0.0, 8.381545, 0.0], [0.0, 0.0, 9.905136]], "full_formula": "Li4 H16 C4 S4 N4 O8", "natoms": 40, "ehull_mp": 99.30363411249931}

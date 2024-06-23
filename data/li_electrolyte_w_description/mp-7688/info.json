@@ -1,1 +1,1 @@
-{"space_group": "Pmn2_1", "formula": "Li2CdGeO4", "lattice": [[5.2407, 0.0, 0.0], [0.0, 5.575037, 0.0], [0.0, 0.0, 6.705555]], "full_formula": "Li4 Cd2 Ge2 O8", "natoms": 16}
+{"space_group": "Pmn2_1", "formula": "Li2CdGeO4", "lattice": [[5.2407, 0.0, 0.0], [0.0, 5.575037, 0.0], [0.0, 0.0, 6.705555]], "full_formula": "Li4 Cd2 Ge2 O8", "natoms": 16, "ehull_mp": 0.0}

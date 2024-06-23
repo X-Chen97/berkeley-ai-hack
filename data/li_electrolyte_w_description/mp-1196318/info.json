@@ -1,1 +1,1 @@
-{"space_group": "P2_13", "formula": "Cs2Li3B3P6(PbO12)2", "lattice": [[12.95484987, 0.0, 0.0], [-0.0, 12.95484987, -0.0], [0.0, 0.0, 12.95484987]], "full_formula": "Cs8 Li12 B12 P24 Pb8 O96", "natoms": 160}
+{"space_group": "P2_13", "formula": "Cs2Li3B3P6(PbO12)2", "lattice": [[12.95484987, 0.0, 0.0], [-0.0, 12.95484987, -0.0], [0.0, 0.0, 12.95484987]], "full_formula": "Cs8 Li12 B12 P24 Pb8 O96", "natoms": 160, "ehull_mp": 0.0}

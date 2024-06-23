@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "LiIn(IO3)4", "lattice": [[4.978049, 0.0, 0.0], [0.077375, 6.591888, 0.0], [0.122445, 0.776156, 8.660165]], "full_formula": "Li1 In1 I4 O12", "natoms": 18}
+{"space_group": "P-1", "formula": "LiIn(IO3)4", "lattice": [[4.978049, 0.0, 0.0], [0.077375, 6.591888, 0.0], [0.122445, 0.776156, 8.660165]], "full_formula": "Li1 In1 I4 O12", "natoms": 18, "ehull_mp": 0.0}

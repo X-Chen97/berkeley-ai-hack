@@ -1,1 +1,1 @@
-{"space_group": "Fmm2", "formula": "LiGeBO4", "lattice": [[0.0, 2.76108, 4.978156], [2.669065, 0.0, 4.978156], [2.669065, 2.76108, 0.0]], "full_formula": "Li1 Ge1 B1 O4", "natoms": 7}
+{"space_group": "Fmm2", "formula": "LiGeBO4", "lattice": [[0.0, 2.76108, 4.978156], [2.669065, 0.0, 4.978156], [2.669065, 2.76108, 0.0]], "full_formula": "Li1 Ge1 B1 O4", "natoms": 7, "ehull_mp": 202.3767842857156}

@@ -1,1 +1,1 @@
-{"space_group": "P-6", "formula": "LiCdBO3", "lattice": [[4.216953, -7.303977, 0.0], [4.216953, 7.303977, 0.0], [0.0, 0.0, 3.315947]], "full_formula": "Li3 Cd3 B3 O9", "natoms": 18}
+{"space_group": "P-6", "formula": "LiCdBO3", "lattice": [[4.216953, -7.303977, 0.0], [4.216953, 7.303977, 0.0], [0.0, 0.0, 3.315947]], "full_formula": "Li3 Cd3 B3 O9", "natoms": 18, "ehull_mp": 0.0}

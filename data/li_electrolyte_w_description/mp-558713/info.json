@@ -1,1 +1,1 @@
-{"space_group": "P6_222", "formula": "LiAlSiO4", "lattice": [[2.675361, -4.633862, 0.0], [2.675361, 4.633862, 0.0], [0.0, 0.0, 11.094602]], "full_formula": "Li3 Al3 Si3 O12", "natoms": 21}
+{"space_group": "P6_222", "formula": "LiAlSiO4", "lattice": [[2.675361, -4.633862, 0.0], [2.675361, 4.633862, 0.0], [0.0, 0.0, 11.094602]], "full_formula": "Li3 Al3 Si3 O12", "natoms": 21, "ehull_mp": 19.50833952380826}

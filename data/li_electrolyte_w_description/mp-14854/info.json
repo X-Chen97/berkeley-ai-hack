@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "Sr2LiIn(B2O5)2", "lattice": [[5.308105, 0.0, 0.0], [0.0, 12.895, 0.0], [0.0, 6.440633, 12.413271]], "full_formula": "Sr8 Li4 In4 B16 O40", "natoms": 72}
+{"space_group": "P2_1/c", "formula": "Sr2LiIn(B2O5)2", "lattice": [[5.308105, 0.0, 0.0], [0.0, 12.895, 0.0], [0.0, 6.440633, 12.413271]], "full_formula": "Sr8 Li4 In4 B16 O40", "natoms": 72, "ehull_mp": 7.521983263881538}

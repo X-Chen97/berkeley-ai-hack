@@ -1,1 +1,1 @@
-{"space_group": "P4/mmm", "formula": "LiMg6BiO8", "lattice": [[8.84572009, 0.0, 0.0], [0.0, 4.43043222, 0.0], [0.0, 0.0, 4.43043222]], "full_formula": "Li1 Mg6 Bi1 O8", "natoms": 16}
+{"space_group": "P4/mmm", "formula": "LiMg6BiO8", "lattice": [[8.84572009, 0.0, 0.0], [0.0, 4.43043222, 0.0], [0.0, 0.0, 4.43043222]], "full_formula": "Li1 Mg6 Bi1 O8", "natoms": 16, "ehull_mp": 123.4253770312499}

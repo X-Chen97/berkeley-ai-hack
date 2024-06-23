@@ -1,1 +1,1 @@
-{"space_group": "Cmcm", "formula": "LiBC2(O2F)2", "lattice": [[-6.525802, 0.0, 0.0], [0.0, 0.0, -6.475051], [3.262901, -5.779851, 0.0]], "full_formula": "Li2 B2 C4 O8 F4", "natoms": 20}
+{"space_group": "Cmcm", "formula": "LiBC2(O2F)2", "lattice": [[-6.525802, 0.0, 0.0], [0.0, 0.0, -6.475051], [3.262901, -5.779851, 0.0]], "full_formula": "Li2 B2 C4 O8 F4", "natoms": 20, "ehull_mp": 75.96539504166788}

@@ -1,1 +1,1 @@
-{"space_group": "P-4n2", "formula": "LiTb(SO4)2", "lattice": [[7.589281, 0.0, 0.0], [0.0, 7.589281, 0.0], [0.0, 0.0, 5.950669]], "full_formula": "Li2 Tb2 S4 O16", "natoms": 24}
+{"space_group": "P-4n2", "formula": "LiTb(SO4)2", "lattice": [[7.589281, 0.0, 0.0], [0.0, 7.589281, 0.0], [0.0, 0.0, 5.950669]], "full_formula": "Li2 Tb2 S4 O16", "natoms": 24, "ehull_mp": 154.31305541666694}

@@ -1,1 +1,1 @@
-{"space_group": "Pmna", "formula": "LiEu3SiCl3O4", "lattice": [[7.023578, 0.0, 0.0], [0.0, 9.518023, 0.0], [0.0, 0.0, 13.663208]], "full_formula": "Li4 Eu12 Si4 Cl12 O16", "natoms": 48}
+{"space_group": "Pmna", "formula": "LiEu3SiCl3O4", "lattice": [[7.023578, 0.0, 0.0], [0.0, 9.518023, 0.0], [0.0, 0.0, 13.663208]], "full_formula": "Li4 Eu12 Si4 Cl12 O16", "natoms": 48, "ehull_mp": 0.0}

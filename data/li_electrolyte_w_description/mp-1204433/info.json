@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiAlGeO5", "lattice": [[0.0, 0.0, -5.168564], [0.0, -8.351258, 0.0], [-10.806598, 0.0, 0.0]], "full_formula": "Li4 Al4 Ge4 O20", "natoms": 32}
+{"space_group": "Pna2_1", "formula": "LiAlGeO5", "lattice": [[0.0, 0.0, -5.168564], [0.0, -8.351258, 0.0], [-10.806598, 0.0, 0.0]], "full_formula": "Li4 Al4 Ge4 O20", "natoms": 32, "ehull_mp": 286.13386308522416}

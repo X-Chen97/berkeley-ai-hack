@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiAsH20(C2O)4", "lattice": [[4.150277, 7.074175, 0.0], [-4.150277, 7.074175, 0.0], [0.0, 3.343664, 12.424818]], "full_formula": "Li2 As2 H40 C16 O8", "natoms": 68}
+{"space_group": "C2/c", "formula": "LiAsH20(C2O)4", "lattice": [[4.150277, 7.074175, 0.0], [-4.150277, 7.074175, 0.0], [0.0, 3.343664, 12.424818]], "full_formula": "Li2 As2 H40 C16 O8", "natoms": 68, "ehull_mp": 277.5257692095563}

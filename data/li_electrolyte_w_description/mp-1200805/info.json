@@ -1,1 +1,1 @@
-{"space_group": "P222_1", "formula": "CsLi(B3O5)2", "lattice": [[9.255374, 0.0, 0.0], [0.0, 10.542468, 0.0], [0.0, 0.0, 10.564705]], "full_formula": "Cs4 Li4 B24 O40", "natoms": 72}
+{"space_group": "P222_1", "formula": "CsLi(B3O5)2", "lattice": [[9.255374, 0.0, 0.0], [0.0, 10.542468, 0.0], [0.0, 0.0, 10.564705]], "full_formula": "Cs4 Li4 B24 O40", "natoms": 72, "ehull_mp": 0.2773318055551144}

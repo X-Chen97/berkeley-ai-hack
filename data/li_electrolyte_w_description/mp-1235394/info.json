@@ -1,1 +1,1 @@
-{"space_group": "Pm", "formula": "LiAl4Tl4O12", "lattice": [[5.40242, -0.206804, 0.0], [-0.209328, 5.518436, 0.0], [0.0, 0.0, 7.632777]], "full_formula": "Li1 Al4 Tl4 O12", "natoms": 21}
+{"space_group": "Pm", "formula": "LiAl4Tl4O12", "lattice": [[5.40242, -0.206804, 0.0], [-0.209328, 5.518436, 0.0], [0.0, 0.0, 7.632777]], "full_formula": "Li1 Al4 Tl4 O12", "natoms": 21, "ehull_mp": 241.98656912697737}

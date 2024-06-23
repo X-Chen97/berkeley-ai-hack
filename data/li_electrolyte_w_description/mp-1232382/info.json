@@ -1,1 +1,1 @@
-{"space_group": "Pnma", "formula": "LiSiPO5", "lattice": [[0.0, 6.108528, 0.0], [0.0, 0.0, 7.370702], [6.640395, 0.0, 0.0]], "full_formula": "Li4 Si4 P4 O20", "natoms": 32}
+{"space_group": "Pnma", "formula": "LiSiPO5", "lattice": [[0.0, 6.108528, 0.0], [0.0, 0.0, 7.370702], [6.640395, 0.0, 0.0]], "full_formula": "Li4 Si4 P4 O20", "natoms": 32, "ehull_mp": 107.2477017708282}

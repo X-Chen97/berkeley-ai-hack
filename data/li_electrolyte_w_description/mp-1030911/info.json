@@ -1,1 +1,1 @@
-{"space_group": "P4mm", "formula": "NaLiMg6O7", "lattice": [[8.6537295, 0.0, 0.0], [0.0, 4.30587279, 0.0], [0.0, 0.0, 4.30587279]], "full_formula": "Na1 Li1 Mg6 O7", "natoms": 15}
+{"space_group": "P4mm", "formula": "NaLiMg6O7", "lattice": [[8.6537295, 0.0, 0.0], [0.0, 4.30587279, 0.0], [0.0, 0.0, 4.30587279]], "full_formula": "Na1 Li1 Mg6 O7", "natoms": 15, "ehull_mp": 286.3221893333332}

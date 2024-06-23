@@ -1,1 +1,1 @@
-{"space_group": "Cc", "formula": "KLiSO4", "lattice": [[4.535241, 2.599231, 0.0], [-4.535241, 2.599231, 0.0], [0.0, 0.050523, 8.802569]], "full_formula": "K2 Li2 S2 O8", "natoms": 14}
+{"space_group": "Cc", "formula": "KLiSO4", "lattice": [[4.535241, 2.599231, 0.0], [-4.535241, 2.599231, 0.0], [0.0, 0.050523, 8.802569]], "full_formula": "K2 Li2 S2 O8", "natoms": 14, "ehull_mp": 0.0757285714287903}

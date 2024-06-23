@@ -1,1 +1,1 @@
-{"space_group": "Imm2", "formula": "LiSc4(Si2O7)2", "lattice": [[5.815617, -0.006337, 3.356551], [1.932564, 5.485129, 3.356551], [0.0, 0.0, 6.713101]], "full_formula": "Li1 Sc4 Si4 O14", "natoms": 23}
+{"space_group": "Imm2", "formula": "LiSc4(Si2O7)2", "lattice": [[5.815617, -0.006337, 3.356551], [1.932564, 5.485129, 3.356551], [0.0, 0.0, 6.713101]], "full_formula": "Li1 Sc4 Si4 O14", "natoms": 23, "ehull_mp": 254.1732999932087}

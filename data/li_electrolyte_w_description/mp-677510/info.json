@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "LiMgSO4F", "lattice": [[5.309106, 0.0, 0.0], [-1.290738, 6.271404, 0.0], [-2.006812, -2.668554, 6.139024]], "full_formula": "Li2 Mg2 S2 O8 F2", "natoms": 16}
+{"space_group": "P-1", "formula": "LiMgSO4F", "lattice": [[5.309106, 0.0, 0.0], [-1.290738, 6.271404, 0.0], [-2.006812, -2.668554, 6.139024]], "full_formula": "Li2 Mg2 S2 O8 F2", "natoms": 16, "ehull_mp": 605.0280992187443}

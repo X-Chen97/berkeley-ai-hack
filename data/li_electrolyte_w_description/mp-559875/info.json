@@ -1,1 +1,1 @@
-{"space_group": "Cc", "formula": "K3Na2LiTeO6", "lattice": [[6.023408, 4.703324, 0.0], [-6.023408, 4.703324, 0.0], [0.0, 0.449001, 6.87255]], "full_formula": "K6 Na4 Li2 Te2 O12", "natoms": 26}
+{"space_group": "Cc", "formula": "K3Na2LiTeO6", "lattice": [[6.023408, 4.703324, 0.0], [-6.023408, 4.703324, 0.0], [0.0, 0.449001, 6.87255]], "full_formula": "K6 Na4 Li2 Te2 O12", "natoms": 26, "ehull_mp": 0.0}
