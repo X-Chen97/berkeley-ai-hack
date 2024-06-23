@@ -74,11 +74,17 @@ fig = px.scatter(
     test_comps_energies,
     x="x",
     y="y",
-    color="below_threshold",
-    title="Is your composition thermodynamically stable?"
+    color="below_threshold"
 )
 
-fig.update_layout(clickmode='event+select')
+fig.update_layout(
+    clickmode='event+select',
+    title={'text': "Is your candidate thermodynamically stable?",
+        'y':0.9,
+        'x':0.5,
+        'xanchor': 'center',
+        'yanchor': 'top'}
+    )
 
 fig.update_traces(marker_size=20)
 
@@ -130,7 +136,14 @@ app.layout = dbc.Container(
             className="text-center",
             style={'font-size': "10px"}
         ),
-        html.Hr(style={'borderWidth': "0.3vh", "width": "25%", "color": "#FEC700"}),
+        html.Hr(style={
+            "border": 0,
+            "clear":"both",
+            "display":"block",
+            "width": "96%",
+            "background-color":"#FFFF00",
+            "height": "1px"}
+        ),
         dbc.Row(
             [
                 dbc.Col(
@@ -216,7 +229,15 @@ app.layout = dbc.Container(
                                         len(structures)-1: "relaxed"
                                     }
                                 )
-                            ], id="structure_output")
+                            ],
+                            id="structure_output",
+                            # style={'margin-bottom': '10px',
+                            #       'textAlign':'center',
+                            #       'width': '500px',
+                            #       'margin-top':'10px',
+                            #       'margin-bottom': '25px',
+                            #       'margin-left': '60px'}
+                        )
                     ],
                     width=4,
                 ),
@@ -226,12 +247,7 @@ app.layout = dbc.Container(
                             id='compositions-energies',
                             figure=fig
                         ),
-                        # dcc.Textarea(
-                        #     id="new_chemical_formula",
-                        #     value="LiFePO4",
-                        #     style={"width": "15%", "height": "150px"},
-                        # )
-                    ]
+                    ], width=5
                 )
 
             ],
