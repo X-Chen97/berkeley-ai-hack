@@ -1,0 +1,147 @@
+Generate the poscar file based on the description of a material. Here are some examples you can learn. In each example, <Example> denote this is an example, [Description] denotes the following texts are the description of a material, [POSCAR] denotes the following texts are the corresponding poscar file. <Question> denotes this is a question, and the subsequent texts are the description of a material. You need to generate the corresponding poscar file.
+
+<Example>
+[Description]
+LiFePO₄ is Hausmannite-derived structured and crystallizes in the orthorhombic Pnma space group. Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with four equivalent FeO₆ octahedra, corners with two equivalent PO₄ tetrahedra, edges with two equivalent LiO₆ octahedra, edges with two equivalent FeO₆ octahedra, and edges with two equivalent PO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 58-69°. There are a spread of Li-O bond distances ranging from 2.06-2.18 Å. Fe²⁺ is bonded to six O²⁻ atoms to form FeO₆ octahedra that share corners with four equivalent LiO₆ octahedra, corners with four equivalent FeO₆ octahedra, corners with four equivalent PO₄ tetrahedra, edges with two equivalent LiO₆ octahedra, and an edgeedge with one PO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 53-69°. There are a spread of Fe-O bond distances ranging from 2.03-2.25 Å. P⁵⁺ is bonded to four O²⁻ atoms to form PO₄ tetrahedra that share corners with two equivalent LiO₆ octahedra, corners with four equivalent FeO₆ octahedra, an edgeedge with one FeO₆ octahedra, and edges with two equivalent LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 50-61°. There are a spread of P-O bond distances ranging from 1.52-1.55 Å. There are three inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to two equivalent Li¹⁺, one Fe²⁺, and one P⁵⁺ atom. In the second O²⁻ site, O²⁻ is bonded in a distorted rectangular see-saw-like geometry to one Li¹⁺, two equivalent Fe²⁺, and one P⁵⁺ atom. In the third O²⁻ site, O²⁻ is bonded in a rectangular see-saw-like geometry to two equivalent Li¹⁺, one Fe²⁺, and one P⁵⁺ atom.
+[POSCAR]
+Li4 Fe4 P4 O16
+1.0
+   4.6549171900001012    0.0000000000000000    0.0000000000000003
+   0.0000000000000010    5.9707551000000771    0.0000000000000004
+   0.0000000000000000    0.0000000000000000   10.2361960500000002
+Li Fe P O
+4 4 4 16
+direct
+   0.0000000000000000    0.0000000000000000    0.0000000000000000 Li+
+   0.5000000000000000    0.5000000000000000    0.5000000000000000 Li+
+   0.5000000000000000    0.0000000000000000    0.5000000000000000 Li+
+   0.0000000000000000    0.5000000000000000    0.0000000000000000 Li+
+   0.5298657300000000    0.2500000000000000    0.7811512700000000 Fe2+
+   0.0298657300000000    0.7500000000000000    0.7188487300000000 Fe2+
+   0.9701342700000000    0.2500000000000000    0.2811512700000001 Fe2+
+   0.4701342700000000    0.7500000000000000    0.2188487300000000 Fe2+
+   0.4186225700000000    0.2500000000000000    0.0938663000000000 P5+
+   0.9186225700000000    0.7500000000000000    0.4061337000000000 P5+
+   0.0813774300000000    0.2500000000000000    0.5938663000000000 P5+
+   0.5813774300000000    0.7500000000000000    0.9061337000000000 P5+
+   0.7447865600000000    0.2500000000000000    0.0942306700000000 O2-
+   0.7137353400000001    0.5455580300000000    0.8341545200000000 O2-
+   0.7137353400000001    0.9544419700000000    0.8341545200000000 O2-
+   0.2552134400000000    0.7500000000000000    0.9057693300000000 O2-
+   0.7098644500000000    0.7500000000000000    0.0443085599999999 O2-
+   0.2447865600000001    0.7500000000000000    0.4057693300000000 O2-
+   0.2862646599999999    0.0455580300000000    0.1658454800000000 O2-
+   0.2137353399999999    0.4544419700000000    0.6658454800000000 O2-
+   0.7862646599999999    0.5455580300000000    0.3341545200000000 O2-
+   0.7862646599999999    0.9544419700000000    0.3341545200000000 O2-
+   0.2901355500000000    0.2500000000000000    0.9556914400000001 O2-
+   0.2098644500000000    0.2500000000000000    0.4556914400000001 O2-
+   0.7901355500000000    0.7500000000000000    0.5443085599999999 O2-
+   0.7552134400000000    0.2500000000000000    0.5942306700000000 O2-
+   0.2137353399999999    0.0455580300000000    0.6658454800000000 O2-
+   0.2862646599999999    0.4544419700000000    0.1658454800000000 O2-
+
+<Example>
+[Description]
+LiTiO₂ is Caswellsilverite-like structured and crystallizes in the tetragonal I4₁/amd space group. Li¹⁺ is bonded to six equivalent O²⁻ atoms to form LiO₆ octahedra that share corners with two equivalent TiO₆ octahedra, corners with four equivalent LiO₆ octahedra, edges with four equivalent LiO₆ octahedra, and edges with eight equivalent TiO₆ octahedra. The corner-sharing octahedra are not tilted. There are four shorter (2.02 Å) and two longer (2.11 Å) Li-O bond lengths. Ti³⁺ is bonded to six equivalent O²⁻ atoms to form TiO₆ octahedra that share corners with two equivalent LiO₆ octahedra, corners with four equivalent TiO₆ octahedra, edges with four equivalent TiO₆ octahedra, and edges with eight equivalent LiO₆ octahedra. The corner-sharing octahedra are not tilted. There are four shorter (2.02 Å) and two longer (2.10 Å) Ti-O bond lengths. O²⁻ is bonded to three equivalent Li¹⁺ and three equivalent Ti³⁺ atoms to form a mixture of edge and corner-sharing OLi₃Ti₃ octahedra. The corner-sharing octahedra are not tilted.
+[POSCAR]
+Li4 Ti4 O8
+1.0
+   4.0460744273250793    0.0000000000000000    0.0000000000000002
+   0.0000000000000007    4.0460744273250793    0.0000000000000002
+   0.0000000000000000    0.0000000000000000    8.4153635449860094
+Li Ti O
+4 4 8
+direct
+   0.5000000000000000    0.5000000000000000    0.0000000000000000 Li+
+   0.5000000000000000    0.0000000000000000    0.2500000000000000 Li+
+   0.0000000000000000    0.0000000000000000    0.5000000000000000 Li+
+   0.0000000000000000    0.5000000000000000    0.7500000000000000 Li+
+   0.0000000000000000    0.0000000000000000    0.0000000000000000 Ti3+
+   0.0000000000000000    0.5000000000000000    0.2500000000000000 Ti3+
+   0.5000000000000000    0.5000000000000000    0.5000000000000000 Ti3+
+   0.5000000000000000    0.0000000000000000    0.7500000000000000 Ti3+
+   0.0000000000000000    0.0000000000000000    0.2498214750000001 O2-
+   0.0000000000000000    0.5000000000000000    0.0001785249999999 O2-
+   0.5000000000000000    0.0000000000000000    0.9998214750000001 O2-
+   0.0000000000000000    0.0000000000000000    0.7501785249999999 O2-
+   0.5000000000000000    0.5000000000000000    0.7498214750000001 O2-
+   0.5000000000000000    0.0000000000000000    0.5001785249999999 O2-
+   0.0000000000000000    0.5000000000000000    0.4998214750000001 O2-
+   0.5000000000000000    0.5000000000000000    0.2501785249999999 O2-
+
+<Example>
+[Description]
+LiTaO₃ is Calcite structured and crystallizes in the trigonal R3c space group. Li¹⁺ is bonded in a 6-coordinate geometry to six equivalent O²⁻ atoms. There are three shorter (2.03 Å) and three longer (2.27 Å) Li-O bond lengths. Ta⁵⁺ is bonded to six equivalent O²⁻ atoms to form corner-sharing TaO₆ octahedra. The corner-sharing octahedral tilt angles are 40°. There are three shorter (1.92 Å) and three longer (2.07 Å) Ta-O bond lengths. O²⁻ is bonded in a distorted see-saw-like geometry to two equivalent Li¹⁺ and two equivalent Ta⁵⁺ atoms.
+[POSCAR]
+Li6 Ta6 O18
+1.0
+   2.5669783492425160   -4.4461369228173231    0.0000000000000000
+   2.5669783492425160    4.4461369228173231    0.0000000000000000
+   0.0000000000000000    0.0000000000000000   13.8163022297029912
+Li Ta O
+6 6 18
+direct
+   0.6666666666666666    0.3333333333333333    0.0501075533333338 Li+
+   0.0000000000000000    0.0000000000000000    0.2167742200000004 Li+
+   0.3333333333333333    0.6666666666666666    0.3834408866666671 Li+
+   0.6666666666666666    0.3333333333333333    0.5501075533333337 Li+
+   0.0000000000000000    0.0000000000000000    0.7167742200000005 Li+
+   0.3333333333333333    0.6666666666666666    0.8834408866666671 Li+
+   0.0000000000000000    0.0000000000000000    0.0005353500000003 Ta5+
+   0.3333333333333333    0.6666666666666666    0.1672020166666670 Ta5+
+   0.6666666666666666    0.3333333333333333    0.3338686833333336 Ta5+
+   0.0000000000000000    0.0000000000000000    0.5005353500000003 Ta5+
+   0.3333333333333333    0.6666666666666666    0.6672020166666670 Ta5+
+   0.6666666666666666    0.3333333333333333    0.8338686833333336 Ta5+
+   0.6773735666666668    0.9648909033333337    0.0981638133333336 O2-
+   0.6208506700000003    0.6315575700000005    0.2648304800000002 O2-
+   0.3684424299999995    0.9892930999999998    0.2648304800000002 O2-
+   0.0107069000000002    0.3791493299999997    0.2648304800000002 O2-
+   0.2875173366666669    0.3226264333333332    0.0981638133333336 O2-
+   0.0351090966666663    0.7124826633333331    0.0981638133333336 O2-
+   0.3440402333333334    0.2982242366666670    0.4314971466666669 O2-
+   0.2875173366666668    0.9648909033333337    0.5981638133333336 O2-
+   0.0351090966666661    0.3226264333333331    0.5981638133333336 O2-
+   0.6773735666666668    0.7124826633333330    0.5981638133333336 O2-
+   0.9541840033333335    0.6559597666666666    0.4314971466666669 O2-
+   0.7017757633333329    0.0458159966666665    0.4314971466666669 O2-
+   0.0107069000000002    0.6315575700000005    0.7648304800000002 O2-
+   0.9541840033333335    0.2982242366666670    0.9314971466666668 O2-
+   0.7017757633333328    0.6559597666666663    0.9314971466666668 O2-
+   0.3440402333333335    0.0458159966666662    0.9314971466666668 O2-
+   0.6208506700000003    0.9892930999999998    0.7648304800000002 O2-
+   0.3684424299999996    0.3791493299999997    0.7648304800000002 O2-
+
+<Example>
+[Description]
+LiYO₂ crystallizes in the monoclinic P2₁/c space group. Li¹⁺ is bonded in a distorted T-shaped geometry to three O²⁻ atoms. There are a spread of Li-O bond distances ranging from 1.89-1.99 Å. Y³⁺ is bonded to six O²⁻ atoms to form a mixture of distorted edge and corner-sharing YO₆ octahedra. The corner-sharing octahedral tilt angles range from 17-37°. There are a spread of Y-O bond distances ranging from 2.20-2.34 Å. There are two inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded to two equivalent Li¹⁺ and three equivalent Y³⁺ atoms to form distorted OLi₂Y₃ square pyramids that share corners with two equivalent OLi₂Y₃ square pyramids, corners with seven equivalent OLiY₃ tetrahedra, edges with three equivalent OLi₂Y₃ square pyramids, and edges with two equivalent OLiY₃ tetrahedra. In the second O²⁻ site, O²⁻ is bonded to one Li¹⁺ and three equivalent Y³⁺ atoms to form distorted OLiY₃ tetrahedra that share corners with seven equivalent OLi₂Y₃ square pyramids, corners with four equivalent OLiY₃ tetrahedra, edges with two equivalent OLi₂Y₃ square pyramids, and an edgeedge with one OLiY₃ tetrahedra.
+[POSCAR]
+Li4 Y4 O8
+1.0
+   0.0000000000000000    6.1943087260899139    0.0000000000000000
+   6.1028153399999985    0.0000000000000000    0.0000000000000000
+   0.0000000000000000   -3.1131836951292642   -5.4741207838056436
+Li Y O
+4 4 8
+direct
+   0.7049412400000001    0.3413089500000003    0.9288673900000001 Li+
+   0.2950587599999999    0.8413089500000002    0.5711326099999999 Li+
+   0.2950587599999999    0.6586910499999997    0.0711326099999999 Li+
+   0.7049412400000001    0.1586910499999997    0.4288673900000001 Li+
+   0.7684722900000001    0.8682349400000003    0.0242736000000002 Y3+
+   0.7684722900000001    0.6317650599999997    0.5242736000000003 Y3+
+   0.2315277099999999    0.1317650599999997    0.9757263999999998 Y3+
+   0.2315277099999999    0.3682349400000003    0.4757263999999998 Y3+
+   0.5476633100000001    0.6069950100000001    0.7366696700000001 O2-
+   0.0149210399999999    0.8238524500000003    0.8521160000000000 O2-
+   0.4523366899999999    0.1069950100000001    0.7633303299999999 O2-
+   0.4523366899999999    0.3930049899999999    0.2633303299999999 O2-
+   0.9850789600000001    0.1761475499999997    0.1478840000000000 O2-
+   0.9850789600000001    0.3238524500000003    0.6478840000000000 O2-
+   0.0149210399999999    0.6761475499999997    0.3521160000000000 O2-
+   0.5476633100000001    0.8930049899999999    0.2366696700000001 O2-
+
+<Question>
+[Description]
+LiCoO₂ is Caswellsilverite structured and crystallizes in the trigonal R̅3m space group. Li¹⁺ is bonded to six equivalent O²⁻ atoms to form LiO₆ octahedra that share corners with six equivalent CoO₆ octahedra, edges with six equivalent LiO₆ octahedra, and edges with six equivalent CoO₆ octahedra. The corner-sharing octahedral tilt angles are 7°. All Li-O bond lengths are 2.08 Å. Co³⁺ is bonded to six equivalent O²⁻ atoms to form CoO₆ octahedra that share corners with six equivalent LiO₆ octahedra, edges with six equivalent LiO₆ octahedra, and edges with six equivalent CoO₆ octahedra. The corner-sharing octahedral tilt angles are 7°. All Co-O bond lengths are 1.92 Å. O²⁻ is bonded to three equivalent Li¹⁺ and three equivalent Co³⁺ atoms to form a mixture of edge and corner-sharing OLi₃Co₃ octahedra. The corner-sharing octahedra are not tilted.
