@@ -46,19 +46,8 @@ with open('../data/formula_spacegroup_description_map.json', 'r') as fp:
     formula_spacegroup_description_map = json.load(fp)
 
 # now we give a list of structures to pick from
-# with open('../data/trajectory_test.json', 'r') as fp:
-#     structures = [Structure.from_dict(s) for s in json.load(fp)]
-
-structures = [
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.25, 0.5]]),
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.25, 0.25, 0.5]]),
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.25, 0.52]]),
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.25, 0.25, 0.5]]),
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.52, 0.25, 0.5]]),
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.25, 0.5, 0.25]]),
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.52, 0.5]]),
-    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.5, 0.5]]),
-]
+with open('../script/trajectory.json', 'r') as fp:
+    structures = [Structure.from_dict(s) for s in json.load(fp)]
 
 # we show the first structure by default
 generated_structure_component = ctc.StructureMoleculeComponent(
@@ -69,7 +58,6 @@ actual_structure_component = ctc.StructureMoleculeComponent(
     structures[-1],
     id="actual_structure"
 )
-
 
 test_comps_energies = pd.DataFrame({
     "x": ["LiFePO4", "LiMn2O4", "LiMnO3", "LiTiO4"],
