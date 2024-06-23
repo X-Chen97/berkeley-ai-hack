@@ -19,7 +19,9 @@ Dataset: [MaterialsAI/robocr_poscar_2col](https://huggingface.co/datasets/Materi
 
 Model: [MaterialsAI/robocr_poscar_2col_llama](https://huggingface.co/MaterialsAI/robocr_poscar_2col_llama)
 
-We run our LLM on *One Intel Gaudi* at http://146.152.224.107:8017/docs
+We run our fine-tuned LLAMA LLM text-POSCAR on *One Intel Gaudi* at http://146.152.224.107:8017/docs
+
+We run our model for POSCAR-energy and optimization trajectory on *One Intel Gaudi* at http://146.152.224.107:8017/docs
 
 ## Challenges we ran into
 Materials dataset complexity is not immediately useful for LLM inference, so this required deep domain expertise in crystallography as well as proper LLM prompt engineering. DFT input files for complex materials contain numerous atomic coordinates that are based on crystallographic rules and set based on symmetry of crystals; however, for LLM doing text-based prediction accurately setting these sites is challenging. This difficulty is why we included a relaxation step to modify the LLM-generated structures to something more physically reasonable.
