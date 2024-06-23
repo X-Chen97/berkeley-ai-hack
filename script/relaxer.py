@@ -222,7 +222,7 @@ class MaceRelaxer:
             atoms = atoms.atoms
         struct = AseAtomsAdaptor.get_structure(atoms)
 
-        return {"final_structure": struct, "trajectory": obs}
+        return {"final_structure": struct, "final_energy": atoms.get_total_energy() , "trajectory": obs}
 
 
 class ChgnetRelaxer(StructOptimizer):
