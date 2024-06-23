@@ -1,1 +1,1 @@
-{"space_group": "P4mm", "formula": "NaLi2Al3(SiO4)3", "lattice": [[12.27885, 0.0, 0.0], [0.0, 12.27885, 0.0], [0.0, 0.0, 11.750788]], "full_formula": "Na4 Li8 Al12 Si12 O48", "natoms": 84}
+{"space_group": "P4mm", "formula": "NaLi2Al3(SiO4)3", "lattice": [[12.27885, 0.0, 0.0], [0.0, 12.27885, 0.0], [0.0, 0.0, 11.750788]], "full_formula": "Na4 Li8 Al12 Si12 O48", "natoms": 84, "ehull_mp": 113.81213224206377}

@@ -1,1 +1,1 @@
-{"space_group": "Pnnm", "formula": "Ba2LiUO6", "lattice": [[5.987538, 0.0, 0.0], [0.0, 6.038146, 0.0], [0.0, 0.0, 8.478797]], "full_formula": "Ba4 Li2 U2 O12", "natoms": 20}
+{"space_group": "Pnnm", "formula": "Ba2LiUO6", "lattice": [[5.987538, 0.0, 0.0], [0.0, 6.038146, 0.0], [0.0, 0.0, 8.478797]], "full_formula": "Ba4 Li2 U2 O12", "natoms": 20, "ehull_mp": 19.9729980535599}

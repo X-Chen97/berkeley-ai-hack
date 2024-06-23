@@ -1,1 +1,1 @@
-{"space_group": "Pca2_1", "formula": "NaLiGe4O9", "lattice": [[4.742192, 0.0, 0.0], [0.0, 9.475706, 0.0], [0.0, 0.0, 16.187736]], "full_formula": "Na4 Li4 Ge16 O36", "natoms": 60}
+{"space_group": "Pca2_1", "formula": "NaLiGe4O9", "lattice": [[4.742192, 0.0, 0.0], [0.0, 9.475706, 0.0], [0.0, 0.0, 16.187736]], "full_formula": "Na4 Li4 Ge16 O36", "natoms": 60, "ehull_mp": 0.0}

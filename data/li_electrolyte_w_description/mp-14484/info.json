@@ -1,1 +1,1 @@
-{"space_group": "P2_12_12_1", "formula": "KNaLi2(SO4)2", "lattice": [[4.998568, 0.0, 0.0], [0.0, 7.881211, 0.0], [0.0, 0.0, 19.332267]], "full_formula": "K4 Na4 Li8 S8 O32", "natoms": 56}
+{"space_group": "P2_12_12_1", "formula": "KNaLi2(SO4)2", "lattice": [[4.998568, 0.0, 0.0], [0.0, 7.881211, 0.0], [0.0, 0.0, 19.332267]], "full_formula": "K4 Na4 Li8 S8 O32", "natoms": 56, "ehull_mp": 0.0}

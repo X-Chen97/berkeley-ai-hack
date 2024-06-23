@@ -1,1 +1,1 @@
-{"space_group": "R3c", "formula": "Li4B7ClO12", "lattice": [[7.484052, -4.37444, 0.0], [7.484052, 4.37444, 0.0], [4.927186, 0.0, 7.132293]], "full_formula": "Li8 B14 Cl2 O24", "natoms": 48}
+{"space_group": "R3c", "formula": "Li4B7ClO12", "lattice": [[7.484052, -4.37444, 0.0], [7.484052, 4.37444, 0.0], [4.927186, 0.0, 7.132293]], "full_formula": "Li8 B14 Cl2 O24", "natoms": 48, "ehull_mp": 5.372797291646414}

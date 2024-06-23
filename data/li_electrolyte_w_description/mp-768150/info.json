@@ -1,1 +1,1 @@
-{"space_group": "Cmcm", "formula": "LiBi3(BrO2)2", "lattice": [[2.778241, -6.475246, 0.0], [2.778241, 6.475246, 0.0], [0.0, 0.0, 11.077326]], "full_formula": "Li2 Bi6 Br4 O8", "natoms": 20}
+{"space_group": "Cmcm", "formula": "LiBi3(BrO2)2", "lattice": [[2.778241, -6.475246, 0.0], [2.778241, 6.475246, 0.0], [0.0, 0.0, 11.077326]], "full_formula": "Li2 Bi6 Br4 O8", "natoms": 20, "ehull_mp": 0.0}

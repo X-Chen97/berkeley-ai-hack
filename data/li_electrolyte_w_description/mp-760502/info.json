@@ -1,1 +1,1 @@
-{"space_group": "Cmcm", "formula": "LiH2ClO", "lattice": [[3.834853, -3.923879, 0.0], [3.834853, 3.923879, 0.0], [0.0, 0.0, 7.708259]], "full_formula": "Li4 H8 Cl4 O4", "natoms": 20}
+{"space_group": "Cmcm", "formula": "LiH2ClO", "lattice": [[3.834853, -3.923879, 0.0], [3.834853, 3.923879, 0.0], [0.0, 0.0, 7.708259]], "full_formula": "Li4 H8 Cl4 O4", "natoms": 20, "ehull_mp": 11.46503299999857}

@@ -1,1 +1,1 @@
-{"space_group": "Cc", "formula": "LiZnPO4", "lattice": [[4.939953, 8.741105, 0.0], [-4.939953, 8.741105, 0.0], [0.0, 11.286937, 16.192942]], "full_formula": "Li16 Zn16 P16 O64", "natoms": 112}
+{"space_group": "Cc", "formula": "LiZnPO4", "lattice": [[4.939953, 8.741105, 0.0], [-4.939953, 8.741105, 0.0], [0.0, 11.286937, 16.192942]], "full_formula": "Li16 Zn16 P16 O64", "natoms": 112, "ehull_mp": 0.8137775892844701}

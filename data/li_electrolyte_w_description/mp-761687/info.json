@@ -1,1 +1,1 @@
-{"space_group": "Cc", "formula": "LiSbPO5", "lattice": [[4.192415, 3.625897, 0.0], [-4.192415, 3.625897, 0.0], [0.0, 3.191162, 6.779934]], "full_formula": "Li2 Sb2 P2 O10", "natoms": 16}
+{"space_group": "Cc", "formula": "LiSbPO5", "lattice": [[4.192415, 3.625897, 0.0], [-4.192415, 3.625897, 0.0], [0.0, 3.191162, 6.779934]], "full_formula": "Li2 Sb2 P2 O10", "natoms": 16, "ehull_mp": 94.46438232143618}

@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiHo3Ge2(O4F)2", "lattice": [[2.555325, 8.859966, 0.0], [-2.555325, 8.859966, 0.0], [0.0, 7.606675, 8.875839]], "full_formula": "Li2 Ho6 Ge4 O16 F4", "natoms": 32}
+{"space_group": "C2/c", "formula": "LiHo3Ge2(O4F)2", "lattice": [[2.555325, 8.859966, 0.0], [-2.555325, 8.859966, 0.0], [0.0, 7.606675, 8.875839]], "full_formula": "Li2 Ho6 Ge4 O16 F4", "natoms": 32, "ehull_mp": 16.893543437504377}

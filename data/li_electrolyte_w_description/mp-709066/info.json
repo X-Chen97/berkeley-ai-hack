@@ -1,1 +1,1 @@
-{"space_group": "P4_3", "formula": "Rb4LiH3(SO4)4", "lattice": [[7.748028, 0.0, 0.0], [0.0, 7.748028, 0.0], [0.0, 0.0, 30.004597]], "full_formula": "Rb16 Li4 H12 S16 O64", "natoms": 112}
+{"space_group": "P4_3", "formula": "Rb4LiH3(SO4)4", "lattice": [[7.748028, 0.0, 0.0], [0.0, 7.748028, 0.0], [0.0, 0.0, 30.004597]], "full_formula": "Rb16 Li4 H12 S16 O64", "natoms": 112, "ehull_mp": 1.0295781249993752}

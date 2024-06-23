@@ -1,1 +1,1 @@
-{"space_group": "Pnma", "formula": "LiInGeO4", "lattice": [[5.068798, 0.0, 0.0], [0.0, 6.174474, 0.0], [0.0, 0.0, 10.890444]], "full_formula": "Li4 In4 Ge4 O16", "natoms": 28}
+{"space_group": "Pnma", "formula": "LiInGeO4", "lattice": [[5.068798, 0.0, 0.0], [0.0, 6.174474, 0.0], [0.0, 0.0, 10.890444]], "full_formula": "Li4 In4 Ge4 O16", "natoms": 28, "ehull_mp": 0.0}

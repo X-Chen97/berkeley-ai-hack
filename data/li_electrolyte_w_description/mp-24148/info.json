@@ -1,1 +1,1 @@
-{"space_group": "Immm", "formula": "LiLa2HO3", "lattice": [[3.581696, 0.0, 0.0], [0.0, 3.798394, 0.0], [-1.790848, -1.899197, 6.465288]], "full_formula": "Li1 La2 H1 O3", "natoms": 7}
+{"space_group": "Immm", "formula": "LiLa2HO3", "lattice": [[3.581696, 0.0, 0.0], [0.0, 3.798394, 0.0], [-1.790848, -1.899197, 6.465288]], "full_formula": "Li1 La2 H1 O3", "natoms": 7, "ehull_mp": 19.20208232142695}

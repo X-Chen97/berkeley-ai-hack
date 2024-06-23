@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "Li7SiPO8", "lattice": [[5.103607, 0.0, 0.0], [0.027799, 6.591167, 0.0], [0.275428, 0.017597, 10.583701]], "full_formula": "Li14 Si2 P2 O16", "natoms": 34}
+{"space_group": "P1", "formula": "Li7SiPO8", "lattice": [[5.103607, 0.0, 0.0], [0.027799, 6.591167, 0.0], [0.275428, 0.017597, 10.583701]], "full_formula": "Li14 Si2 P2 O16", "natoms": 34, "ehull_mp": 65.90102264705865}

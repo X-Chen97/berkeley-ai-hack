@@ -1,1 +1,1 @@
-{"space_group": "P2_1", "formula": "Li2Zn3(Ge3O8)2", "lattice": [[8.315846, 0.0, 0.0], [0.0, 8.316756, 0.0], [0.0, 0.036642, 8.321442]], "full_formula": "Li4 Zn6 Ge12 O32", "natoms": 54}
+{"space_group": "P2_1", "formula": "Li2Zn3(Ge3O8)2", "lattice": [[8.315846, 0.0, 0.0], [0.0, 8.316756, 0.0], [0.0, 0.036642, 8.321442]], "full_formula": "Li4 Zn6 Ge12 O32", "natoms": 54, "ehull_mp": 29.315650555556516}

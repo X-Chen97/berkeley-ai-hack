@@ -1,1 +1,1 @@
-{"space_group": "P2_1", "formula": "LiBi2(PO4)3", "lattice": [[9.341174, 0.0, 0.0], [0.0, 8.939769, 0.0], [0.0, 0.11847, 12.781569]], "full_formula": "Li4 Bi8 P12 O48", "natoms": 72}
+{"space_group": "P2_1", "formula": "LiBi2(PO4)3", "lattice": [[9.341174, 0.0, 0.0], [0.0, 8.939769, 0.0], [0.0, 0.11847, 12.781569]], "full_formula": "Li4 Bi8 P12 O48", "natoms": 72, "ehull_mp": 68.69967224536921}

@@ -1,1 +1,1 @@
-{"space_group": "Pnnm", "formula": "Li4Sn(BO3)2", "lattice": [[3.555265, 0.0, 0.0], [0.0, 8.501921, 0.0], [0.0, 0.0, 9.462574]], "full_formula": "Li8 Sn2 B4 O12", "natoms": 26}
+{"space_group": "Pnnm", "formula": "Li4Sn(BO3)2", "lattice": [[3.555265, 0.0, 0.0], [0.0, 8.501921, 0.0], [0.0, 0.0, 9.462574]], "full_formula": "Li8 Sn2 B4 O12", "natoms": 26, "ehull_mp": 79.82157749999973}

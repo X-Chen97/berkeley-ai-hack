@@ -1,1 +1,1 @@
-{"space_group": "Cmmm", "formula": "LiLa4AlO8", "lattice": [[2.691256, -6.348009, 0.0], [2.691256, 6.348009, 0.0], [0.0, 0.0, 5.394933]], "full_formula": "Li1 La4 Al1 O8", "natoms": 14}
+{"space_group": "Cmmm", "formula": "LiLa4AlO8", "lattice": [[2.691256, -6.348009, 0.0], [2.691256, 6.348009, 0.0], [0.0, 0.0, 5.394933]], "full_formula": "Li1 La4 Al1 O8", "natoms": 14, "ehull_mp": 59.64900089286651}

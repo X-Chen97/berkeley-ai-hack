@@ -1,1 +1,1 @@
-{"space_group": "Pnma", "formula": "LiAlS3(Cl2O3)2", "lattice": [[9.759696, 0.0, 0.0], [0.0, 10.248609, 0.0], [0.0, 0.0, 13.697134]], "full_formula": "Li4 Al4 S12 Cl16 O24", "natoms": 60}
+{"space_group": "Pnma", "formula": "LiAlS3(Cl2O3)2", "lattice": [[9.759696, 0.0, 0.0], [0.0, 10.248609, 0.0], [0.0, 0.0, 13.697134]], "full_formula": "Li4 Al4 S12 Cl16 O24", "natoms": 60, "ehull_mp": 31.00972302380889}

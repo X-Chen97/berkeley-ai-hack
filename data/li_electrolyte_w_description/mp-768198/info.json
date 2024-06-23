@@ -1,1 +1,1 @@
-{"space_group": "P2_1", "formula": "LiCePCO7", "lattice": [[7.000202, 0.0, 0.0], [0.0, 5.226608, 0.0], [0.0, 0.548165, 9.123653]], "full_formula": "Li2 Ce2 P2 C2 O14", "natoms": 22}
+{"space_group": "P2_1", "formula": "LiCePCO7", "lattice": [[7.000202, 0.0, 0.0], [0.0, 5.226608, 0.0], [0.0, 0.548165, 9.123653]], "full_formula": "Li2 Ce2 P2 C2 O14", "natoms": 22, "ehull_mp": 70.44011575758269}

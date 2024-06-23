@@ -1,1 +1,1 @@
-{"space_group": "Pnnm", "formula": "Li2Pr(NO3)5", "lattice": [[8.93996956, 0.0, 0.0], [-0.0, 10.45932374, 0.0], [0.0, 0.0, 11.64053922]], "full_formula": "Li8 Pr4 N20 O60", "natoms": 92}
+{"space_group": "Pnnm", "formula": "Li2Pr(NO3)5", "lattice": [[8.93996956, 0.0, 0.0], [-0.0, 10.45932374, 0.0], [0.0, 0.0, 11.64053922]], "full_formula": "Li8 Pr4 N20 O60", "natoms": 92, "ehull_mp": 0.0}

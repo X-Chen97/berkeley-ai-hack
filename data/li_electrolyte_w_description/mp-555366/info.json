@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiHo(PO3)4", "lattice": [[3.5589, 8.202522, 0.0], [-3.5589, 8.202522, 0.0], [0.0, 5.671569, 7.809302]], "full_formula": "Li2 Ho2 P8 O24", "natoms": 36}
+{"space_group": "C2/c", "formula": "LiHo(PO3)4", "lattice": [[3.5589, 8.202522, 0.0], [-3.5589, 8.202522, 0.0], [0.0, 5.671569, 7.809302]], "full_formula": "Li2 Ho2 P8 O24", "natoms": 36, "ehull_mp": 2.7478143518528952}

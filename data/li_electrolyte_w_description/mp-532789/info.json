@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "Li6Nd6Sb(TeO8)3", "lattice": [[6.368712, 8.990271, 0.0], [-6.368712, 8.990271, 0.0], [0.0, 8.986157, 9.020843]], "full_formula": "Li12 Nd12 Sb2 Te6 O48", "natoms": 80}
+{"space_group": "C2/c", "formula": "Li6Nd6Sb(TeO8)3", "lattice": [[6.368712, 8.990271, 0.0], [-6.368712, 8.990271, 0.0], [0.0, 8.986157, 9.020843]], "full_formula": "Li12 Nd12 Sb2 Te6 O48", "natoms": 80, "ehull_mp": 10.593549508330469}

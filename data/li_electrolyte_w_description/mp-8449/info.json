@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "Rb2Li2SiO4", "lattice": [[5.520191, 0.0, 0.0], [0.4271, 5.688727, 0.0], [2.23179, 0.808686, 8.525763]], "full_formula": "Rb4 Li4 Si2 O8", "natoms": 18}
+{"space_group": "P-1", "formula": "Rb2Li2SiO4", "lattice": [[5.520191, 0.0, 0.0], [0.4271, 5.688727, 0.0], [2.23179, 0.808686, 8.525763]], "full_formula": "Rb4 Li4 Si2 O8", "natoms": 18, "ehull_mp": 0.0}

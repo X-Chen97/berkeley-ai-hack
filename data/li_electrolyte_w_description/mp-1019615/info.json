@@ -1,1 +1,1 @@
-{"space_group": "P3_121", "formula": "Cs3Li4(BO2)7", "lattice": [[3.514475, -6.08725, 0.0], [3.514475, 6.08725, 0.0], [0.0, 0.0, 27.182766]], "full_formula": "Cs9 Li12 B21 O42", "natoms": 84}
+{"space_group": "P3_121", "formula": "Cs3Li4(BO2)7", "lattice": [[3.514475, -6.08725, 0.0], [3.514475, 6.08725, 0.0], [0.0, 0.0, 27.182766]], "full_formula": "Cs9 Li12 B21 O42", "natoms": 84, "ehull_mp": 0.0}

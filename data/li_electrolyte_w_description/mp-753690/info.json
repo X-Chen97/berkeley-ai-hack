@@ -1,1 +1,1 @@
-{"space_group": "P2_1/m", "formula": "Li4H3BrO3", "lattice": [[7.730563, 0.0, 0.0], [0.0, 5.540693, 0.0], [0.0, 0.464701, 6.608364]], "full_formula": "Li8 H6 Br2 O6", "natoms": 22}
+{"space_group": "P2_1/m", "formula": "Li4H3BrO3", "lattice": [[7.730563, 0.0, 0.0], [0.0, 5.540693, 0.0], [0.0, 0.464701, 6.608364]], "full_formula": "Li8 H6 Br2 O6", "natoms": 22, "ehull_mp": 0.0}

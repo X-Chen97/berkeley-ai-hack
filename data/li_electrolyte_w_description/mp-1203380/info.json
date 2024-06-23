@@ -1,1 +1,1 @@
-{"space_group": "Pbca", "formula": "LiBP2Pb4O11", "lattice": [[-0.0, -6.64782326, 0.0], [-12.80206393, 0.0, 0.0], [0.0, 0.0, -25.79404729]], "full_formula": "Li8 B8 P16 Pb32 O88", "natoms": 152}
+{"space_group": "Pbca", "formula": "LiBP2Pb4O11", "lattice": [[-0.0, -6.64782326, 0.0], [-12.80206393, 0.0, 0.0], [0.0, 0.0, -25.79404729]], "full_formula": "Li8 B8 P16 Pb32 O88", "natoms": 152, "ehull_mp": 5.077116776321944}

@@ -1,1 +1,1 @@
-{"space_group": "Pca2_1", "formula": "LiH2SNO3", "lattice": [[5.184184, 0.0, 0.0], [0.0, 8.602452, 0.0], [0.0, 0.0, 16.9578]], "full_formula": "Li8 H16 S8 N8 O24", "natoms": 64}
+{"space_group": "Pca2_1", "formula": "LiH2SNO3", "lattice": [[5.184184, 0.0, 0.0], [0.0, 8.602452, 0.0], [0.0, 0.0, 16.9578]], "full_formula": "Li8 H16 S8 N8 O24", "natoms": 64, "ehull_mp": 138.98968558749925}

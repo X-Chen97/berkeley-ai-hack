@@ -1,1 +1,1 @@
-{"space_group": "Cmce", "formula": "Na3Li2Al(SiO4)2", "lattice": [[7.126915, -7.439853, 0.0], [7.126915, 7.439853, 0.0], [0.0, 0.0, 7.15377]], "full_formula": "Na12 Li8 Al4 Si8 O32", "natoms": 64}
+{"space_group": "Cmce", "formula": "Na3Li2Al(SiO4)2", "lattice": [[7.126915, -7.439853, 0.0], [7.126915, 7.439853, 0.0], [0.0, 0.0, 7.15377]], "full_formula": "Na12 Li8 Al4 Si8 O32", "natoms": 64, "ehull_mp": 5.766319791668195}

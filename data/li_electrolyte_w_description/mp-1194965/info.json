@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "Li2Th(AsO4)2", "lattice": [[14.042259, 0.0, 0.0], [0.0, 5.695762, 0.0], [0.0, 2.578546, 8.866234]], "full_formula": "Li8 Th4 As8 O32", "natoms": 52}
+{"space_group": "P2_1/c", "formula": "Li2Th(AsO4)2", "lattice": [[14.042259, 0.0, 0.0], [0.0, 5.695762, 0.0], [0.0, 2.578546, 8.866234]], "full_formula": "Li8 Th4 As8 O32", "natoms": 52, "ehull_mp": 0.0}

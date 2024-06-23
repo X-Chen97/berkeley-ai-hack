@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiAlSiO4", "lattice": [[4.99201, 0.0, 0.0], [0.0, 6.698598, 0.0], [0.0, 0.0, 10.072203]], "full_formula": "Li4 Al4 Si4 O16", "natoms": 28}
+{"space_group": "Pna2_1", "formula": "LiAlSiO4", "lattice": [[4.99201, 0.0, 0.0], [0.0, 6.698598, 0.0], [0.0, 0.0, 10.072203]], "full_formula": "Li4 Al4 Si4 O16", "natoms": 28, "ehull_mp": 27.12768273809374}

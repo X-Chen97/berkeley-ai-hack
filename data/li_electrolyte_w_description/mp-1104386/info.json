@@ -1,1 +1,1 @@
-{"space_group": "F-43m", "formula": "Li6PClO5", "lattice": [[0.0, 4.168891, 4.168891], [4.168891, 0.0, 4.168891], [4.168892, 4.168891, 0.0]], "full_formula": "Li6 P1 Cl1 O5", "natoms": 13}
+{"space_group": "F-43m", "formula": "Li6PClO5", "lattice": [[0.0, 4.168891, 4.168891], [4.168891, 0.0, 4.168891], [4.168892, 4.168891, 0.0]], "full_formula": "Li6 P1 Cl1 O5", "natoms": 13, "ehull_mp": 6.122131538463194}

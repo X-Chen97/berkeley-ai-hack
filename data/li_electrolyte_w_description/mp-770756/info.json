@@ -1,1 +1,1 @@
-{"space_group": "P2_1/m", "formula": "Li3SiSnBO7", "lattice": [[6.57489, 0.0, 0.0], [0.0, 5.138795, 0.0], [0.0, 0.809456, 8.506373]], "full_formula": "Li6 Si2 Sn2 B2 O14", "natoms": 26}
+{"space_group": "P2_1/m", "formula": "Li3SiSnBO7", "lattice": [[6.57489, 0.0, 0.0], [0.0, 5.138795, 0.0], [0.0, 0.809456, 8.506373]], "full_formula": "Li6 Si2 Sn2 B2 O14", "natoms": 26, "ehull_mp": 58.515726730770545}

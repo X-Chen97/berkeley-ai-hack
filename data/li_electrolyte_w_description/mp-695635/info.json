@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "Li3Al3P3H2O14F", "lattice": [[5.088463, 0.0, 0.0], [-2.0677, 6.830937, 0.0], [-0.804815, -0.404268, 14.184772]], "full_formula": "Li6 Al6 P6 H4 O28 F2", "natoms": 52}
+{"space_group": "P1", "formula": "Li3Al3P3H2O14F", "lattice": [[5.088463, 0.0, 0.0], [-2.0677, 6.830937, 0.0], [-0.804815, -0.404268, 14.184772]], "full_formula": "Li6 Al6 P6 H4 O28 F2", "natoms": 52, "ehull_mp": 6.903781217949323}

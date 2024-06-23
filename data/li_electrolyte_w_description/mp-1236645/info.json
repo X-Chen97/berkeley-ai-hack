@@ -1,1 +1,1 @@
-{"space_group": "Pm", "formula": "LiPr2(BrO2)2", "lattice": [[0.0, -4.355673, 0.0], [-5.041949, 0.0, 2.638521], [-0.001611, 0.0, -7.596321]], "full_formula": "Li1 Pr2 Br2 O4", "natoms": 9}
+{"space_group": "Pm", "formula": "LiPr2(BrO2)2", "lattice": [[0.0, -4.355673, 0.0], [-5.041949, 0.0, 2.638521], [-0.001611, 0.0, -7.596321]], "full_formula": "Li1 Pr2 Br2 O4", "natoms": 9, "ehull_mp": 217.05532523809623}

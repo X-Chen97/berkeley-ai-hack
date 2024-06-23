@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiZnAsH2O5", "lattice": [[5.215513, 0.0, 0.0], [0.0, 8.465957, 0.0], [0.0, 0.0, 11.086212]], "full_formula": "Li4 Zn4 As4 H8 O20", "natoms": 40}
+{"space_group": "Pna2_1", "formula": "LiZnAsH2O5", "lattice": [[5.215513, 0.0, 0.0], [0.0, 8.465957, 0.0], [0.0, 0.0, 11.086212]], "full_formula": "Li4 Zn4 As4 H8 O20", "natoms": 40, "ehull_mp": 21.856746333328125}

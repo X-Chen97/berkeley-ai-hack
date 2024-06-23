@@ -1,1 +1,1 @@
-{"space_group": "C2/m", "formula": "LiPrNdO2", "lattice": [[2.368945, 0.913734, 5.637769], [-2.368945, 0.913734, 5.637769], [0.0, -2.07159, 5.680689]], "full_formula": "Li1 Pr1 Nd1 O2", "natoms": 5}
+{"space_group": "C2/m", "formula": "LiPrNdO2", "lattice": [[2.368945, 0.913734, 5.637769], [-2.368945, 0.913734, 5.637769], [0.0, -2.07159, 5.680689]], "full_formula": "Li1 Pr1 Nd1 O2", "natoms": 5, "ehull_mp": 722.8615780416678}

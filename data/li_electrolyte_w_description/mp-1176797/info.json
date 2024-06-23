@@ -1,1 +1,1 @@
-{"space_group": "R-3", "formula": "LiBi(BO3)2", "lattice": [[5.411433, -2.439251, 0.0], [5.411433, 2.439251, 0.0], [4.31192, 0.0, 4.079326]], "full_formula": "Li1 Bi1 B2 O6", "natoms": 10}
+{"space_group": "R-3", "formula": "LiBi(BO3)2", "lattice": [[5.411433, -2.439251, 0.0], [5.411433, 2.439251, 0.0], [4.31192, 0.0, 4.079326]], "full_formula": "Li1 Bi1 B2 O6", "natoms": 10, "ehull_mp": 31.805902969392896}
