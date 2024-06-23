@@ -164,6 +164,26 @@ app.layout = dbc.Container(
                               'width': '220px',
                               'margin':'auto'}
                         )
+                        dbc.Row([
+                            html.H3("Robocrystallography Description", className="text-center"),
+                            dcc.Textarea(
+                                id="robocryst_description",
+                                value="8.4",
+                                style={"width": "50%", "height": "50px"},
+                            ),
+                        ], justify="center"),
+                        html.Div([
+                            html.Button(
+                                "Submit",
+                                id="add-new-candidate-button",
+                                className="text-center",
+                                n_clicks=0
+                            )
+                        ], style={'margin-bottom': '10px',
+                              'textAlign':'center',
+                              'width': '220px',
+                              'margin':'auto'}
+                        )
                     ],
                     width=2
                 ),
@@ -176,7 +196,8 @@ app.layout = dbc.Container(
                                     id="relaxation_slider",
                                     min=0,
                                     max=len(structures)-1,
-                                    value=0
+                                    value=0,
+                                    marks=None
                                 )
                             ], id="structure_output")
                     ],
