@@ -1,1 +1,1 @@
-{"space_group": "P6_1", "formula": "LiZnBP2O11", "lattice": [[4.824444, -8.356182, 0.0], [4.824444, 8.356182, 0.0], [0.0, 0.0, 15.401949]], "full_formula": "Li6 Zn6 B6 P12 O66", "natoms": 96}
+{"space_group": "P6_1", "formula": "LiZnBP2O11", "lattice": [[4.824444, -8.356182, 0.0], [4.824444, 8.356182, 0.0], [0.0, 0.0, 15.401949]], "full_formula": "Li6 Zn6 B6 P12 O66", "natoms": 96, "ehull_mp": 478.99310721354203}

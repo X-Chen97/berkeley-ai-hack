@@ -1,1 +1,1 @@
-{"space_group": "R3m", "formula": "LiCNO", "lattice": [[4.855724, -1.643988, 0.0], [4.855724, 1.643988, 0.0], [4.299124, 0.0, 2.792542]], "full_formula": "Li1 C1 N1 O1", "natoms": 4}
+{"space_group": "R3m", "formula": "LiCNO", "lattice": [[4.855724, -1.643988, 0.0], [4.855724, 1.643988, 0.0], [4.299124, 0.0, 2.792542]], "full_formula": "Li1 C1 N1 O1", "natoms": 4, "ehull_mp": 54.22587906249898}

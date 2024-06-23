@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "Li3Sc2(PO4)3", "lattice": [[8.912454, 0.0, 0.0], [0.0, 8.958356, 0.0], [0.0, 8.963475, 12.417869]], "full_formula": "Li12 Sc8 P12 O48", "natoms": 80}
+{"space_group": "P2_1/c", "formula": "Li3Sc2(PO4)3", "lattice": [[8.912454, 0.0, 0.0], [0.0, 8.958356, 0.0], [0.0, 8.963475, 12.417869]], "full_formula": "Li12 Sc8 P12 O48", "natoms": 80, "ehull_mp": 0.0}

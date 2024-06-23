@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "LiCa2TeO6", "lattice": [[5.762055, 0.0, 0.0], [0.0, 5.562172, 0.0], [0.0, 5.409046, 7.779911]], "full_formula": "Li2 Ca4 Te2 O12", "natoms": 20}
+{"space_group": "P2_1/c", "formula": "LiCa2TeO6", "lattice": [[5.762055, 0.0, 0.0], [0.0, 5.562172, 0.0], [0.0, 5.409046, 7.779911]], "full_formula": "Li2 Ca4 Te2 O12", "natoms": 20, "ehull_mp": 61.08682478333094}

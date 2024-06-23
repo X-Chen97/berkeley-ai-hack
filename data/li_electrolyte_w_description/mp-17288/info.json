@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "Li2ZnSiO4", "lattice": [[10.735374, 0.0, 0.0], [0.0, 5.107766, 0.0], [0.0, 5.042162, 6.323415]], "full_formula": "Li8 Zn4 Si4 O16", "natoms": 32}
+{"space_group": "P2_1/c", "formula": "Li2ZnSiO4", "lattice": [[10.735374, 0.0, 0.0], [0.0, 5.107766, 0.0], [0.0, 5.042162, 6.323415]], "full_formula": "Li8 Zn4 Si4 O16", "natoms": 32, "ehull_mp": 0.0}

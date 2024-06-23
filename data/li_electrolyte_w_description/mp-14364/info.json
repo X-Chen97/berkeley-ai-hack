@@ -1,1 +1,1 @@
-{"space_group": "Cmc2_1", "formula": "Cs2LiAsO4", "lattice": [[3.033927, -6.284131, 0.0], [3.033927, 6.284131, 0.0], [0.0, 0.0, 8.328932]], "full_formula": "Cs4 Li2 As2 O8", "natoms": 16}
+{"space_group": "Cmc2_1", "formula": "Cs2LiAsO4", "lattice": [[3.033927, -6.284131, 0.0], [3.033927, 6.284131, 0.0], [0.0, 0.0, 8.328932]], "full_formula": "Cs4 Li2 As2 O8", "natoms": 16, "ehull_mp": 0.0}

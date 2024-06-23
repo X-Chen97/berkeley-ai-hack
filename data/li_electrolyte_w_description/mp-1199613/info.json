@@ -1,1 +1,1 @@
-{"space_group": "P2/c", "formula": "LiCe(C2O5)2", "lattice": [[7.676276, 0.0, 0.0], [0.0, 9.396281, 0.0], [0.0, 4.559431, 12.729778]], "full_formula": "Li4 Ce4 C16 O40", "natoms": 64}
+{"space_group": "P2/c", "formula": "LiCe(C2O5)2", "lattice": [[7.676276, 0.0, 0.0], [0.0, 9.396281, 0.0], [0.0, 4.559431, 12.729778]], "full_formula": "Li4 Ce4 C16 O40", "natoms": 64, "ehull_mp": 619.6414339453131}

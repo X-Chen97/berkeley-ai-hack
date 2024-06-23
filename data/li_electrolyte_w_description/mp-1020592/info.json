@@ -1,1 +1,1 @@
-{"space_group": "P4/mnc", "formula": "Sr4Li2Si4N8O", "lattice": [[9.374073, 0.0, 0.0], [0.0, 9.374073, 0.0], [0.0, 0.0, 5.608788]], "full_formula": "Sr8 Li4 Si8 N16 O2", "natoms": 38}
+{"space_group": "P4/mnc", "formula": "Sr4Li2Si4N8O", "lattice": [[9.374073, 0.0, 0.0], [0.0, 9.374073, 0.0], [0.0, 0.0, 5.608788]], "full_formula": "Sr8 Li4 Si8 N16 O2", "natoms": 38, "ehull_mp": 0.0}

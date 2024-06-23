@@ -1,1 +1,1 @@
-{"space_group": "R-3", "formula": "Li3In2(PO4)3", "lattice": [[8.243439, -4.325688, 0.0], [8.243439, 4.325688, 0.0], [5.973563, 0.0, 7.140196]], "full_formula": "Li6 In4 P6 O24", "natoms": 40}
+{"space_group": "R-3", "formula": "Li3In2(PO4)3", "lattice": [[8.243439, -4.325688, 0.0], [8.243439, 4.325688, 0.0], [5.973563, 0.0, 7.140196]], "full_formula": "Li6 In4 P6 O24", "natoms": 40, "ehull_mp": 0.0}

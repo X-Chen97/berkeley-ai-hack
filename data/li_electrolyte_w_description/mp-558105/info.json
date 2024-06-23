@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiB6O9F", "lattice": [[7.8827, 0.0, 0.0], [0.0, 8.65137, 0.0], [0.0, 0.0, 10.958028]], "full_formula": "Li4 B24 O36 F4", "natoms": 68}
+{"space_group": "Pna2_1", "formula": "LiB6O9F", "lattice": [[7.8827, 0.0, 0.0], [0.0, 8.65137, 0.0], [0.0, 0.0, 10.958028]], "full_formula": "Li4 B24 O36 F4", "natoms": 68, "ehull_mp": 0.0}

@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "LiMgAl3(SeO4)6", "lattice": [[8.530388, 0.0, 0.0], [0.040786, 9.091109, 0.0], [0.01479, 1.09619, 12.41775]], "full_formula": "Li2 Mg2 Al6 Se12 O48", "natoms": 70}
+{"space_group": "P1", "formula": "LiMgAl3(SeO4)6", "lattice": [[8.530388, 0.0, 0.0], [0.040786, 9.091109, 0.0], [0.01479, 1.09619, 12.41775]], "full_formula": "Li2 Mg2 Al6 Se12 O48", "natoms": 70, "ehull_mp": 8.30432045237739}

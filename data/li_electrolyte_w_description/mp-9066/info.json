@@ -1,1 +1,1 @@
-{"space_group": "Pmn2_1", "formula": "NaLi2AsO4", "lattice": [[5.158396, 0.0, 0.0], [0.0, 5.349046, 0.0], [0.0, 0.0, 7.027483]], "full_formula": "Na2 Li4 As2 O8", "natoms": 16}
+{"space_group": "Pmn2_1", "formula": "NaLi2AsO4", "lattice": [[5.158396, 0.0, 0.0], [0.0, 5.349046, 0.0], [0.0, 0.0, 7.027483]], "full_formula": "Na2 Li4 As2 O8", "natoms": 16, "ehull_mp": 0.0}

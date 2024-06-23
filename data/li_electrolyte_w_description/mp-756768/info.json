@@ -1,1 +1,1 @@
-{"space_group": "P2_1/m", "formula": "Li3BePCO7", "lattice": [[6.15323485, 0.0, 0.0], [0.0, 4.69490866, -0.00135673], [0.0, 0.39047246, 8.11985902]], "full_formula": "Li6 Be2 P2 C2 O14", "natoms": 26}
+{"space_group": "P2_1/m", "formula": "Li3BePCO7", "lattice": [[6.15323485, 0.0, 0.0], [0.0, 4.69490866, -0.00135673], [0.0, 0.39047246, 8.11985902]], "full_formula": "Li6 Be2 P2 C2 O14", "natoms": 26, "ehull_mp": 79.76840076923253}

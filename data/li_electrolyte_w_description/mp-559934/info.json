@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiZnPO4", "lattice": [[5.036221, 0.0, 0.0], [0.0, 6.774319, 0.0], [0.0, 0.0, 10.172402]], "full_formula": "Li4 Zn4 P4 O16", "natoms": 28}
+{"space_group": "Pna2_1", "formula": "LiZnPO4", "lattice": [[5.036221, 0.0, 0.0], [0.0, 6.774319, 0.0], [0.0, 0.0, 10.172402]], "full_formula": "Li4 Zn4 P4 O16", "natoms": 28, "ehull_mp": 0.0}

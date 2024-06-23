@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "Li5Ca9B7O21F2", "lattice": [[3.609825, 0.0, 0.0], [0.347239, 12.960941, 0.0], [0.349022, 6.450398, 11.242547]], "full_formula": "Li5 Ca9 B7 O21 F2", "natoms": 44}
+{"space_group": "P1", "formula": "Li5Ca9B7O21F2", "lattice": [[3.609825, 0.0, 0.0], [0.347239, 12.960941, 0.0], [0.349022, 6.450398, 11.242547]], "full_formula": "Li5 Ca9 B7 O21 F2", "natoms": 44, "ehull_mp": 2.138624220786589}

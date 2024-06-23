@@ -1,1 +1,1 @@
-{"space_group": "P-43n", "formula": "Li4Be3P3ClO12", "lattice": [[8.114744, 0.0, 0.0], [0.0, 8.114744, 0.0], [0.0, 0.0, 8.114744]], "full_formula": "Li8 Be6 P6 Cl2 O24", "natoms": 46}
+{"space_group": "P-43n", "formula": "Li4Be3P3ClO12", "lattice": [[8.114744, 0.0, 0.0], [0.0, 8.114744, 0.0], [0.0, 0.0, 8.114744]], "full_formula": "Li8 Be6 P6 Cl2 O24", "natoms": 46, "ehull_mp": 0.0}

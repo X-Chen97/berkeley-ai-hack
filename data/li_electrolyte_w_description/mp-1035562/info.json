@@ -1,1 +1,1 @@
-{"space_group": "Pmm2", "formula": "CsLiMg14O15", "lattice": [[10.69812493, 0.0, 0.0], [0.0, 8.23513889, 0.0], [0.0, 0.0, 4.18019652]], "full_formula": "Cs1 Li1 Mg14 O15", "natoms": 31}
+{"space_group": "Pmm2", "formula": "CsLiMg14O15", "lattice": [[10.69812493, 0.0, 0.0], [0.0, 8.23513889, 0.0], [0.0, 0.0, 4.18019652]], "full_formula": "Cs1 Li1 Mg14 O15", "natoms": 31, "ehull_mp": 215.34923387096683}

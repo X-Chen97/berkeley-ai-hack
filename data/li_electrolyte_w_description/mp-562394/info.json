@@ -1,1 +1,1 @@
-{"space_group": "P2_1/m", "formula": "Cs4Li2(Si2O5)3", "lattice": [[8.637638, 0.0, 0.0], [0.0, 11.128787, 0.0], [0.0, 0.063139, 19.283328]], "full_formula": "Cs16 Li8 Si24 O60", "natoms": 108}
+{"space_group": "P2_1/m", "formula": "Cs4Li2(Si2O5)3", "lattice": [[8.637638, 0.0, 0.0], [0.0, 11.128787, 0.0], [0.0, 0.063139, 19.283328]], "full_formula": "Cs16 Li8 Si24 O60", "natoms": 108, "ehull_mp": 0.0}

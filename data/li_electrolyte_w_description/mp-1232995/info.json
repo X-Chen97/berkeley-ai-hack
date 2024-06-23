@@ -1,1 +1,1 @@
-{"space_group": "Cm", "formula": "Rb2LiPu(Cl2O)2", "lattice": [[0.816225, 0.0, 6.077848], [-5.975617, 3.792831, -0.378501], [-5.975617, -3.792831, -0.378501]], "full_formula": "Rb2 Li1 Pu1 Cl4 O2", "natoms": 10}
+{"space_group": "Cm", "formula": "Rb2LiPu(Cl2O)2", "lattice": [[0.816225, 0.0, 6.077848], [-5.975617, 3.792831, -0.378501], [-5.975617, -3.792831, -0.378501]], "full_formula": "Rb2 Li1 Pu1 Cl4 O2", "natoms": 10, "ehull_mp": 49.93387699999463}

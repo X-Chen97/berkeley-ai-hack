@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiDy(PO3)4", "lattice": [[3.565993, 8.224913, 0.0], [-3.565993, 8.224913, 0.0], [0.0, 5.713655, 7.848274]], "full_formula": "Li2 Dy2 P8 O24", "natoms": 36}
+{"space_group": "C2/c", "formula": "LiDy(PO3)4", "lattice": [[3.565993, 8.224913, 0.0], [-3.565993, 8.224913, 0.0], [0.0, 5.713655, 7.848274]], "full_formula": "Li2 Dy2 P8 O24", "natoms": 36, "ehull_mp": 2.9157762037108625}

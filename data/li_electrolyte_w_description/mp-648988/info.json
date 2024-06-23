@@ -1,1 +1,1 @@
-{"space_group": "P-6m2", "formula": "NaLiCO3", "lattice": [[3.978151, -6.890359, 0.0], [3.978151, 6.890359, 0.0], [0.0, 0.0, 4.605461]], "full_formula": "Na3 Li3 C3 O9", "natoms": 18}
+{"space_group": "P-6m2", "formula": "NaLiCO3", "lattice": [[3.978151, -6.890359, 0.0], [3.978151, 6.890359, 0.0], [0.0, 0.0, 4.605461]], "full_formula": "Na3 Li3 C3 O9", "natoms": 18, "ehull_mp": 2213.9258596296286}

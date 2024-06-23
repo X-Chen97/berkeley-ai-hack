@@ -126,6 +126,23 @@ def get_relaxation_result(structure):
     
     return result, ehull
 
+def inference(structure):
+    
+    result, ehull = get_relaxation_result(structure)
+    
+    total = {}
+    trajectory = []
+    aaa = AseAtomsAdaptor()
+    
+    for i in result['trajectory'].atoms_trajectory:
+        relaxed_structure = aaa.get_structure(i)
+        trajectory.append(relaxed_structure.as_dict())
+        
+    total['trajectory'] = trajectory
+    total['ehull'] = ehull * 1000
+ 
+    return total
+
 
 if __name__ == '__main__':
     
@@ -141,19 +158,4 @@ if __name__ == '__main__':
     structure = args.structure
     structure = Structure.from_file(structure)
     
-    result, ehull = get_relaxation_result(structure)
-    
-    trajectory = []
-    aaa = AseAtomsAdaptor()
-    
-    for i in result['trajectory'].atoms_trajectory:
-        relaxed_structure = aaa.get_structure(i)
-        trajectory.append(relaxed_structure.as_dict())
-        
-    trajectory.append(ehull*1000)
-    
-    print(result)
-    print("{} meV/atom".format(ehull*1000))
-
-    write_json(trajectory, './trajectory.json')
-    result['final_structure'].to(filename='./final_POSCAR', fmt='POSCAR')
+    total = inference(srtucture)

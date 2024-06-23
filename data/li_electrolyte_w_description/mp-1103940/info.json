@@ -1,1 +1,1 @@
-{"space_group": "F-43m", "formula": "Li6PBrO5", "lattice": [[0.0, 4.20038, 4.20038], [4.20038, 0.0, 4.20038], [4.20038, 4.20038, 0.0]], "full_formula": "Li6 P1 Br1 O5", "natoms": 13}
+{"space_group": "F-43m", "formula": "Li6PBrO5", "lattice": [[0.0, 4.20038, 4.20038], [4.20038, 0.0, 4.20038], [4.20038, 4.20038, 0.0]], "full_formula": "Li6 P1 Br1 O5", "natoms": 13, "ehull_mp": 0.0}

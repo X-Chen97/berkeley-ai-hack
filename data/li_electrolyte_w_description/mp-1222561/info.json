@@ -1,1 +1,1 @@
-{"space_group": "P2_1", "formula": "Li5Ga(GeO4)2", "lattice": [[10.871944, 0.0, 0.0], [0.0, 5.126047, 0.0], [0.0, 0.021621, 6.46579]], "full_formula": "Li10 Ga2 Ge4 O16", "natoms": 32}
+{"space_group": "P2_1", "formula": "Li5Ga(GeO4)2", "lattice": [[10.871944, 0.0, 0.0], [0.0, 5.126047, 0.0], [0.0, 0.021621, 6.46579]], "full_formula": "Li10 Ga2 Ge4 O16", "natoms": 32, "ehull_mp": 17.781788750000693}

@@ -1,1 +1,1 @@
-{"space_group": "Pnma", "formula": "LiCdPO4", "lattice": [[4.8635, 0.0, 0.0], [0.0, 6.375177, 0.0], [0.0, 0.0, 10.933157]], "full_formula": "Li4 Cd4 P4 O16", "natoms": 28}
+{"space_group": "Pnma", "formula": "LiCdPO4", "lattice": [[4.8635, 0.0, 0.0], [0.0, 6.375177, 0.0], [0.0, 0.0, 10.933157]], "full_formula": "Li4 Cd4 P4 O16", "natoms": 28, "ehull_mp": 0.45346329364726046}

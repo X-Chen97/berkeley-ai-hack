@@ -1,1 +1,1 @@
-{"space_group": "Cm", "formula": "CsLiH4SO5", "lattice": [[2.870174, 6.065293, 0.0], [-2.870174, 6.065293, 0.0], [0.0, 1.568141, 4.549548]], "full_formula": "Cs1 Li1 H4 S1 O5", "natoms": 12}
+{"space_group": "Cm", "formula": "CsLiH4SO5", "lattice": [[2.870174, 6.065293, 0.0], [-2.870174, 6.065293, 0.0], [0.0, 1.568141, 4.549548]], "full_formula": "Cs1 Li1 H4 S1 O5", "natoms": 12, "ehull_mp": 47.502465583328934}

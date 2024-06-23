@@ -1,1 +1,1 @@
-{"space_group": "C2/m", "formula": "LiSO3F", "lattice": [[3.844239, 4.306235, 0.0], [-3.844239, 4.306235, 0.0], [0.0, 0.151601, 5.30553]], "full_formula": "Li2 S2 O6 F2", "natoms": 12}
+{"space_group": "C2/m", "formula": "LiSO3F", "lattice": [[3.844239, 4.306235, 0.0], [-3.844239, 4.306235, 0.0], [0.0, 0.151601, 5.30553]], "full_formula": "Li2 S2 O6 F2", "natoms": 12, "ehull_mp": 0.0}

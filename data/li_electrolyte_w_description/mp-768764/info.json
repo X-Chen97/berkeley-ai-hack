@@ -1,1 +1,1 @@
-{"space_group": "P4/nmm", "formula": "Li2BiBO5", "lattice": [[6.298046, 0.0, 0.0], [0.0, 6.298046, 0.0], [0.0, 0.0, 4.746914]], "full_formula": "Li4 Bi2 B2 O10", "natoms": 18}
+{"space_group": "P4/nmm", "formula": "Li2BiBO5", "lattice": [[6.298046, 0.0, 0.0], [0.0, 6.298046, 0.0], [0.0, 0.0, 4.746914]], "full_formula": "Li4 Bi2 B2 O10", "natoms": 18, "ehull_mp": 55.984257361102685}

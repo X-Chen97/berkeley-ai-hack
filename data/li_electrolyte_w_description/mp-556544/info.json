@@ -1,1 +1,1 @@
-{"space_group": "Pc", "formula": "LiAlSiO4", "lattice": [[5.144892, 0.0, 0.0], [0.0, 8.184868, 0.0], [0.0, 2.30687, 7.970046]], "full_formula": "Li4 Al4 Si4 O16", "natoms": 28}
+{"space_group": "Pc", "formula": "LiAlSiO4", "lattice": [[5.144892, 0.0, 0.0], [0.0, 8.184868, 0.0], [0.0, 2.30687, 7.970046]], "full_formula": "Li4 Al4 Si4 O16", "natoms": 28, "ehull_mp": 22.37781273809425}

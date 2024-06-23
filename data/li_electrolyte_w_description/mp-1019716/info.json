@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "CsLi4(BO2)5", "lattice": [[9.49722, 0.0, 0.0], [0.0, 7.02004, 0.0], [0.0, 2.281521, 16.129681]], "full_formula": "Cs4 Li16 B20 O40", "natoms": 80}
+{"space_group": "P2_1/c", "formula": "CsLi4(BO2)5", "lattice": [[9.49722, 0.0, 0.0], [0.0, 7.02004, 0.0], [0.0, 2.281521, 16.129681]], "full_formula": "Cs4 Li16 B20 O40", "natoms": 80, "ehull_mp": 2.7444496944450947}

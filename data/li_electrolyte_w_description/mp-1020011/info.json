@@ -1,1 +1,1 @@
-{"space_group": "P-3", "formula": "Li14P2(N2O)3", "lattice": [[2.849319, -4.935165, 0.0], [2.849319, 4.935165, 0.0], [0.0, 0.0, 8.07204]], "full_formula": "Li14 P2 N6 O3", "natoms": 25}
+{"space_group": "P-3", "formula": "Li14P2(N2O)3", "lattice": [[2.849319, -4.935165, 0.0], [2.849319, 4.935165, 0.0], [0.0, 0.0, 8.07204]], "full_formula": "Li14 P2 N6 O3", "natoms": 25, "ehull_mp": 0.0}

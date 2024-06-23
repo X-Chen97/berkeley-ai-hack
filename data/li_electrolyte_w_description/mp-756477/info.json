@@ -1,1 +1,1 @@
-{"space_group": "Pm", "formula": "LiTeHO4", "lattice": [[6.129764, 0.0, 0.0], [0.0, 4.996811, 0.0], [0.0, 0.966441, 5.015591]], "full_formula": "Li2 Te2 H2 O8", "natoms": 14}
+{"space_group": "Pm", "formula": "LiTeHO4", "lattice": [[6.129764, 0.0, 0.0], [0.0, 4.996811, 0.0], [0.0, 0.966441, 5.015591]], "full_formula": "Li2 Te2 H2 O8", "natoms": 14, "ehull_mp": 67.86867505952631}

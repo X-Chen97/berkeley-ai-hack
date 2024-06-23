@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "LiCd4Ge5HO15", "lattice": [[7.199572, 0.0, 0.0], [-0.683208, 8.045315, 0.0], [-0.671721, -3.458393, 11.983683]], "full_formula": "Li2 Cd8 Ge10 H2 O30", "natoms": 52}
+{"space_group": "P-1", "formula": "LiCd4Ge5HO15", "lattice": [[7.199572, 0.0, 0.0], [-0.683208, 8.045315, 0.0], [-0.671721, -3.458393, 11.983683]], "full_formula": "Li2 Cd8 Ge10 H2 O30", "natoms": 52, "ehull_mp": 12.719445745196012}

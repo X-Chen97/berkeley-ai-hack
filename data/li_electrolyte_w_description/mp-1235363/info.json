@@ -1,1 +1,1 @@
-{"space_group": "Imm2", "formula": "LiAl4Zn2O8", "lattice": [[6.037622, -0.10853, 0.21014], [2.924822, 5.065939, 0.0], [3.15906, 1.553409, 4.910814]], "full_formula": "Li1 Al4 Zn2 O8", "natoms": 15}
+{"space_group": "Imm2", "formula": "LiAl4Zn2O8", "lattice": [[6.037622, -0.10853, 0.21014], [2.924822, 5.065939, 0.0], [3.15906, 1.553409, 4.910814]], "full_formula": "Li1 Al4 Zn2 O8", "natoms": 15, "ehull_mp": 400.0865565000007}

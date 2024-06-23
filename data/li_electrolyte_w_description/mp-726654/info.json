@@ -1,1 +1,1 @@
-{"space_group": "P42_12", "formula": "Li2Th5OF22", "lattice": [[11.337657, 0.0, 0.0], [0.0, 11.337657, 0.0], [0.0, 0.0, 6.877665]], "full_formula": "Li4 Th10 O2 F44", "natoms": 60}
+{"space_group": "P42_12", "formula": "Li2Th5OF22", "lattice": [[11.337657, 0.0, 0.0], [0.0, 11.337657, 0.0], [0.0, 0.0, 6.877665]], "full_formula": "Li4 Th10 O2 F44", "natoms": 60, "ehull_mp": 149.89546475000014}

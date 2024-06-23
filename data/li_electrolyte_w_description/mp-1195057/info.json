@@ -1,1 +1,1 @@
-{"space_group": "P-62c", "formula": "K3Ba3Li2Al4B6O20F", "lattice": [[4.38773818, -7.59978485, -0.0], [4.38773818, 7.59978485, -0.0], [-0.0, -0.0, 16.44718417]], "full_formula": "K6 Ba6 Li4 Al8 B12 O40 F2", "natoms": 78}
+{"space_group": "P-62c", "formula": "K3Ba3Li2Al4B6O20F", "lattice": [[4.38773818, -7.59978485, -0.0], [4.38773818, 7.59978485, -0.0], [-0.0, -0.0, 16.44718417]], "full_formula": "K6 Ba6 Li4 Al8 B12 O40 F2", "natoms": 78, "ehull_mp": 0.0}

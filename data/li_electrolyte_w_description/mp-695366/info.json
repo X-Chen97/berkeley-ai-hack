@@ -1,1 +1,1 @@
-{"space_group": "Ccc2", "formula": "Na3LiMg4(Si2O5)6", "lattice": [[5.055861, -8.848101, 0.0], [5.055861, 8.848101, 0.0], [0.0, 0.0, 14.668659]], "full_formula": "Na6 Li2 Mg8 Si24 O60", "natoms": 100}
+{"space_group": "Ccc2", "formula": "Na3LiMg4(Si2O5)6", "lattice": [[5.055861, -8.848101, 0.0], [5.055861, 8.848101, 0.0], [0.0, 0.0, 14.668659]], "full_formula": "Na6 Li2 Mg8 Si24 O60", "natoms": 100, "ehull_mp": 692.709440099998}

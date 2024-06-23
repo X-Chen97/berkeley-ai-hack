@@ -1,1 +1,1 @@
-{"space_group": "Immm", "formula": "Rb2Li14Pb3O14", "lattice": [[-3.692046, 4.04952, 6.523851], [3.692046, -4.04952, 6.523851], [3.692046, 4.04952, -6.523851]], "full_formula": "Rb2 Li14 Pb3 O14", "natoms": 33}
+{"space_group": "Immm", "formula": "Rb2Li14Pb3O14", "lattice": [[-3.692046, 4.04952, 6.523851], [3.692046, -4.04952, 6.523851], [3.692046, 4.04952, -6.523851]], "full_formula": "Rb2 Li14 Pb3 O14", "natoms": 33, "ehull_mp": 0.0}

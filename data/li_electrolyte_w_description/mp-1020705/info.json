@@ -1,1 +1,1 @@
-{"space_group": "Cmce", "formula": "Rb2Li3B(P2O7)2", "lattice": [[7.1865, -12.134226, 0.0], [7.1865, 12.134226, 0.0], [0.0, 0.0, 7.179034]], "full_formula": "Rb8 Li12 B4 P16 O56", "natoms": 96}
+{"space_group": "Cmce", "formula": "Rb2Li3B(P2O7)2", "lattice": [[7.1865, -12.134226, 0.0], [7.1865, 12.134226, 0.0], [0.0, 0.0, 7.179034]], "full_formula": "Rb8 Li12 B4 P16 O56", "natoms": 96, "ehull_mp": 0.0}

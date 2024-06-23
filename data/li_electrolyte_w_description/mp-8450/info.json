@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "Rb2Li2GeO4", "lattice": [[5.681879, 0.0, 0.0], [0.497269, 5.802975, 0.0], [2.412268, 0.828698, 8.609873]], "full_formula": "Rb4 Li4 Ge2 O8", "natoms": 18}
+{"space_group": "P-1", "formula": "Rb2Li2GeO4", "lattice": [[5.681879, 0.0, 0.0], [0.497269, 5.802975, 0.0], [2.412268, 0.828698, 8.609873]], "full_formula": "Rb4 Li4 Ge2 O8", "natoms": 18, "ehull_mp": 0.0}

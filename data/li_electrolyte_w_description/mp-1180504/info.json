@@ -1,1 +1,1 @@
-{"space_group": "Pmma", "formula": "LiH2IO", "lattice": [[4.397099, 0.0, 0.0], [0.0, 5.620252, 0.0], [0.0, 0.0, 6.434499]], "full_formula": "Li2 H4 I2 O2", "natoms": 10}
+{"space_group": "Pmma", "formula": "LiH2IO", "lattice": [[4.397099, 0.0, 0.0], [0.0, 5.620252, 0.0], [0.0, 0.0, 6.434499]], "full_formula": "Li2 H4 I2 O2", "natoms": 10, "ehull_mp": 0.0}

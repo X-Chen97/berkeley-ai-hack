@@ -1,1 +1,1 @@
-{"space_group": "P2_12_12_1", "formula": "KLiB4O7", "lattice": [[8.594244, 0.0, 0.0], [0.0, 11.381754, 0.0], [0.0, 0.0, 12.795738]], "full_formula": "K8 Li8 B32 O56", "natoms": 104}
+{"space_group": "P2_12_12_1", "formula": "KLiB4O7", "lattice": [[8.594244, 0.0, 0.0], [0.0, 11.381754, 0.0], [0.0, 0.0, 12.795738]], "full_formula": "K8 Li8 B32 O56", "natoms": 104, "ehull_mp": 0.0}

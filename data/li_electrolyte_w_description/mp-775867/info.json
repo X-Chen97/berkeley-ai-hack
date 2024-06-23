@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "LiSbPO5", "lattice": [[8.36766, 0.0, 0.0], [3.954319, 9.592741, 0.0], [4.044424, 0.622767, 10.27135]], "full_formula": "Li8 Sb8 P8 O40", "natoms": 64}
+{"space_group": "P1", "formula": "LiSbPO5", "lattice": [[8.36766, 0.0, 0.0], [3.954319, 9.592741, 0.0], [4.044424, 0.622767, 10.27135]], "full_formula": "Li8 Sb8 P8 O40", "natoms": 64, "ehull_mp": 69.5467748214389}

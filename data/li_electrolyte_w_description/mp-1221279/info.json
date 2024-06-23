@@ -1,1 +1,1 @@
-{"space_group": "P2", "formula": "Na3LiGa4(SiO3)8", "lattice": [[8.781899, 0.0, 0.0], [0.0, 5.341903, 0.0], [0.0, 2.268997, 9.211866]], "full_formula": "Na3 Li1 Ga4 Si8 O24", "natoms": 40}
+{"space_group": "P2", "formula": "Na3LiGa4(SiO3)8", "lattice": [[8.781899, 0.0, 0.0], [0.0, 5.341903, 0.0], [0.0, 2.268997, 9.211866]], "full_formula": "Na3 Li1 Ga4 Si8 O24", "natoms": 40, "ehull_mp": 28.42156145833563}
