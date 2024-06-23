@@ -1,0 +1,680 @@
+Generate the poscar file based on the description of a material. Here are some examples you can learn. In each example, <Example> denote this is an example, [Description] denotes the following texts are the description of a material, [POSCAR] denotes the following texts are the corresponding poscar file. <Question> denotes this is a question, and the subsequent texts are the description of a material. You need to generate the corresponding poscar file.
+<Example>
+[Description]
+Li₂Al₂Si₄HO₁₄ crystallizes in the triclinic P1 space group. There are two inequivalent Li sites. In the first Li site, Li is bonded to four O atoms to form LiO₄ tetrahedra that share corners with three AlO₄ tetrahedra and corners with three SiO₄ tetrahedra. There are a spread of Li-O bond distances ranging from 1.94-2.08 Å. In the second Li site, Li is bonded to four O atoms to form LiO₄ tetrahedra that share corners with three AlO₄ tetrahedra and corners with three SiO₄ tetrahedra. There are a spread of Li-O bond distances ranging from 2.00-2.04 Å. There are two inequivalent Al sites. In the first Al site, Al is bonded to four O atoms to form AlO₄ tetrahedra that share corners with three LiO₄ tetrahedra and corners with four SiO₄ tetrahedra. There are a spread of Al-O bond distances ranging from 1.75-1.78 Å. In the second Al site, Al is bonded to four O atoms to form AlO₄ tetrahedra that share corners with three LiO₄ tetrahedra and corners with four SiO₄ tetrahedra. There is one shorter (1.74 Å) and three longer (1.77 Å) Al-O bond lengths. There are four inequivalent Si sites. In the first Si site, Si is bonded to four O atoms to form SiO₄ tetrahedra that share  a cornercorner with one SiO₄ tetrahedra, corners with three LiO₄ tetrahedra, and corners with three AlO₄ tetrahedra. There is one shorter (1.63 Å) and three longer (1.64 Å) Si-O bond lengths. In the second Si site, Si is bonded to four O atoms to form SiO₄ tetrahedra that share  a cornercorner with one SiO₄ tetrahedra, corners with three LiO₄ tetrahedra, and corners with three AlO₄ tetrahedra. All Si-O bond lengths are 1.64 Å. In the third Si site, Si is bonded to four O atoms to form SiO₄ tetrahedra that share  a cornercorner with one AlO₄ tetrahedra and corners with three SiO₄ tetrahedra. There are a spread of Si-O bond distances ranging from 1.62-1.64 Å. In the fourth Si site, Si is bonded to four O atoms to form SiO₄ tetrahedra that share  a cornercorner with one AlO₄ tetrahedra and corners with three SiO₄ tetrahedra. There is one shorter (1.61 Å) and three longer (1.64 Å) Si-O bond lengths. H is bonded in a single-bond geometry to one O atom. The H-O bond length is 0.99 Å. There are fourteen inequivalent O sites. In the first O site, O is bonded in a trigonal planar geometry to one Li, one Al, and one Si atom. In the second O site, O is bonded in a trigonal planar geometry to one Li, one Al, and one Si atom. In the third O site, O is bonded in a bent 150 degrees geometry to one Al and one Si atom. In the fourth O site, O is bonded in a trigonal planar geometry to one Li, one Al, and one Si atom. In the fifth O site, O is bonded in a trigonal planar geometry to one Li, one Al, and one Si atom. In the sixth O site, O is bonded in a bent 150 degrees geometry to two Si atoms. In the seventh O site, O is bonded in a bent 150 degrees geometry to two Si atoms. In the eighth O site, O is bonded in a trigonal planar geometry to one Li, one Al, and one Si atom. In the ninth O site, O is bonded in a bent 150 degrees geometry to two Si atoms. In the tenth O site, O is bonded in a trigonal planar geometry to one Li, one Al, and one Si atom. In the eleventh O site, O is bonded in a bent 150 degrees geometry to one Al and one Si atom. In the twelfth O site, O is bonded in a bent 150 degrees geometry to two Si atoms. In the thirteenth O site, O is bonded in a single-bond geometry to one Li atom. In the fourteenth O site, O is bonded in a bent 120 degrees geometry to one Li and one H atom.
+[POSCAR]
+Li2 Al2 Si4 H1 O14
+1.0
+   5.0016119999999997    0.0000000000000000    0.0000000000000000
+   0.0307160000000000    7.7027500000000000    0.0000000000000000
+   0.0391960000000000    3.5846870000000002    7.9251079999999998
+Li Al Si H O
+2 2 4 1 14
+direct
+   0.8660710000000000    0.1601500000000000    0.6094460000000000 Li
+   0.3640080000000000    0.8872890000000000    0.2173760000000000 Li
+   0.3699950000000000    0.1379380000000000    0.8005980000000000 Al
+   0.8542410000000000    0.1081820000000000    0.2843790000000000 Al
+   0.3543990000000000    0.9812330000000000    0.5217570000000000 Si
+   0.8691420000000000    0.9481660000000000    0.0099240000000000 Si
+   0.4268100000000000    0.5581940000000000    0.7918480000000000 Si
+   0.9243560000000000    0.5389350000000001    0.0101180000000000 Si
+   0.5955220000000000    0.5447419999999999    0.3004640000000000 H
+   0.0283360000000000    0.0736520000000000    0.8335520000000000 O
+   0.4899920000000000    0.0864220000000000    0.6317750000000000 O
+   0.4189340000000000    0.3828560000000000    0.7347190000000000 O
+   0.5493030000000000    0.9997580000000000    0.9874920000000000 O
+   0.5328580000000001    0.0118970000000000    0.3547100000000000 O
+   0.9158040000000000    0.7202200000000000    0.0625090000000000 O
+   0.3302890000000000    0.7521550000000000    0.6367260000000000 O
+   0.0524250000000000    0.0643340000000000    0.4644670000000000 O
+   0.2300010000000000    0.5136190000000000    0.9548990000000001 O
+   0.9916790000000000    0.9901670000000000    0.1652130000000000 O
+   0.8281720000000000    0.3545570000000000    0.1721350000000000 O
+   0.7308400000000000    0.5853030000000000    0.8463270000000001 O
+   0.9046149999999999    0.4538110000000000    0.5206340000000000 O
+   0.4266680000000000    0.6004190000000000    0.3196520000000000 O
+
+<Example>
+[Description]
+LiMg₃₀AlO₃₂ is alpha Po-derived structured and crystallizes in the tetragonal P4/mmm space group. Li¹⁺ is bonded to six O²⁻ atoms to form LiO₆ octahedra that share corners with six MgO₆ octahedra and edges with twelve MgO₆ octahedra. The corner-sharing octahedra are not tilted. There are two shorter (2.17 Å) and four longer (2.20 Å) Li-O bond lengths. There are eight inequivalent Mg²⁺ sites. In the first Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form MgO₆ octahedra that share corners with two equivalent LiO₆ octahedra, corners with two equivalent MgO₆ octahedra, corners with two equivalent AlO₆ octahedra, and edges with twelve MgO₆ octahedra. The corner-sharing octahedra are not tilted. There are a spread of Mg-O bond distances ranging from 2.04-2.26 Å. In the second Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form MgO₆ octahedra that share corners with two equivalent AlO₆ octahedra, corners with four equivalent MgO₆ octahedra, and edges with twelve MgO₆ octahedra. The corner-sharing octahedra are not tilted. There are four shorter (2.10 Å) and two longer (2.24 Å) Mg-O bond lengths. In the third Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form a mixture of corner and edge-sharing MgO₆ octahedra. The corner-sharing octahedra are not tilted. There are a spread of Mg-O bond distances ranging from 2.11-2.15 Å. In the fourth Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form MgO₆ octahedra that share corners with two equivalent LiO₆ octahedra, corners with four equivalent MgO₆ octahedra, and edges with twelve MgO₆ octahedra. The corner-sharing octahedra are not tilted. There are two shorter (2.07 Å) and four longer (2.14 Å) Mg-O bond lengths. In the fifth Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form MgO₆ octahedra that share corners with six MgO₆ octahedra,  an edgeedge with one LiO₆ octahedra,  an edgeedge with one AlO₆ octahedra, and edges with ten MgO₆ octahedra. The corner-sharing octahedral tilt angles range from 2-9°. There are a spread of Mg-O bond distances ranging from 2.09-2.16 Å. In the sixth Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form a mixture of corner and edge-sharing MgO₆ octahedra. The corner-sharing octahedral tilt angles are 2°. There are a spread of Mg-O bond distances ranging from 2.11-2.13 Å. In the seventh Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form MgO₆ octahedra that share corners with six MgO₆ octahedra,  an edgeedge with one AlO₆ octahedra, and edges with eleven MgO₆ octahedra. The corner-sharing octahedral tilt angles range from 1-8°. There are a spread of Mg-O bond distances ranging from 2.11-2.14 Å. In the eighth Mg²⁺ site, Mg²⁺ is bonded to six O²⁻ atoms to form MgO₆ octahedra that share corners with six MgO₆ octahedra,  an edgeedge with one LiO₆ octahedra, and edges with eleven MgO₆ octahedra. The corner-sharing octahedral tilt angles range from 1-6°. There are a spread of Mg-O bond distances ranging from 2.09-2.15 Å. Al³⁺ is bonded to six O²⁻ atoms to form AlO₆ octahedra that share corners with six MgO₆ octahedra and edges with twelve MgO₆ octahedra. The corner-sharing octahedra are not tilted. There are four shorter (1.98 Å) and two longer (2.00 Å) Al-O bond lengths. There are seventeen inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded to five Mg²⁺ and one Al³⁺ atom to form OMg₅Al octahedra that share corners with six OMg₅Al octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-3°. In the second O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form OMg₆ octahedra that share corners with six OMg₅Al octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-3°. In the third O²⁻ site, O²⁻ is bonded to one Li¹⁺ and five Mg²⁺ atoms to form a mixture of corner and edge-sharing OLiMg₅ octahedra. The corner-sharing octahedral tilt angles range from 0-2°. In the fourth O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form OMg₆ octahedra that share corners with six equivalent OMg₆ octahedra and edges with twelve OMg₅Al octahedra. The corner-sharing octahedral tilt angles range from 1-3°. In the fifth O²⁻ site, O²⁻ is bonded to five Mg²⁺ and one Al³⁺ atom to form a mixture of corner and edge-sharing OMg₅Al octahedra. The corner-sharing octahedral tilt angles range from 0-8°. In the sixth O²⁻ site, O²⁻ is bonded to one Li¹⁺ and five Mg²⁺ atoms to form OLiMg₅ octahedra that share corners with six OMg₅Al octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-8°. The O-Mg bond length is 2.04 Å. In the seventh O²⁻ site, O²⁻ is bonded to one Li¹⁺ and five Mg²⁺ atoms to form OLiMg₅ octahedra that share corners with six OMg₅Al octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-8°. There are a spread of O-Mg bond distances ranging from 2.04-2.10 Å. In the eighth O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form a mixture of corner and edge-sharing OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-5°. In the ninth O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form a mixture of corner and edge-sharing OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-5°. There are two shorter (2.12 Å) and two longer (2.13 Å) O-Mg bond lengths. In the tenth O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form OMg₆ octahedra that share corners with six OLiMg₅ octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-4°. The O-Mg bond length is 2.11 Å. In the eleventh O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form OMg₆ octahedra that share corners with six OLiMg₅ octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-4°. There are two shorter (2.11 Å) and two longer (2.14 Å) O-Mg bond lengths. In the twelfth O²⁻ site, O²⁻ is bonded to five Mg²⁺ and one Al³⁺ atom to form a mixture of corner and edge-sharing OMg₅Al octahedra. The corner-sharing octahedral tilt angles range from 0-8°. There are two shorter (2.13 Å) and one longer (2.26 Å) O-Mg bond length. In the thirteenth O²⁻ site, O²⁻ is bonded to one Li¹⁺ and five Mg²⁺ atoms to form OLiMg₅ octahedra that share corners with six OMg₅Al octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-8°. Both O-Mg bond lengths are 2.10 Å. In the fourteenth O²⁻ site, O²⁻ is bonded to one Li¹⁺ and five Mg²⁺ atoms to form OLiMg₅ octahedra that share corners with six OMg₅Al octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-8°. There are two shorter (2.09 Å) and two longer (2.10 Å) O-Mg bond lengths. In the fifteenth O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form a mixture of corner and edge-sharing OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-5°. There are two shorter (2.12 Å) and one longer (2.15 Å) O-Mg bond length. In the sixteenth O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form OMg₆ octahedra that share corners with six OLiMg₅ octahedra and edges with twelve OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-4°. Both O-Mg bond lengths are 2.14 Å. In the seventeenth O²⁻ site, O²⁻ is bonded to six Mg²⁺ atoms to form a mixture of corner and edge-sharing OMg₆ octahedra. The corner-sharing octahedral tilt angles range from 0-5°. There are a spread of O-Mg bond distances ranging from 2.12-2.15 Å.
+[POSCAR]
+Li1 Mg30 Al1 O32
+1.0
+   8.4893350000000005    0.0000000000000000    0.0000000000000000
+   0.0000000000000000    8.4893350000000005    0.0000000000000000
+   0.0000000000000000    0.0000000000000000    8.4869850000000007
+Li Mg Al O
+1 30 1 32
+direct
+   0.5000000000000000    0.5000000000000000    0.0000000000000000 Li
+   0.5000000000000000    0.0000000000000000    0.0000000000000000 Mg
+   0.0000000000000000    0.5000000000000000    0.0000000000000000 Mg
+   0.0000000000000000    0.0000000000000000    0.5000000000000000 Mg
+   0.5000000000000000    0.0000000000000000    0.5000000000000000 Mg
+   0.0000000000000000    0.5000000000000000    0.5000000000000000 Mg
+   0.5000000000000000    0.5000000000000000    0.5000000000000000 Mg
+   0.2540870000000000    0.2540870000000000    0.0000000000000000 Mg
+   0.7459130000000000    0.2540870000000000    0.0000000000000000 Mg
+   0.2540870000000000    0.7459130000000000    0.0000000000000000 Mg
+   0.7459130000000000    0.7459130000000000    0.0000000000000000 Mg
+   0.2514050000000000    0.2514050000000000    0.5000000000000000 Mg
+   0.7485950000000000    0.2514050000000000    0.5000000000000000 Mg
+   0.2514050000000000    0.7485950000000000    0.5000000000000000 Mg
+   0.7485950000000000    0.7485950000000000    0.5000000000000000 Mg
+   0.2514510000000000    0.0000000000000000    0.2499400000000000 Mg
+   0.7485490000000000    0.0000000000000000    0.2499400000000000 Mg
+   0.2537950000000000    0.5000000000000000    0.2474820000000000 Mg
+   0.7462050000000000    0.5000000000000000    0.2474820000000000 Mg
+   0.2514510000000000    0.0000000000000000    0.7500599999999999 Mg
+   0.7485490000000000    0.0000000000000000    0.7500599999999999 Mg
+   0.2537950000000000    0.5000000000000000    0.7525180000000000 Mg
+   0.7462050000000000    0.5000000000000000    0.7525180000000000 Mg
+   0.0000000000000000    0.2514510000000000    0.2499400000000000 Mg
+   0.5000000000000000    0.2537950000000000    0.2474820000000000 Mg
+   0.0000000000000000    0.7485490000000000    0.2499400000000000 Mg
+   0.5000000000000000    0.7462050000000000    0.2474820000000000 Mg
+   0.0000000000000000    0.2514510000000000    0.7500599999999999 Mg
+   0.5000000000000000    0.2537950000000000    0.7525180000000000 Mg
+   0.0000000000000000    0.7485490000000000    0.7500599999999999 Mg
+   0.5000000000000000    0.7462050000000000    0.7525180000000000 Mg
+   0.0000000000000000    0.0000000000000000    0.0000000000000000 Al
+   0.0000000000000000    0.0000000000000000    0.2357180000000000 O
+   0.5000000000000000    0.0000000000000000    0.2488530000000000 O
+   0.0000000000000000    0.5000000000000000    0.2488530000000000 O
+   0.5000000000000000    0.5000000000000000    0.2555920000000000 O
+   0.0000000000000000    0.0000000000000000    0.7642820000000000 O
+   0.5000000000000000    0.0000000000000000    0.7511470000000000 O
+   0.0000000000000000    0.5000000000000000    0.7511470000000000 O
+   0.5000000000000000    0.5000000000000000    0.7444080000000000 O
+   0.2493820000000000    0.2493820000000000    0.2497940000000000 O
+   0.7506180000000000    0.2493820000000000    0.2497940000000000 O
+   0.2493820000000000    0.7506180000000000    0.2497940000000000 O
+   0.7506180000000000    0.7506180000000000    0.2497940000000000 O
+   0.2493820000000000    0.2493820000000000    0.7502060000000000 O
+   0.7506180000000000    0.2493820000000000    0.7502060000000000 O
+   0.2493820000000000    0.7506180000000000    0.7502060000000000 O
+   0.7506180000000000    0.7506180000000000    0.7502060000000000 O
+   0.2332350000000000    0.0000000000000000    0.0000000000000000 O
+   0.7667650000000000    0.0000000000000000    0.0000000000000000 O
+   0.2408510000000000    0.5000000000000000    0.0000000000000000 O
+   0.7591490000000000    0.5000000000000000    0.0000000000000000 O
+   0.2468700000000000    0.0000000000000000    0.5000000000000000 O
+   0.7531300000000000    0.0000000000000000    0.5000000000000000 O
+   0.2479770000000000    0.5000000000000000    0.5000000000000000 O
+   0.7520230000000000    0.5000000000000000    0.5000000000000000 O
+   0.0000000000000000    0.2332350000000000    0.0000000000000000 O
+   0.5000000000000000    0.2408510000000000    0.0000000000000000 O
+   0.0000000000000000    0.7667650000000000    0.0000000000000000 O
+   0.5000000000000000    0.7591490000000000    0.0000000000000000 O
+   0.0000000000000000    0.2468700000000000    0.5000000000000000 O
+   0.5000000000000000    0.2479770000000000    0.5000000000000000 O
+   0.0000000000000000    0.7531300000000000    0.5000000000000000 O
+   0.5000000000000000    0.7520230000000000    0.5000000000000000 O
+
+<Example>
+[Description]
+Li₅Ca₉B₇O₂₁F₂ crystallizes in the triclinic P1 space group. There are five inequivalent Li¹⁺ sites. In the first Li¹⁺ site, Li¹⁺ is bonded in a 5-coordinate geometry to five O²⁻ atoms. There are a spread of Li-O bond distances ranging from 1.91-2.56 Å. In the second Li¹⁺ site, Li¹⁺ is bonded in a 5-coordinate geometry to five O²⁻ atoms. There are a spread of Li-O bond distances ranging from 1.95-2.51 Å. In the third Li¹⁺ site, Li¹⁺ is bonded in a 5-coordinate geometry to five O²⁻ atoms. There are a spread of Li-O bond distances ranging from 1.93-2.53 Å. In the fourth Li¹⁺ site, Li¹⁺ is bonded in a 2-coordinate geometry to three O²⁻ and two equivalent F¹⁻ atoms. There are a spread of Li-O bond distances ranging from 2.35-2.71 Å. Both Li-F bond lengths are 1.82 Å. In the fifth Li¹⁺ site, Li¹⁺ is bonded in a 2-coordinate geometry to three O²⁻ and two equivalent F¹⁻ atoms. There are a spread of Li-O bond distances ranging from 2.43-2.57 Å. Both Li-F bond lengths are 1.82 Å. There are nine inequivalent Ca²⁺ sites. In the first Ca²⁺ site, Ca²⁺ is bonded to six O²⁻ and one F¹⁻ atom to form a mixture of distorted corner and edge-sharing CaO₆F pentagonal bipyramids. There are a spread of Ca-O bond distances ranging from 2.35-2.58 Å. The Ca-F bond length is 2.59 Å. In the second Ca²⁺ site, Ca²⁺ is bonded in a 7-coordinate geometry to six O²⁻ and one F¹⁻ atom. There are a spread of Ca-O bond distances ranging from 2.34-2.51 Å. The Ca-F bond length is 2.64 Å. In the third Ca²⁺ site, Ca²⁺ is bonded in a 7-coordinate geometry to six O²⁻ and one F¹⁻ atom. There are a spread of Ca-O bond distances ranging from 2.34-2.43 Å. The Ca-F bond length is 2.63 Å. In the fourth Ca²⁺ site, Ca²⁺ is bonded to six O²⁻ and one F¹⁻ atom to form a mixture of distorted corner and edge-sharing CaO₆F pentagonal bipyramids. There are a spread of Ca-O bond distances ranging from 2.35-2.56 Å. The Ca-F bond length is 2.56 Å. In the fifth Ca²⁺ site, Ca²⁺ is bonded to six O²⁻ and one F¹⁻ atom to form a mixture of distorted corner and edge-sharing CaO₆F pentagonal bipyramids. There are a spread of Ca-O bond distances ranging from 2.33-2.54 Å. The Ca-F bond length is 2.64 Å. In the sixth Ca²⁺ site, Ca²⁺ is bonded to six O²⁻ and one F¹⁻ atom to form a mixture of distorted corner and edge-sharing CaO₆F pentagonal bipyramids. There are a spread of Ca-O bond distances ranging from 2.34-2.52 Å. The Ca-F bond length is 2.59 Å. In the seventh Ca²⁺ site, Ca²⁺ is bonded in a 7-coordinate geometry to seven O²⁻ atoms. There are a spread of Ca-O bond distances ranging from 2.35-2.85 Å. In the eighth Ca²⁺ site, Ca²⁺ is bonded in a 6-coordinate geometry to six O²⁻ atoms. There are a spread of Ca-O bond distances ranging from 2.37-2.56 Å. In the ninth Ca²⁺ site, Ca²⁺ is bonded in a 7-coordinate geometry to seven O²⁻ atoms. There are a spread of Ca-O bond distances ranging from 2.37-2.81 Å. There are seven inequivalent B³⁺ sites. In the first B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There is one shorter (1.38 Å) and two longer (1.40 Å) B-O bond lengths. In the second B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are two shorter (1.39 Å) and one longer (1.40 Å) B-O bond length. In the third B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.38-1.40 Å. In the fourth B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. All B-O bond lengths are 1.39 Å. In the fifth B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are two shorter (1.38 Å) and one longer (1.39 Å) B-O bond length. In the sixth B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There is one shorter (1.38 Å) and two longer (1.39 Å) B-O bond lengths. In the seventh B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There is one shorter (1.38 Å) and two longer (1.39 Å) B-O bond lengths. There are twenty-one inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded to two equivalent Li¹⁺, two Ca²⁺, and one B³⁺ atom to form a mixture of distorted corner and edge-sharing OLi₂Ca₂B trigonal bipyramids. In the second O²⁻ site, O²⁻ is bonded to two equivalent Li¹⁺, two Ca²⁺, and one B³⁺ atom to form distorted corner-sharing OLi₂Ca₂B trigonal bipyramids. In the third O²⁻ site, O²⁻ is bonded to two equivalent Li¹⁺, two Ca²⁺, and one B³⁺ atom to form distorted corner-sharing OLi₂Ca₂B trigonal bipyramids. In the fourth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the fifth O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to three Ca²⁺ and one B³⁺ atom. In the sixth O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to three Ca²⁺ and one B³⁺ atom. In the seventh O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the eighth O²⁻ site, O²⁻ is bonded in a 1-coordinate geometry to three Ca²⁺ and one B³⁺ atom. In the ninth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the tenth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the eleventh O²⁻ site, O²⁻ is bonded in a 1-coordinate geometry to three Ca²⁺ and one B³⁺ atom. In the twelfth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the thirteenth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the fourteenth O²⁻ site, O²⁻ is bonded to two Li¹⁺, two equivalent Ca²⁺, and one B³⁺ atom to form a mixture of distorted corner and edge-sharing OLi₂Ca₂B trigonal bipyramids. In the fifteenth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the sixteenth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to two Li¹⁺, two equivalent Ca²⁺, and one B³⁺ atom. In the seventeenth O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to three Ca²⁺ and one B³⁺ atom. In the eighteenth O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to one Li¹⁺, two equivalent Ca²⁺, and one B³⁺ atom. In the nineteenth O²⁻ site, O²⁻ is bonded in a 2-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the twentieth O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to one Li¹⁺, three Ca²⁺, and one B³⁺ atom. In the twenty-first O²⁻ site, O²⁻ is bonded in a distorted rectangular see-saw-like geometry to one Li¹⁺, two equivalent Ca²⁺, and one B³⁺ atom. There are two inequivalent F¹⁻ sites. In the first F¹⁻ site, F¹⁻ is bonded in a 2-coordinate geometry to two equivalent Li¹⁺ and three Ca²⁺ atoms. In the second F¹⁻ site, F¹⁻ is bonded in a 2-coordinate geometry to two equivalent Li¹⁺ and three Ca²⁺ atoms.
+[POSCAR]
+Li5 Ca9 B7 O21 F2
+1.0
+   3.6098249999999998    0.0000000000000000    0.0000000000000000
+   0.3472390000000000   12.9609410000000000    0.0000000000000000
+   0.3490220000000000    6.4503979999999999   11.2425470000000001
+Li Ca B O F
+5 9 7 21 2
+direct
+   0.0303870000000000    0.9074770000000000    0.0458350000000000 Li
+   0.1004310000000000    0.0626890000000000    0.3664480000000000 Li
+   0.0459030000000000    0.3863350000000000    0.8919450000000000 Li
+   0.5627220000000001    0.4736660000000000    0.4148960000000000 Li
+   0.0594620000000000    0.8092260000000000    0.7532550000000000 Li
+   0.0546450000000000    0.2403190000000000    0.6136300000000000 Ca
+   0.0837110000000000    0.4861910000000000    0.2163230000000000 Ca
+   0.5729190000000000    0.0078070000000000    0.5875620000000000 Ca
+   0.5574360000000000    0.7461930000000000    0.9832410000000000 Ca
+   0.0406860000000000    0.6368210000000000    0.4715300000000000 Ca
+   0.5457970000000000    0.6103710000000000    0.7308580000000000 Ca
+   0.6296150000000000    0.2734100000000000    0.1584810000000000 Ca
+   0.5350960000000000    0.1817890000000000    0.8861190000000000 Ca
+   0.5120010000000000    0.9073180000000000    0.2550290000000000 Ca
+   0.0518430000000000    0.9978740000000000    0.8152850000000000 B
+   0.0481180000000000    0.8343469999999999    0.5115330000000000 B
+   0.0768430000000000    0.5279460000000000    0.9791360000000000 B
+   0.5484920000000000    0.7066490000000000    0.2223720000000000 B
+   0.0582180000000000    0.1167710000000000    0.1027080000000000 B
+   0.5394610000000000    0.4128390000000000    0.6890870000000000 B
+   0.5898840000000000    0.2394930000000000    0.3921660000000000 B
+   0.6139310000000000    0.1411160000000000    0.3756330000000000 O
+   0.5326910000000000    0.3965160000000000    0.8038020000000000 O
+   0.5315040000000000    0.8196150000000000    0.1232220000000000 O
+   0.5446320000000000    0.6937680000000001    0.3355560000000000 O
+   0.5411589999999999    0.3123140000000000    0.6764320000000000 O
+   0.5634940000000001    0.2218440000000000    0.5065170000000000 O
+   0.5686630000000000    0.6069140000000000    0.2089470000000000 O
+   0.5921620000000000    0.3524130000000000    0.2926840000000000 O
+   0.5456460000000000    0.5267770000000001    0.5923780000000000 O
+   0.1211500000000000    0.4103230000000000    0.0722540000000000 O
+   0.0464810000000000    0.7166330000000000    0.6025120000000000 O
+   0.0471530000000000    0.0919660000000000    0.8389020000000000 O
+   0.0599270000000000    0.0236450000000000    0.6971630000000000 O
+   0.0893620000000000    0.9250480000000000    0.5376010000000000 O
+   0.0109100000000000    0.8591520000000000    0.3943810000000000 O
+   0.0480840000000000    0.8808550000000001    0.9060580000000000 O
+   0.0710450000000000    0.6183170000000000    0.0077040000000000 O
+   0.0047490000000000    0.0046760000000000    0.1186580000000000 O
+   0.9862310000000000    0.2168590000000000    0.9940840000000000 O
+   0.1853380000000000    0.1287260000000000    0.1962710000000000 O
+   0.0365950000000000    0.5522800000000000    0.8639100000000000 O
+   0.0627630000000000    0.4542500000000000    0.4340430000000000 F
+   0.5591600000000000    0.7887430000000000    0.7680690000000000 F
+
+<Example>
+[Description]
+RbLi₃S₂O₉ crystallizes in the triclinic P1 space group. Rb is bonded in a 3-coordinate geometry to three O atoms. There are a spread of Rb-O bond distances ranging from 2.81-2.93 Å. There are three inequivalent Li sites. In the first Li site, Li is bonded to four O atoms to form LiO₄ tetrahedra that share corners with two equivalent LiO₄ tetrahedra and corners with two equivalent SO₄ tetrahedra. There are two shorter (2.01 Å) and two longer (2.02 Å) Li-O bond lengths. In the second Li site, Li is bonded to four O atoms to form LiO₄ tetrahedra that share corners with two equivalent LiO₄ tetrahedra and corners with two equivalent SO₄ tetrahedra. There are a spread of Li-O bond distances ranging from 1.91-2.01 Å. In the third Li site, Li is bonded in a 4-coordinate geometry to four O atoms. There are a spread of Li-O bond distances ranging from 1.87-2.17 Å. There are two inequivalent S sites. In the first S site, S is bonded in a trigonal non-coplanar geometry to three O atoms. There is one shorter (1.49 Å) and two longer (1.54 Å) S-O bond lengths. In the second S site, S is bonded to four O atoms to form SO₄ tetrahedra that share corners with four LiO₄ tetrahedra. There are a spread of S-O bond distances ranging from 1.48-1.50 Å. There are nine inequivalent O sites. In the first O site, O is bonded in a distorted trigonal planar geometry to two Li and one S atom. In the second O site, O is bonded in a bent 150 degrees geometry to one Li and one S atom. In the third O site, O is bonded in a 3-coordinate geometry to one Rb, one Li, and one O atom. The O-O bond length is 1.28 Å. In the fourth O site, O is bonded in a trigonal planar geometry to two Li and one S atom. In the fifth O site, O is bonded in a distorted trigonal planar geometry to two Li and one S atom. In the sixth O site, O is bonded in a distorted bent 150 degrees geometry to one Li and one S atom. In the seventh O site, O is bonded in a 2-coordinate geometry to one Rb, one Li, and one S atom. In the eighth O site, O is bonded in a 2-coordinate geometry to one Rb, one Li, and one S atom. In the ninth O site, O is bonded in a 2-coordinate geometry to one Li and one O atom.
+[POSCAR]
+Rb1 Li3 S2 O9
+1.0
+  -5.1015709999999999    0.0000000000000000    0.0000000000000000
+   0.1572450000000000    5.4138430000000000    0.0000000000000000
+  -0.0598120000000000   -2.3424339999999999   -8.2014069999999997
+Rb Li S O
+1 3 2 9
+direct
+   0.9764370000000000    0.0370170000000000    0.0376470000000000 Rb
+   0.4919670000000000    0.1891700000000000    0.3736090000000000 Li
+   0.9881960000000000    0.5654020000000000    0.3705550000000000 Li
+   0.5220840000000000    0.4014010000000000    0.7729680000000000 Li
+   0.9953830000000000    0.1697330000000000    0.5695610000000000 S
+   0.4916860000000000    0.5833560000000000    0.1613320000000000 S
+   0.1097660000000000    0.2478010000000000    0.4223130000000000 O
+   0.0061800000000000    0.8845200000000000    0.5359600000000000 O
+   0.2088900000000000    0.6584580000000000    0.7619120000000000 O
+   0.7051570000000000    0.2439130000000000    0.5797550000000000 O
+   0.6279290000000000    0.4734020000000000    0.2806500000000000 O
+   0.5876910000000000    0.4485680000000000    0.9942610000000000 O
+   0.2038980000000000    0.5399000000000000    0.1703810000000000 O
+   0.5535810000000000    0.8642810000000000    0.1962940000000000 O
+   0.4287570000000000    0.7691789999999999    0.7480030000000000 O
+
+<Example>
+[Description]
+LiC₈H₂₀O₄Cl is Indium-like structured and crystallizes in the monoclinic C2/c space group. The structure is zero-dimensional and consists of four LiC₈H₂₀O₄Cl clusters. Li¹⁺ is bonded to four O²⁻ and one Cl¹⁻ atom to form LiClO₄ trigonal bipyramids that share corners with four CH₃O tetrahedra. There are two shorter (2.12 Å) and two longer (2.14 Å) Li-O bond lengths. The Li-Cl bond length is 2.42 Å. There are two inequivalent C¹⁻ sites. In the first C¹⁻ site, C¹⁻ is bonded in a distorted trigonal non-coplanar geometry to two H¹⁺ and one O²⁻ atom. Both C-H bond lengths are 1.11 Å. The C-O bond length is 1.44 Å. In the second C¹⁻ site, C¹⁻ is bonded in a distorted trigonal non-coplanar geometry to two H¹⁺ and one O²⁻ atom. There is one shorter (1.10 Å) and one longer (1.11 Å) C-H bond length. The C-O bond length is 1.44 Å. There are two inequivalent C²⁻ sites. In the first C²⁻ site, C²⁻ is bonded to three H¹⁺ and one O²⁻ atom to form CH₃O tetrahedra that share  a cornercorner with one LiClO₄ trigonal bipyramid. All C-H bond lengths are 1.10 Å. The C-O bond length is 1.44 Å. In the second C²⁻ site, C²⁻ is bonded to three H¹⁺ and one O²⁻ atom to form CH₃O tetrahedra that share  a cornercorner with one LiClO₄ trigonal bipyramid. All C-H bond lengths are 1.10 Å. The C-O bond length is 1.43 Å. There are ten inequivalent H¹⁺ sites. In the first H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C²⁻ atom. In the second H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C¹⁻ atom. In the third H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C²⁻ atom. In the fourth H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C¹⁻ atom. In the fifth H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C²⁻ atom. In the sixth H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C²⁻ atom. In the seventh H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C¹⁻ atom. In the eighth H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C²⁻ atom. In the ninth H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C²⁻ atom. In the tenth H¹⁺ site, H¹⁺ is bonded in a single-bond geometry to one C¹⁻ atom. There are two inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded in a distorted trigonal non-coplanar geometry to one Li¹⁺, one C¹⁻, and one C²⁻ atom. In the second O²⁻ site, O²⁻ is bonded in a trigonal non-coplanar geometry to one Li¹⁺, one C¹⁻, and one C²⁻ atom. Cl¹⁻ is bonded in a single-bond geometry to one Li¹⁺ atom.
+[POSCAR]
+Li2 H40 C16 Cl2 O8
+1.0
+   4.0385340000000003    6.6652600000000000    0.0000000000000000
+  -4.0385340000000003    6.6652600000000000    0.0000000000000000
+   0.0000000000000000    1.1834819999999999   12.1544709999999991
+Li H C Cl O
+2 40 16 2 8
+direct
+   0.0538090000000000    0.9461910000000000    0.7500000000000000 Li
+   0.9461910000000000    0.0538090000000000    0.2500000000000000 Li
+   0.1386970000000000    0.7107180000000000    0.4692090000000000 H
+   0.2892820000000000    0.8613030000000000    0.0307910000000000 H
+   0.8613030000000000    0.2892820000000000    0.5307910000000000 H
+   0.7107180000000000    0.1386970000000000    0.9692090000000000 H
+   0.2398190000000000    0.5494910000000000    0.5865460000000000 H
+   0.4505090000000000    0.7601810000000000    0.9134540000000000 H
+   0.7601810000000000    0.4505090000000000    0.4134540000000000 H
+   0.5494910000000000    0.2398190000000000    0.0865460000000000 H
+   0.4410680000000000    0.8742210000000000    0.5996760000000000 H
+   0.1257790000000000    0.5589320000000000    0.9003240000000000 H
+   0.5589320000000000    0.1257790000000000    0.4003240000000000 H
+   0.8742210000000000    0.4410680000000000    0.0996760000000000 H
+   0.4926680000000000    0.6243790000000000    0.6049099999999999 H
+   0.3756210000000000    0.5073320000000000    0.8950900000000001 H
+   0.5073320000000000    0.3756210000000000    0.3950900000000000 H
+   0.6243790000000000    0.4926680000000000    0.1049100000000000 H
+   0.4232980000000000    0.7685959999999999    0.4776990000000000 H
+   0.2314040000000000    0.5767020000000000    0.0223010000000000 H
+   0.5767020000000000    0.2314040000000000    0.5223010000000000 H
+   0.7685959999999999    0.4232980000000000    0.9776990000000000 H
+   0.8890090000000000    0.6488090000000000    0.5853159999999999 H
+   0.3511910000000000    0.1109910000000000    0.9146840000000001 H
+   0.1109910000000000    0.3511910000000000    0.4146840000000000 H
+   0.6488090000000000    0.8890090000000000    0.0853160000000000 H
+   0.8330550000000000    0.9003540000000000    0.5786340000000000 H
+   0.0996460000000000    0.1669450000000000    0.9213660000000000 H
+   0.1669450000000000    0.0996460000000000    0.4213660000000000 H
+   0.9003540000000000    0.8330550000000000    0.0786340000000000 H
+   0.7781410000000000    0.7713290000000000    0.8696340000000000 H
+   0.2286710000000000    0.2218590000000000    0.6303660000000000 H
+   0.2218590000000000    0.2286710000000000    0.1303660000000000 H
+   0.7713290000000000    0.7781410000000000    0.3696340000000000 H
+   0.6444510000000000    0.9186380000000000    0.7559230000000000 H
+   0.0813620000000000    0.3555490000000000    0.7440770000000000 H
+   0.3555490000000000    0.0813620000000000    0.2440770000000000 H
+   0.9186380000000000    0.6444510000000000    0.2559230000000000 H
+   0.7282999999999999    0.6588550000000000    0.7621980000000000 H
+   0.3411450000000000    0.2717000000000000    0.7378020000000000 H
+   0.2717000000000000    0.3411450000000000    0.2378020000000000 H
+   0.6588550000000000    0.7282999999999999    0.2621980000000000 H
+   0.1381740000000000    0.6996880000000000    0.5601730000000000 C
+   0.3003120000000000    0.8618260000000000    0.9398270000000000 C
+   0.8618260000000000    0.3003120000000000    0.4398270000000000 C
+   0.6996880000000000    0.1381740000000000    0.0601730000000000 C
+   0.4015790000000000    0.7698560000000000    0.5679860000000000 C
+   0.2301440000000000    0.5984210000000000    0.9320140000000000 C
+   0.5984210000000000    0.2301440000000000    0.4320140000000000 C
+   0.7698560000000000    0.4015790000000000    0.0679860000000000 C
+   0.9365970000000000    0.7536130000000000    0.6089450000000000 C
+   0.2463870000000000    0.0634030000000000    0.8910550000000000 C
+   0.0634030000000000    0.2463870000000000    0.3910550000000000 C
+   0.7536130000000000    0.9365970000000000    0.1089450000000000 C
+   0.7616020000000000    0.7760950000000000    0.7806480000000000 C
+   0.2239050000000000    0.2383980000000000    0.7193520000000000 C
+   0.2383980000000000    0.2239050000000000    0.2193520000000000 C
+   0.7760950000000000    0.7616020000000000    0.2806480000000000 C
+   0.7543730000000000    0.2456270000000000    0.7500000000000000 Cl
+   0.2456270000000000    0.7543730000000000    0.2500000000000000 Cl
+   0.2010010000000000    0.8299330000000000    0.5990380000000000 O
+   0.1700670000000000    0.7989990000000000    0.9009620000000000 O
+   0.7989990000000000    0.1700670000000000    0.4009620000000000 O
+   0.8299330000000000    0.2010010000000000    0.0990380000000000 O
+   0.9423110000000000    0.7481880000000000    0.7264100000000000 O
+   0.2518120000000000    0.0576890000000000    0.7735900000000000 O
+   0.0576890000000000    0.2518120000000000    0.2735900000000000 O
+   0.7481880000000000    0.9423110000000000    0.2264100000000000 O
+
+<Example>
+[Description]
+LiAlAsO₄ crystallizes in the tetragonal I̅4 space group. Li is bonded to four equivalent O atoms to form distorted LiO₄ tetrahedra that share corners with four equivalent AlO₄ tetrahedra and corners with four equivalent AsO₄ tetrahedra. All Li-O bond lengths are 2.09 Å. Al is bonded to four equivalent O atoms to form AlO₄ tetrahedra that share corners with four equivalent LiO₄ tetrahedra and corners with four equivalent AsO₄ tetrahedra. All Al-O bond lengths are 1.79 Å. As is bonded to four equivalent O atoms to form AsO₄ tetrahedra that share corners with four equivalent LiO₄ tetrahedra and corners with four equivalent AlO₄ tetrahedra. All As-O bond lengths are 1.86 Å. O is bonded in a trigonal non-coplanar geometry to one Li, one Al, and one As atom.
+[POSCAR]
+Li1 Al1 As1 O4
+1.0
+   4.4688710000000000   -0.5838950000000001   -2.8964319999999999
+  -3.0357020000000001    4.3877670000000002    0.4827860000000000
+  -0.4039710000000000    0.5838950000000001    5.3100790000000000
+Li Al As O
+1 1 1 4
+direct
+   0.0000000000000000    0.5000000000000000    0.5000000000000000 Li
+   0.0000000000000000    0.0000000000000000    0.0000000000000000 Al
+   0.5000000000000000    0.2500000000000000    0.7500000000000000 As
+   0.5511120000000000    0.9204840000000000    0.8604210000000000 O
+   0.0600620000000000    0.1395790000000000    0.6906910000000001 O
+   0.4488880000000000    0.3093090000000000    0.3693710000000000 O
+   0.9399380000000001    0.6306290000000000    0.0795160000000000 O
+
+<Example>
+[Description]
+Li₆PO₅Br crystallizes in the cubic F̅43m space group. Li¹⁺ is bonded in a trigonal planar geometry to three O²⁻ and two equivalent Br¹⁻ atoms. There is one shorter (1.95 Å) and two longer (2.00 Å) Li-O bond lengths. Both Li-Br bond lengths are 2.97 Å. P⁵⁺ is bonded in a tetrahedral geometry to four equivalent O²⁻ atoms. All P-O bond lengths are 1.56 Å. There are two inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded to three equivalent Li¹⁺ and one P⁵⁺ atom to form OLi₃P tetrahedra that share corners with three equivalent OLi₆ octahedra, corners with six equivalent OLi₃P tetrahedra, and edges with three equivalent BrLi₁₂ cuboctahedra. The corner-sharing octahedral tilt angles are 58°. In the second O²⁻ site, O²⁻ is bonded to six equivalent Li¹⁺ atoms to form OLi₆ octahedra that share corners with twelve equivalent OLi₃P tetrahedra and faces with four equivalent BrLi₁₂ cuboctahedra. Br¹⁻ is bonded to twelve equivalent Li¹⁺ atoms to form BrLi₁₂ cuboctahedra that share corners with twelve equivalent BrLi₁₂ cuboctahedra, edges with twelve equivalent OLi₃P tetrahedra, and faces with four equivalent OLi₆ octahedra.
+[POSCAR]
+Li6 P1 Br1 O5
+1.0
+   0.0000000000000000    4.2003800000000000    4.2003800000000000
+   4.2003800000000000    0.0000000000000000    4.2003800000000000
+   4.2003800000000000    4.2003800000000000    0.0000000000000000
+Li P Br O
+6 1 1 5
+direct
+   0.9819080000000000    0.5180920000000000    0.9819080000000000 Li
+   0.5180920000000000    0.9819080000000000    0.9819080000000000 Li
+   0.5180920000000000    0.5180920000000000    0.9819080000000000 Li
+   0.5180920000000000    0.9819080000000000    0.5180920000000000 Li
+   0.9819080000000000    0.9819080000000000    0.5180920000000000 Li
+   0.9819080000000000    0.5180920000000000    0.5180920000000000 Li
+   0.5000000000000000    0.5000000000000000    0.5000000000000000 P
+   0.0000000000000000    0.0000000000000000    0.0000000000000000 Br
+   0.8223030000000000    0.3925660000000000    0.3925660000000000 O
+   0.3925660000000000    0.8223030000000000    0.3925660000000000 O
+   0.3925660000000000    0.3925660000000000    0.3925660000000000 O
+   0.3925660000000000    0.3925660000000000    0.8223030000000000 O
+   0.7500000000000000    0.7500000000000000    0.7500000000000000 O
+
+<Example>
+[Description]
+LiAlB₂O₅ crystallizes in the monoclinic C2/c space group. There are two inequivalent Li¹⁺ sites. In the first Li¹⁺ site, Li¹⁺ is bonded in a 4-coordinate geometry to four O²⁻ atoms. There are two shorter (1.99 Å) and two longer (2.01 Å) Li-O bond lengths. In the second Li¹⁺ site, Li¹⁺ is bonded to six O²⁻ atoms to form distorted LiO₆ octahedra that share corners with six equivalent AlO₄ tetrahedra. There are a spread of Li-O bond distances ranging from 2.07-2.43 Å. Al³⁺ is bonded to four O²⁻ atoms to form AlO₄ tetrahedra that share corners with three equivalent LiO₆ octahedra. The corner-sharing octahedral tilt angles range from 27-63°. There are a spread of Al-O bond distances ranging from 1.75-1.79 Å. There are two inequivalent B³⁺ sites. In the first B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.36-1.42 Å. In the second B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.36-1.43 Å. There are five inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Li¹⁺, one Al³⁺, and one B³⁺ atom. In the second O²⁻ site, O²⁻ is bonded in a distorted trigonal planar geometry to one Li¹⁺, one Al³⁺, and one B³⁺ atom. In the third O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Li¹⁺ and two B³⁺ atoms. In the fourth O²⁻ site, O²⁻ is bonded in a trigonal planar geometry to one Li¹⁺, one Al³⁺, and one B³⁺ atom. In the fifth O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Li¹⁺, one Al³⁺, and one B³⁺ atom.
+[POSCAR]
+Li4 Al4 B8 O20
+1.0
+   5.0974170000000001    5.0347200000000001    0.0000000000000000
+  -5.0974170000000001    5.0347200000000001    0.0000000000000000
+   0.0000000000000000    4.7747260000000002    8.1771089999999997
+Li Al B O
+4 4 8 20
+direct
+   0.3767010000000000    0.6232990000000000    0.7500000000000000 Li
+   0.6232990000000000    0.3767010000000000    0.2500000000000000 Li
+   0.1602830000000000    0.8397170000000000    0.2500000000000000 Li
+   0.8397170000000000    0.1602830000000000    0.7500000000000000 Li
+   0.0438490000000000    0.3464740000000000    0.3478920000000000 Al
+   0.9561510000000000    0.6535260000000001    0.6521080000000000 Al
+   0.6535260000000001    0.9561510000000000    0.1521080000000000 Al
+   0.3464740000000000    0.0438490000000000    0.8478920000000000 Al
+   0.2379100000000000    0.2279640000000000    0.0916690000000000 B
+   0.7720359999999999    0.7620900000000000    0.4083310000000000 B
+   0.7399930000000000    0.3963090000000000    0.9713950000000000 B
+   0.6036910000000000    0.2600070000000000    0.5286050000000000 B
+   0.3963090000000000    0.7399930000000000    0.4713950000000000 B
+   0.2600070000000000    0.6036910000000000    0.0286050000000000 B
+   0.7620900000000000    0.7720359999999999    0.9083310000000000 B
+   0.2279640000000000    0.2379100000000000    0.5916690000000000 B
+   0.3315650000000000    0.7810470000000000    0.8943260000000000 O
+   0.9171960000000000    0.7067960000000000    0.4705180000000000 O
+   0.2932040000000000    0.0828040000000000    0.0294820000000000 O
+   0.7140860000000000    0.5663380000000000    0.0176680000000000 O
+   0.8278020000000000    0.4150650000000000    0.8130630000000000 O
+   0.4150650000000000    0.8278020000000000    0.3130630000000000 O
+   0.1721980000000000    0.5849350000000000    0.1869370000000000 O
+   0.7067960000000000    0.9171960000000000    0.9705180000000000 O
+   0.1403300000000000    0.1751880000000000    0.2549990000000000 O
+   0.5849350000000000    0.1721980000000000    0.6869370000000000 O
+   0.7810470000000000    0.3315650000000000    0.3943260000000000 O
+   0.8248120000000000    0.8596700000000000    0.2450010000000000 O
+   0.1751880000000000    0.1403300000000000    0.7549990000000000 O
+   0.4336620000000000    0.2859140000000000    0.4823320000000000 O
+   0.0828040000000000    0.2932040000000000    0.5294820000000000 O
+   0.2189530000000000    0.6684350000000000    0.6056740000000000 O
+   0.5663380000000000    0.7140860000000000    0.5176680000000000 O
+   0.8596700000000000    0.8248120000000000    0.7450010000000000 O
+   0.2859140000000000    0.4336620000000000    0.9823320000000000 O
+   0.6684350000000000    0.2189530000000000    0.1056740000000000 O
+
+<Example>
+[Description]
+Rb₄Li(Se₂O₇)₂ crystallizes in the triclinic P1 space group. There are four inequivalent Rb sites. In the first Rb site, Rb is bonded in a 6-coordinate geometry to six O atoms. There are a spread of Rb-O bond distances ranging from 2.81-3.08 Å. In the second Rb site, Rb is bonded in a 8-coordinate geometry to eight O atoms. There are a spread of Rb-O bond distances ranging from 2.91-3.52 Å. In the third Rb site, Rb is bonded in a 7-coordinate geometry to seven O atoms. There are a spread of Rb-O bond distances ranging from 2.92-3.32 Å. In the fourth Rb site, Rb is bonded in a 8-coordinate geometry to eight O atoms. There are a spread of Rb-O bond distances ranging from 2.90-3.32 Å. Li is bonded in a distorted trigonal planar geometry to three O atoms. There are two shorter (1.85 Å) and one longer (1.95 Å) Li-O bond length. There are four inequivalent Se sites. In the first Se site, Se is bonded in a trigonal non-coplanar geometry to three O atoms. There are two shorter (1.69 Å) and one longer (1.72 Å) Se-O bond length. In the second Se site, Se is bonded in a tetrahedral geometry to four O atoms. There are a spread of Se-O bond distances ranging from 1.67-1.70 Å. In the third Se site, Se is bonded to four O atoms to form corner-sharing SeO₄ tetrahedra. There are a spread of Se-O bond distances ranging from 1.64-1.87 Å. In the fourth Se site, Se is bonded to four O atoms to form corner-sharing SeO₄ tetrahedra. There are a spread of Se-O bond distances ranging from 1.64-1.84 Å. There are fourteen inequivalent O sites. In the first O site, O is bonded in a 4-coordinate geometry to three Rb and one Se atom. In the second O site, O is bonded in a distorted single-bond geometry to three Rb and one Se atom. In the third O site, O is bonded in a 3-coordinate geometry to two Rb and one Se atom. In the fourth O site, O is bonded in a distorted single-bond geometry to three Rb and one Se atom. In the fifth O site, O is bonded in a distorted tetrahedral geometry to three Rb and one Se atom. In the sixth O site, O is bonded in a distorted bent 150 degrees geometry to one Rb, one Li, and one Se atom. In the seventh O site, O is bonded in a distorted single-bond geometry to three Rb and one Se atom. In the eighth O site, O is bonded in a distorted bent 120 degrees geometry to two Rb, one Li, and one Se atom. In the ninth O site, O is bonded in a distorted bent 150 degrees geometry to two Rb, one Li, and one Se atom. In the tenth O site, O is bonded in a distorted single-bond geometry to three Rb and one Se atom. In the eleventh O site, O is bonded in a distorted single-bond geometry to two Rb and one Se atom. In the twelfth O site, O is bonded in a distorted single-bond geometry to one Rb and one Se atom. In the thirteenth O site, O is bonded in a distorted single-bond geometry to one Rb and one Se atom. In the fourteenth O site, O is bonded in a bent 120 degrees geometry to two Se atoms.
+[POSCAR]
+Rb4 Li1 Se4 O14
+1.0
+   7.0258890000000003    3.8177580000000000    0.0376100000000000
+   7.4280140000000001   -4.5650240000000002    0.3790130000000000
+  -0.8066449999999999    0.3821800000000000   -7.7823320000000002
+Rb Li Se O
+4 1 4 14
+direct
+   0.2916710000000000    0.4749510000000000    0.2761140000000000 Rb
+   0.4025010000000000    0.8671930000000000    0.1553350000000000 Rb
+   0.8440440000000000    0.3970850000000000    0.7270240000000000 Rb
+   0.5484500000000000    0.1536140000000000    0.8355580000000000 Rb
+   0.8601150000000000    0.6687790000000000    0.4778970000000000 Li
+   0.7142280000000000    0.0709500000000000    0.3617660000000000 Se
+   0.9088790000000000    0.3189620000000000    0.1822730000000000 Se
+   0.3131600000000000    0.8795400000000000    0.6521200000000000 Se
+   0.0925880000000000    0.7011550000000000    0.8114860000000000 Se
+   0.6256530000000000    0.2547530000000000    0.5112270000000000 O
+   0.7003880000000000    0.4009870000000000    0.0752040000000000 O
+   0.3418430000000000    0.7532740000000000    0.4651010000000000 O
+   0.2850400000000000    0.5870379999999999    0.9257600000000000 O
+   0.5585850000000000    0.1094880000000000    0.1955800000000000 O
+   0.8865040000000000    0.4549160000000000    0.3671540000000000 O
+   0.4983630000000000    0.7933530000000000    0.7833010000000000 O
+   0.0890970000000000    0.5846620000000000    0.6227690000000000 O
+   0.7104350000000000    0.9078400000000000    0.4558090000000000 O
+   0.0857540000000000    0.2992660000000000    0.0628530000000000 O
+   0.2305780000000000    0.0920100000000000    0.6420430000000000 O
+   0.8850200000000000    0.8010980000000000    0.9134370000000001 O
+   0.9769390000000000    0.1130260000000000    0.2304840000000000 O
+   0.1043300000000000    0.8952250000000000    0.7613730000000000 O
+
+<Example>
+[Description]
+Li₂Bi(BO₂)₅ crystallizes in the monoclinic P2₁/c space group. There are two inequivalent Li¹⁺ sites. In the first Li¹⁺ site, Li¹⁺ is bonded to four O²⁻ atoms to form distorted LiO₄ tetrahedra that share  a cornercorner with one BO₄ tetrahedra and corners with two equivalent BiO₄ trigonal pyramids. There are a spread of Li-O bond distances ranging from 1.92-2.22 Å. In the second Li¹⁺ site, Li¹⁺ is bonded in a 4-coordinate geometry to four O²⁻ atoms. There are a spread of Li-O bond distances ranging from 1.92-2.34 Å. There are five inequivalent B³⁺ sites. In the first B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.37-1.41 Å. In the second B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.37-1.42 Å. In the third B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.35-1.43 Å. In the fourth B³⁺ site, B³⁺ is bonded to four O²⁻ atoms to form BO₄ tetrahedra that share  a cornercorner with one LiO₄ tetrahedra. There are a spread of B-O bond distances ranging from 1.45-1.52 Å. In the fifth B³⁺ site, B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.36-1.42 Å. Bi³⁺ is bonded to four O²⁻ atoms to form distorted BiO₄ trigonal pyramids that share corners with two equivalent LiO₄ tetrahedra. There are a spread of Bi-O bond distances ranging from 2.20-2.32 Å. There are ten inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Li¹⁺, one B³⁺, and one Bi³⁺ atom. In the second O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Li¹⁺, one B³⁺, and one Bi³⁺ atom. In the third O²⁻ site, O²⁻ is bonded in a trigonal planar geometry to one Li¹⁺ and two B³⁺ atoms. In the fourth O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Li¹⁺ and two B³⁺ atoms. In the fifth O²⁻ site, O²⁻ is bonded in a distorted trigonal planar geometry to one Li¹⁺, one B³⁺, and one Bi³⁺ atom. In the sixth O²⁻ site, O²⁻ is bonded in a distorted trigonal planar geometry to one Li¹⁺, one B³⁺, and one Bi³⁺ atom. In the seventh O²⁻ site, O²⁻ is bonded in a trigonal planar geometry to one Li¹⁺ and two B³⁺ atoms. In the eighth O²⁻ site, O²⁻ is bonded in a bent 120 degrees geometry to two B³⁺ atoms. In the ninth O²⁻ site, O²⁻ is bonded in a distorted bent 120 degrees geometry to one Li¹⁺ and two B³⁺ atoms. In the tenth O²⁻ site, O²⁻ is bonded in a bent 120 degrees geometry to two B³⁺ atoms.
+[POSCAR]
+Li8 Bi4 B20 O40
+1.0
+  16.4200499999999998    0.0000000000000000    0.0000000000000000
+   0.0000000000000000    7.2587370000000000    0.0000000000000000
+   0.0000000000000000    0.3328860000000000    7.2532680000000003
+Li Bi B O
+8 4 20 40
+direct
+   0.8414480000000000    0.9847450000000000    0.0891420000000000 Li
+   0.6585520000000000    0.4847450000000000    0.0891420000000000 Li
+   0.0857460000000000    0.3909500000000000    0.3072650000000000 Li
+   0.4142540000000000    0.8909500000000000    0.3072650000000000 Li
+   0.5857460000000000    0.1090500000000000    0.6927350000000000 Li
+   0.9142540000000000    0.6090500000000000    0.6927350000000000 Li
+   0.3414480000000000    0.5152550000000000    0.9108579999999999 Li
+   0.1585520000000000    0.0152550000000000    0.9108579999999999 Li
+   0.8751139999999999    0.4769800000000000    0.1686940000000000 Bi
+   0.6248860000000001    0.9769800000000000    0.1686940000000000 Bi
+   0.3751140000000000    0.0230200000000000    0.8313060000000000 Bi
+   0.1248860000000000    0.5230200000000000    0.8313060000000000 Bi
+   0.9789250000000000    0.0783770000000000    0.1974020000000000 B
+   0.5210750000000000    0.5783770000000000    0.1974020000000000 B
+   0.2315360000000000    0.4855910000000000    0.2295090000000000 B
+   0.2684640000000000    0.9855910000000000    0.2295090000000000 B
+   0.4789250000000000    0.2563340000000000    0.2592990000000000 B
+   0.0210750000000000    0.7563340000000000    0.2592990000000000 B
+   0.3789630000000000    0.5071140000000000    0.3106130000000000 B
+   0.1210370000000000    0.0071140000000000    0.3106130000000000 B
+   0.7257670000000001    0.4780440000000000    0.4512550000000000 B
+   0.7742329999999999    0.9780440000000000    0.4512550000000000 B
+   0.2257670000000000    0.0219560000000000    0.5487450000000000 B
+   0.2742330000000000    0.5219560000000000    0.5487450000000000 B
+   0.8789630000000000    0.9928860000000000    0.6893870000000000 B
+   0.6210370000000000    0.4928860000000000    0.6893870000000000 B
+   0.9789250000000000    0.2436660000000000    0.7407010000000001 B
+   0.5210750000000000    0.7436660000000000    0.7407010000000001 B
+   0.7315360000000000    0.0144090000000000    0.7704910000000000 B
+   0.7684640000000000    0.5144090000000000    0.7704910000000000 B
+   0.4789250000000000    0.4216230000000000    0.8025980000000000 B
+   0.0210750000000000    0.9216230000000000    0.8025980000000000 B
+   0.1664570000000000    0.4596860000000000    0.1158570000000000 O
+   0.3335430000000000    0.9596860000000000    0.1158570000000000 O
+   0.9149770000000000    0.1904860000000000    0.1418450000000000 O
+   0.5850230000000000    0.6904860000000000    0.1418450000000000 O
+   0.1901540000000000    0.0210210000000000    0.1704890000000000 O
+   0.5370930000000000    0.3878550000000000    0.1877770000000000 O
+   0.3098460000000000    0.5210210000000000    0.1704890000000000 O
+   0.9629070000000000    0.8878549999999999    0.1877770000000000 O
+   0.4977130000000000    0.0733150000000000    0.2657410000000000 O
+   0.0022870000000000    0.5733150000000000    0.2657410000000000 O
+   0.7446050000000000    0.4668630000000000    0.2686190000000000 O
+   0.0538940000000000    0.1382380000000000    0.2518470000000000 O
+   0.7553950000000000    0.9668630000000000    0.2686190000000000 O
+   0.4461060000000000    0.6382380000000000    0.2518470000000000 O
+   0.4064370000000000    0.3165680000000000    0.3220890000000000 O
+   0.0935630000000000    0.8165680000000000    0.3220890000000000 O
+   0.2141040000000000    0.4697800000000000    0.4207400000000000 O
+   0.2858960000000000    0.9697800000000000    0.4207400000000000 O
+   0.6492190000000000    0.4368030000000000    0.5109629999999999 O
+   0.1492190000000000    0.0631970000000000    0.4890370000000000 O
+   0.8507810000000000    0.9368030000000001    0.5109629999999999 O
+   0.3507810000000000    0.5631969999999999    0.4890370000000000 O
+   0.7141040000000000    0.0302200000000000    0.5792600000000000 O
+   0.7858960000000000    0.5302200000000000    0.5792600000000000 O
+   0.9064370000000000    0.1834320000000000    0.6779110000000000 O
+   0.5935630000000000    0.6834320000000000    0.6779110000000000 O
+   0.5538940000000000    0.3617620000000000    0.7481530000000000 O
+   0.2446050000000000    0.0331370000000000    0.7313809999999999 O
+   0.9461060000000000    0.8617620000000000    0.7481530000000000 O
+   0.2553950000000000    0.5331370000000000    0.7313809999999999 O
+   0.9977130000000000    0.4266850000000000    0.7342590000000000 O
+   0.5022870000000000    0.9266850000000000    0.7342590000000000 O
+   0.0370930000000000    0.1121450000000000    0.8122230000000000 O
+   0.6901540000000000    0.4789790000000000    0.8295110000000000 O
+   0.4629070000000000    0.6121450000000001    0.8122230000000000 O
+   0.8098460000000000    0.9789790000000000    0.8295110000000000 O
+   0.4149770000000000    0.3095140000000000    0.8581550000000000 O
+   0.0850230000000000    0.8095140000000000    0.8581550000000000 O
+   0.6664570000000000    0.0403140000000000    0.8841430000000000 O
+   0.8335430000000000    0.5403140000000000    0.8841430000000000 O
+
+<Example>
+[Description]
+Li₃BSnSiO₇ crystallizes in the monoclinic P2₁/m space group. There are two inequivalent Li¹⁺ sites. In the first Li¹⁺ site, Li¹⁺ is bonded in a 4-coordinate geometry to four O²⁻ atoms. There are a spread of Li-O bond distances ranging from 1.99-2.27 Å. In the second Li¹⁺ site, Li¹⁺ is bonded in a 6-coordinate geometry to six O²⁻ atoms. There are a spread of Li-O bond distances ranging from 1.95-2.68 Å. B³⁺ is bonded in a trigonal planar geometry to three O²⁻ atoms. There are a spread of B-O bond distances ranging from 1.35-1.43 Å. Sn⁴⁺ is bonded to six O²⁻ atoms to form SnO₆ octahedra that share corners with four equivalent SiO₄ tetrahedra. There are a spread of Sn-O bond distances ranging from 2.05-2.21 Å. Si⁴⁺ is bonded to four O²⁻ atoms to form SiO₄ tetrahedra that share corners with four equivalent SnO₆ octahedra. The corner-sharing octahedral tilt angles range from 45-56°. There are three shorter (1.64 Å) and one longer (1.66 Å) Si-O bond length. There are six inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded to three Li¹⁺ and one B³⁺ atom to form corner-sharing OLi₃B tetrahedra. In the second O²⁻ site, O²⁻ is bonded in a 5-coordinate geometry to three Li¹⁺, one B³⁺, and one Sn⁴⁺ atom. In the third O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to two equivalent Li¹⁺, one B³⁺, and one Sn⁴⁺ atom. In the fourth O²⁻ site, O²⁻ is bonded to two Li¹⁺, one Sn⁴⁺, and one Si⁴⁺ atom to form distorted OLi₂SiSn trigonal pyramids that share corners with two equivalent OLi₃B tetrahedra,  a cornercorner with one OLi₂SiSn trigonal pyramid, and  an edgeedge with one OLi₂SiSn trigonal pyramid. In the fifth O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to two equivalent Li¹⁺, one Sn⁴⁺, and one Si⁴⁺ atom. In the sixth O²⁻ site, O²⁻ is bonded in a distorted rectangular see-saw-like geometry to two equivalent Li¹⁺, one Sn⁴⁺, and one Si⁴⁺ atom.
+[POSCAR]
+Li6 Si2 Sn2 B2 O14
+1.0
+   6.5748899999999999    0.0000000000000000    0.0000000000000000
+   0.0000000000000000    5.1387950000000000    0.0000000000000000
+   0.0000000000000000    0.8094560000000000    8.5063730000000000
+Li Si Sn B O
+6 2 2 2 14
+direct
+   0.7500000000000000    0.2506380000000000    0.9069390000000001 Li
+   0.9917310000000000    0.7474290000000000    0.7631110000000000 Li
+   0.5082690000000000    0.7474290000000000    0.7631110000000000 Li
+   0.4917310000000000    0.2525710000000000    0.2368890000000000 Li
+   0.0082690000000000    0.2525710000000000    0.2368890000000000 Li
+   0.2500000000000000    0.7493620000000000    0.0930610000000000 Li
+   0.7500000000000000    0.2687330000000000    0.5802490000000000 Si
+   0.2500000000000000    0.7312670000000000    0.4197510000000000 Si
+   0.2500000000000000    0.2094110000000000    0.6726680000000000 Sn
+   0.7500000000000000    0.7905890000000000    0.3273320000000000 Sn
+   0.2500000000000000    0.2887040000000000    0.9651020000000000 B
+   0.7500000000000000    0.7112960000000000    0.0348980000000000 B
+   0.7500000000000000    0.6416720000000000    0.8859669999999999 O
+   0.2500000000000000    0.0339530000000000    0.9186470000000000 O
+   0.2500000000000000    0.4856230000000000    0.8356680000000000 O
+   0.9397200000000000    0.1672140000000000    0.6952260000000000 O
+   0.5602800000000000    0.1672140000000000    0.6952260000000000 O
+   0.7500000000000000    0.5914590000000000    0.5466360000000000 O
+   0.2500000000000000    0.8445420000000000    0.5927789999999999 O
+   0.7500000000000000    0.1554580000000000    0.4072210000000000 O
+   0.2500000000000000    0.4085410000000000    0.4533640000000000 O
+   0.4397200000000000    0.8327860000000000    0.3047740000000000 O
+   0.0602800000000000    0.8327860000000000    0.3047740000000000 O
+   0.7500000000000000    0.5143770000000000    0.1643320000000000 O
+   0.7500000000000000    0.9660470000000000    0.0813530000000000 O
+   0.2500000000000000    0.3583280000000000    0.1140330000000000 O
+
+<Example>
+[Description]
+LiCd₄(GeO₃)₅ crystallizes in the triclinic P̅1 space group. Li is bonded in a 5-coordinate geometry to five O atoms. There are a spread of Li-O bond distances ranging from 2.00-2.46 Å. There are four inequivalent Cd sites. In the first Cd site, Cd is bonded to six O atoms to form CdO₆ octahedra that share corners with six GeO₄ tetrahedra and edges with three CdO₆ octahedra. There are a spread of Cd-O bond distances ranging from 2.28-2.42 Å. In the second Cd site, Cd is bonded to six O atoms to form CdO₆ octahedra that share corners with six GeO₄ tetrahedra and edges with four CdO₆ octahedra. There are a spread of Cd-O bond distances ranging from 2.27-2.41 Å. In the third Cd site, Cd is bonded to six O atoms to form CdO₆ octahedra that share corners with six GeO₄ tetrahedra and edges with three CdO₆ octahedra. There are a spread of Cd-O bond distances ranging from 2.27-2.38 Å. In the fourth Cd site, Cd is bonded in a 5-coordinate geometry to five O atoms. There are a spread of Cd-O bond distances ranging from 2.21-2.59 Å. There are five inequivalent Ge sites. In the first Ge site, Ge is bonded to four O atoms to form GeO₄ tetrahedra that share corners with three CdO₆ octahedra and corners with two GeO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 39-63°. There are a spread of Ge-O bond distances ranging from 1.74-1.81 Å. In the second Ge site, Ge is bonded to four O atoms to form GeO₄ tetrahedra that share corners with four CdO₆ octahedra and corners with two GeO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 42-63°. There are a spread of Ge-O bond distances ranging from 1.75-1.80 Å. In the third Ge site, Ge is bonded to four O atoms to form GeO₄ tetrahedra that share corners with four CdO₆ octahedra and corners with two GeO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 45-64°. There are a spread of Ge-O bond distances ranging from 1.76-1.80 Å. In the fourth Ge site, Ge is bonded to four O atoms to form GeO₄ tetrahedra that share corners with three CdO₆ octahedra and corners with two GeO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 47-65°. There are two shorter (1.75 Å) and two longer (1.80 Å) Ge-O bond lengths. In the fifth Ge site, Ge is bonded to four O atoms to form GeO₄ tetrahedra that share corners with four CdO₆ octahedra and corners with two GeO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 53-61°. There are a spread of Ge-O bond distances ranging from 1.73-1.82 Å. There are fifteen inequivalent O sites. In the first O site, O is bonded in a distorted trigonal planar geometry to one Li and two Ge atoms. In the second O site, O is bonded to three Cd and one Ge atom to form a mixture of distorted edge and corner-sharing OCd₃Ge tetrahedra. In the third O site, O is bonded to three Cd and one Ge atom to form distorted OCd₃Ge tetrahedra that share corners with three OCd₃Ge tetrahedra, corners with two equivalent OLiCd₂Ge trigonal pyramids, and edges with two OCd₃Ge tetrahedra. In the fourth O site, O is bonded in a distorted trigonal planar geometry to one Li and two Ge atoms. In the fifth O site, O is bonded to three Cd and one Ge atom to form distorted OCd₃Ge tetrahedra that share corners with two OCd₃Ge tetrahedra,  a cornercorner with one OLiCd₂Ge trigonal pyramid, edges with two OCd₃Ge tetrahedra, and  an edgeedge with one OLiCd₂Ge trigonal pyramid. In the sixth O site, O is bonded to three Cd and one Ge atom to form distorted OCd₃Ge tetrahedra that share corners with two OCd₃Ge tetrahedra,  a cornercorner with one OLiCd₂Ge trigonal pyramid, and edges with two OCd₃Ge tetrahedra. In the seventh O site, O is bonded in a distorted bent 120 degrees geometry to two Ge atoms. In the eighth O site, O is bonded in a 3-coordinate geometry to one Cd and two Ge atoms. In the ninth O site, O is bonded in a distorted trigonal planar geometry to two Cd and one Ge atom. In the tenth O site, O is bonded in a bent 120 degrees geometry to two Ge atoms. In the eleventh O site, O is bonded in a distorted T-shaped geometry to one Li, one Cd, and one Ge atom. In the twelfth O site, O is bonded to one Li, two Cd, and one Ge atom to form a mixture of distorted edge and corner-sharing OLiCd₂Ge trigonal pyramids. In the thirteenth O site, O is bonded in a distorted T-shaped geometry to two Cd and one Ge atom. In the fourteenth O site, O is bonded in a distorted trigonal non-coplanar geometry to two Cd and one Ge atom. In the fifteenth O site, O is bonded in a 3-coordinate geometry to one Li, one Cd, and one Ge atom.
+[POSCAR]
+Li2 Cd8 Ge10 O30
+1.0
+   7.1955640000000001    0.0000000000000000    0.0000000000000000
+  -0.6924830000000000    8.0044730000000008    0.0000000000000000
+  -0.6398840000000000   -3.5700479999999999   11.8949110000000005
+Li Cd Ge O
+2 8 10 30
+direct
+   0.3411150000000000    0.1633830000000000    0.6126350000000000 Li
+   0.6588850000000001    0.8366170000000001    0.3873650000000000 Li
+   0.0579500000000000    0.0974020000000000    0.1507760000000000 Cd
+   0.9420500000000001    0.9025980000000000    0.8492240000000000 Cd
+   0.1337620000000000    0.3184570000000000    0.4437230000000000 Cd
+   0.8662380000000000    0.6815430000000000    0.5562770000000000 Cd
+   0.1838920000000000    0.5346190000000000    0.7339420000000000 Cd
+   0.8161079999999999    0.4653810000000000    0.2660580000000000 Cd
+   0.2741460000000000    0.7434140000000000    0.0182410000000000 Cd
+   0.7258540000000000    0.2565860000000000    0.9817590000000000 Cd
+   0.4284610000000000    0.9728570000000000    0.8257380000000000 Ge
+   0.5715390000000000    0.0271430000000000    0.1742620000000000 Ge
+   0.3553080000000000    0.7750359999999999    0.5542500000000000 Ge
+   0.6446920000000000    0.2249640000000000    0.4457500000000000 Ge
+   0.3023280000000000    0.5142980000000000    0.2299860000000000 Ge
+   0.6976720000000000    0.4857020000000000    0.7700140000000000 Ge
+   0.2208370000000000    0.3183660000000000    0.9589259999999999 Ge
+   0.7791630000000000    0.6816340000000000    0.0410740000000000 Ge
+   0.1093040000000000    0.8568170000000001    0.3531850000000000 Ge
+   0.8906960000000000    0.1431830000000000    0.6468150000000000 Ge
+   0.4228810000000000    0.9537380000000000    0.6780800000000000 O
+   0.5771190000000000    0.0462620000000000    0.3219200000000000 O
+   0.0348410000000000    0.1752150000000000    0.9765120000000000 O
+   0.9651590000000000    0.8247850000000000    0.0234880000000000 O
+   0.1250360000000000    0.3828900000000000    0.2690610000000000 O
+   0.8749640000000000    0.6171100000000000    0.7309390000000000 O
+   0.2711490000000000    0.9136660000000000    0.4757760000000000 O
+   0.7288510000000000    0.0863340000000000    0.5242240000000000 O
+   0.1802100000000000    0.6149750000000000    0.5633820000000000 O
+   0.8197900000000000    0.3850250000000000    0.4366180000000000 O
+   0.2529290000000000    0.8222780000000000    0.8471750000000000 O
+   0.7470710000000000    0.1777220000000000    0.1528250000000000 O
+   0.3578890000000000    0.4349950000000000    0.0877780000000000 O
+   0.6421110000000000    0.5650050000000000    0.9122220000000000 O
+   0.6060010000000000    0.7983600000000000    0.1211640000000000 O
+   0.3939990000000000    0.2016400000000000    0.8788360000000000 O
+   0.0629970000000000    0.0472740000000000    0.3221390000000000 O
+   0.9370030000000000    0.9527260000000000    0.6778610000000000 O
+   0.2259100000000000    0.7244360000000000    0.2384130000000000 O
+   0.7740899999999999    0.2755640000000000    0.7615870000000000 O
+   0.4353970000000000    0.2935730000000000    0.5047509999999999 O
+   0.5646030000000000    0.7064270000000000    0.4952490000000000 O
+   0.0934100000000000    0.2600820000000000    0.6200560000000001 O
+   0.9065900000000000    0.7399180000000000    0.3799440000000000 O
+   0.3520060000000000    0.0264150000000000    0.1087310000000000 O
+   0.6479940000000000    0.9735850000000000    0.8912690000000000 O
+   0.1610730000000000    0.4864810000000000    0.9043530000000000 O
+   0.8389270000000000    0.5135189999999999    0.0956470000000000 O
+   0.5193870000000000    0.5324790000000000    0.3082690000000000 O
+   0.4806130000000000    0.4675210000000000    0.6917310000000000 O
+
+<Example>
+[Description]
+K₂Li₄UO₆ crystallizes in the trigonal P̅3m1 space group. K¹⁺ is bonded in a 3-coordinate geometry to three equivalent O²⁻ atoms. All K-O bond lengths are 2.58 Å. There are two inequivalent Li¹⁺ sites. In the first Li¹⁺ site, Li¹⁺ is bonded to six equivalent O²⁻ atoms to form distorted LiO₆ octahedra that share faces with two equivalent UO₆ octahedra. All Li-O bond lengths are 2.41 Å. In the second Li¹⁺ site, Li¹⁺ is bonded in a square co-planar geometry to four equivalent O²⁻ atoms. All Li-O bond lengths are 2.13 Å. U⁶⁺ is bonded to six equivalent O²⁻ atoms to form UO₆ octahedra that share faces with two equivalent LiO₆ octahedra. All U-O bond lengths are 2.09 Å. O²⁻ is bonded to one K¹⁺, three Li¹⁺, and one U⁶⁺ atom to form a mixture of distorted edge and corner-sharing OKLi₃U trigonal bipyramids.
+[POSCAR]
+K2 Li4 U1 O6
+1.0
+   3.0606000000000000   -5.3011140000000001    0.0000000000000000
+   3.0606000000000000    5.3011140000000001    0.0000000000000000
+   0.0000000000000000    0.0000000000000000    5.6736529999999998
+K Li U O
+2 4 1 6
+direct
+   0.3333330000000000    0.6666670000000000    0.5301900000000001 K
+   0.6666670000000000    0.3333330000000000    0.4698100000000000 K
+   0.0000000000000000    0.0000000000000000    0.5000000000000000 Li
+   0.5000000000000000    0.0000000000000000    0.0000000000000000 Li
+   0.5000000000000000    0.5000000000000000    0.0000000000000000 Li
+   0.0000000000000000    0.5000000000000000    0.0000000000000000 Li
+   0.0000000000000000    0.0000000000000000    0.0000000000000000 U
+   0.6729370000000000    0.8364680000000000    0.2050940000000000 O
+   0.3270630000000000    0.1635320000000000    0.7949060000000000 O
+   0.8364680000000000    0.6729370000000000    0.7949060000000000 O
+   0.1635320000000000    0.8364680000000000    0.2050940000000000 O
+   0.8364680000000000    0.1635320000000000    0.7949060000000000 O
+   0.1635320000000000    0.3270630000000000    0.2050940000000000 O
+
+<Example>
+[Description]
+Na₃LiGa₄(SiO₃)₈ is Esseneite-derived structured and crystallizes in the monoclinic P2 space group. There are three inequivalent Na¹⁺ sites. In the first Na¹⁺ site, Na¹⁺ is bonded in a 8-coordinate geometry to eight O²⁻ atoms. There are a spread of Na-O bond distances ranging from 2.40-2.87 Å. In the second Na¹⁺ site, Na¹⁺ is bonded in a 8-coordinate geometry to eight O²⁻ atoms. There are a spread of Na-O bond distances ranging from 2.39-2.89 Å. In the third Na¹⁺ site, Na¹⁺ is bonded in a 8-coordinate geometry to eight O²⁻ atoms. There are a spread of Na-O bond distances ranging from 2.38-2.88 Å. Li¹⁺ is bonded in a 6-coordinate geometry to six O²⁻ atoms. There are a spread of Li-O bond distances ranging from 2.21-2.51 Å. There are four inequivalent Ga³⁺ sites. In the first Ga³⁺ site, Ga³⁺ is bonded to six O²⁻ atoms to form GaO₆ octahedra that share corners with six SiO₄ tetrahedra and edges with two equivalent GaO₆ octahedra. There are a spread of Ga-O bond distances ranging from 1.94-2.14 Å. In the second Ga³⁺ site, Ga³⁺ is bonded to six O²⁻ atoms to form GaO₆ octahedra that share corners with six SiO₄ tetrahedra and edges with two equivalent GaO₆ octahedra. There are a spread of Ga-O bond distances ranging from 1.93-2.10 Å. In the third Ga³⁺ site, Ga³⁺ is bonded to six O²⁻ atoms to form GaO₆ octahedra that share corners with six SiO₄ tetrahedra and edges with two equivalent GaO₆ octahedra. There are a spread of Ga-O bond distances ranging from 1.93-2.12 Å. In the fourth Ga³⁺ site, Ga³⁺ is bonded to six O²⁻ atoms to form GaO₆ octahedra that share corners with six SiO₄ tetrahedra and edges with two equivalent GaO₆ octahedra. There are a spread of Ga-O bond distances ranging from 1.94-2.11 Å. There are four inequivalent Si⁴⁺ sites. In the first Si⁴⁺ site, Si⁴⁺ is bonded to four O²⁻ atoms to form SiO₄ tetrahedra that share corners with three GaO₆ octahedra and corners with two equivalent SiO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 36-59°. There are a spread of Si-O bond distances ranging from 1.61-1.66 Å. In the second Si⁴⁺ site, Si⁴⁺ is bonded to four O²⁻ atoms to form SiO₄ tetrahedra that share corners with three GaO₆ octahedra and corners with two equivalent SiO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 35-61°. There are a spread of Si-O bond distances ranging from 1.60-1.66 Å. In the third Si⁴⁺ site, Si⁴⁺ is bonded to four O²⁻ atoms to form SiO₄ tetrahedra that share corners with three GaO₆ octahedra and corners with two equivalent SiO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 38-59°. There are a spread of Si-O bond distances ranging from 1.61-1.66 Å. In the fourth Si⁴⁺ site, Si⁴⁺ is bonded to four O²⁻ atoms to form SiO₄ tetrahedra that share corners with three GaO₆ octahedra and corners with two equivalent SiO₄ tetrahedra. The corner-sharing octahedral tilt angles range from 35-60°. There are a spread of Si-O bond distances ranging from 1.61-1.66 Å. There are twelve inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded in a distorted T-shaped geometry to one Na¹⁺, one Ga³⁺, and one Si⁴⁺ atom. In the second O²⁻ site, O²⁻ is bonded in a distorted T-shaped geometry to one Na¹⁺, one Ga³⁺, and one Si⁴⁺ atom. In the third O²⁻ site, O²⁻ is bonded in a distorted T-shaped geometry to one Li¹⁺, one Ga³⁺, and one Si⁴⁺ atom. In the fourth O²⁻ site, O²⁻ is bonded in a distorted T-shaped geometry to one Na¹⁺, one Ga³⁺, and one Si⁴⁺ atom. In the fifth O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to one Na¹⁺, two Ga³⁺, and one Si⁴⁺ atom. In the sixth O²⁻ site, O²⁻ is bonded to one Li¹⁺, two Ga³⁺, and one Si⁴⁺ atom to form a mixture of distorted edge and corner-sharing OLiGa₂Si tetrahedra. In the seventh O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to one Na¹⁺, two Ga³⁺, and one Si⁴⁺ atom. In the eighth O²⁻ site, O²⁻ is bonded in a 4-coordinate geometry to one Na¹⁺, two Ga³⁺, and one Si⁴⁺ atom. In the ninth O²⁻ site, O²⁻ is bonded in a 2-coordinate geometry to one Na¹⁺, one Li¹⁺, and two Si⁴⁺ atoms. In the tenth O²⁻ site, O²⁻ is bonded in a 2-coordinate geometry to two Na¹⁺ and two Si⁴⁺ atoms. In the eleventh O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Na¹⁺ and two Si⁴⁺ atoms. In the twelfth O²⁻ site, O²⁻ is bonded in a 2-coordinate geometry to two Na¹⁺ and two Si⁴⁺ atoms.
+[POSCAR]
+Na3 Li1 Ga4 Si8 O24
+1.0
+   8.7818989999999992    0.0000000000000000    0.0000000000000000
+   0.0000000000000000    5.3419030000000003    0.0000000000000000
+   0.0000000000000000    2.2689970000000002    9.2118660000000006
+Na Li Ga Si O
+3 1 4 8 24
+direct
+   0.2979350000000000    0.0000000000000000    0.0000000000000000 Na
+   0.2022380000000000    0.0000000000000000    0.5000000000000000 Na
+   0.7026829999999999    0.5000000000000000    0.0000000000000000 Na
+   0.7805900000000000    0.5000000000000000    0.5000000000000000 Li
+   0.4005040000000000    0.5000000000000000    0.5000000000000000 Ga
+   0.9014940000000000    0.0000000000000000    0.0000000000000000 Ga
+   0.6018670000000000    0.0000000000000000    0.5000000000000000 Ga
+   0.0989160000000000    0.5000000000000000    0.0000000000000000 Ga
+   0.0894430000000000    0.6954430000000000    0.2924770000000000 Si
+   0.5924430000000001    0.1943580000000000    0.7907060000000000 Si
+   0.0894430000000000    0.3045570000000000    0.7075230000000000 Si
+   0.5924430000000001    0.8056420000000000    0.2092940000000000 Si
+   0.9090190000000000    0.8022600000000000    0.7067430000000000 Si
+   0.4093010000000000    0.3069650000000000    0.2094840000000000 Si
+   0.9090190000000000    0.1977400000000000    0.2932570000000000 Si
+   0.4093010000000000    0.6930350000000000    0.7905160000000000 Si
+   0.2585650000000000    0.6946860000000000    0.3589960000000000 O
+   0.7590620000000000    0.1934080000000000    0.8602330000000000 O
+   0.2585650000000000    0.3053140000000000    0.6410040000000000 O
+   0.7590620000000000    0.8065920000000000    0.1397670000000000 O
+   0.7423950000000000    0.7947390000000000    0.6363080000000000 O
+   0.2418720000000000    0.3060100000000000    0.1410410000000000 O
+   0.7423950000000000    0.2052610000000000    0.3636920000000000 O
+   0.2418720000000000    0.6939900000000000    0.8589590000000000 O
+   0.0781030000000000    0.7717160000000000    0.1129540000000000 O
+   0.5851740000000000    0.2757280000000000    0.6111340000000000 O
+   0.0781030000000000    0.2282840000000000    0.8870460000000000 O
+   0.5851740000000000    0.7242720000000000    0.3888660000000000 O
+   0.9209120000000000    0.7269160000000000    0.8861120000000000 O
+   0.4217910000000000    0.2281220000000000    0.3886790000000000 O
+   0.9209120000000000    0.2730840000000000    0.1138880000000000 O
+   0.4217910000000000    0.7718780000000000    0.6113210000000000 O
+   0.0057370000000000    0.4152150000000000    0.3554180000000000 O
+   0.5084020000000000    0.9120260000000000    0.8500970000000000 O
+   0.0057370000000000    0.5847850000000000    0.6445820000000000 O
+   0.5084020000000000    0.0879740000000000    0.1499030000000000 O
+   0.9920590000000000    0.0849660000000000    0.6471610000000000 O
+   0.4926100000000000    0.5892980000000000    0.1482180000000000 O
+   0.9920590000000000    0.9150340000000000    0.3528390000000000 O
+   0.4926100000000000    0.4107020000000000    0.8517820000000000 O
+
+<Question>
+[Description]
+LiHSeO₃ crystallizes in the orthorhombic P2_12_12₁ space group. Li¹⁺ is bonded to four O²⁻ atoms to form corner-sharing LiO₄ tetrahedra. There are a spread of Li-O bond distances ranging from 1.96-2.05 Å. H¹⁺ is bonded in a distorted linear geometry to two O²⁻ atoms. There is one shorter (1.02 Å) and one longer (1.60 Å) H-O bond length. Se⁴⁺ is bonded in a trigonal non-coplanar geometry to three O²⁻ atoms. There are a spread of Se-O bond distances ranging from 1.69-1.84 Å. There are three inequivalent O²⁻ sites. In the first O²⁻ site, O²⁻ is bonded in a trigonal planar geometry to one Li¹⁺, one H¹⁺, and one Se⁴⁺ atom. In the second O²⁻ site, O²⁻ is bonded in a trigonal planar geometry to two equivalent Li¹⁺ and one Se⁴⁺ atom. In the third O²⁻ site, O²⁻ is bonded in a 3-coordinate geometry to one Li¹⁺, one H¹⁺, and one Se⁴⁺ atom.
