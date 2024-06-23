@@ -36,12 +36,11 @@ app = dash.Dash(prevent_initial_callbacks=True)
 
 # Scatter plot
 
-styles = {
-    'pre': {
-        'border': 'thin lightgrey solid',
-        'overflowX': 'scroll'
-    }
-}
+###############################################################################
+###############################################################################
+###########################    Testing           ##############################
+###############################################################################
+###############################################################################
 
 test_comps_energies = pd.DataFrame({
     "x": ["LiFePO4", "LiMn2O4", "LiMnO3", "LiTiO4"],
@@ -74,18 +73,31 @@ structures = [
 # we show the first structure by default
 structure_component = ctc.StructureMoleculeComponent(structures[0], id="my_structure")
 
-# and we create a button for user interaction
-my_button = html.Button("Swap Structure", id="change_structure_button")
+# model and tokenizer details
+# tokenizer = ...
+# model = ...
+# model.to(device)
+
+###############################################################################
+###############################################################################
+###########################    Layout            ##############################
+###############################################################################
+###############################################################################
+
+styles = {
+    'pre': {
+        'border': 'thin lightgrey solid',
+        'overflowX': 'scroll'
+    }
+}
 
 external_stylesheets = [
     dbc.themes.BOOTSTRAP,
     "https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap",
 ]
 
-# model and tokenizer details
-# tokenizer = ...
-# model = ...
-# model.to(device)
+# and we create a button for user interaction
+my_button = html.Button("Swap Structure", id="change_structure_button")
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
@@ -111,16 +123,23 @@ app.layout = dbc.Container(
             [
                 dbc.Col(
                     [
-                        dcc.Textarea(
-                            id="chemical_formula",
-                            value="LiFePO4",
-                            style={"width": "15%", "height": "150px"},
-                        ),
-                        dcc.Textarea(
-                            id="space_group",
-                            value="Pnma",
-                            style={"width": "15%", "height": "150px"},
-                        ),
+                        dbc.Row([
+                            html.H3("Chemical Formula"),
+                            dcc.Textarea(
+                                id="chemical_formula",
+                                value="LiFePO4",
+                                style={"width": "20%", "height": "50px"}
+                            )
+                        ]),
+                        dbc.Row([
+                            html.H3("Space Group"),
+                            dcc.Textarea(
+                                id="space_group",
+                                value="Pnma",
+                                style={"width": "15%", "height": "150px"},
+                            ),
+                        ]),
+
                         dcc.Textarea(
                             id="lattice_parameter",
                             value="8.4",
@@ -160,16 +179,14 @@ app.layout = dbc.Container(
     fluid=True,
 )
 
+###############################################################################
+###############################################################################
+###########################    Function Pipeli   ##############################
+###############################################################################
+###############################################################################
+
 # Input:
 # Composition, Symmetry, lattic parameter (angle+length), space group
-
-def build_poscar_from_user_input():
-    # ... LLM generate
-    return
-
-def build_pymatgen_structure_from_poscar(poscar):
-    # ...
-    return structure
 
 def call_llm(question):
     #when have model
@@ -183,6 +200,15 @@ def call_llm(question):
 
     return answer
 
+def build_pymatgen_structure_from_poscar(poscar_file):
+
+    return structure
+
+###############################################################################
+###############################################################################
+###########################    Call Backs        ##############################
+###############################################################################
+###############################################################################
 
 # @app.callback(
 #     Output("my-output", "children"),
