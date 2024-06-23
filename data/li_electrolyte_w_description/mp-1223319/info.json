@@ -1,1 +1,1 @@
-{"space_group": "Pmm2", "formula": "Li3U7(AsO7)5", "lattice": [[7.326227, 0.0, 0.0], [0.0, 7.390788, 0.0], [0.0, 0.0, 14.889142]], "full_formula": "Li3 U7 As5 O35", "natoms": 50}
+{"space_group": "Pmm2", "formula": "Li3U7(AsO7)5", "lattice": [[7.326227, 0.0, 0.0], [0.0, 7.390788, 0.0], [0.0, 0.0, 14.889142]], "full_formula": "Li3 U7 As5 O35", "natoms": 50, "ehull_mp": 3.051518800015529}

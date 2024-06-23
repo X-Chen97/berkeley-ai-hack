@@ -1,1 +1,1 @@
-{"space_group": "R-3", "formula": "BaNaLi3(BO2)6", "lattice": [[6.905973, -4.780431, 0.0], [6.905973, 4.780431, 0.0], [3.596878, 0.0, 7.589957]], "full_formula": "Ba2 Na2 Li6 B12 O24", "natoms": 46}
+{"space_group": "R-3", "formula": "BaNaLi3(BO2)6", "lattice": [[6.905973, -4.780431, 0.0], [6.905973, 4.780431, 0.0], [3.596878, 0.0, 7.589957]], "full_formula": "Ba2 Na2 Li6 B12 O24", "natoms": 46, "ehull_mp": 0.0}

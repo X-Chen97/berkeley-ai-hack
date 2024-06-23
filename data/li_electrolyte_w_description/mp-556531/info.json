@@ -1,1 +1,1 @@
-{"space_group": "P2_1", "formula": "LiSi2BO6", "lattice": [[13.255091, 0.0, 0.0], [0.0, 5.080369, 0.0], [0.0, 0.026731, 13.479538]], "full_formula": "Li8 Si16 B8 O48", "natoms": 80}
+{"space_group": "P2_1", "formula": "LiSi2BO6", "lattice": [[13.255091, 0.0, 0.0], [0.0, 5.080369, 0.0], [0.0, 0.026731, 13.479538]], "full_formula": "Li8 Si16 B8 O48", "natoms": 80, "ehull_mp": 0.0}

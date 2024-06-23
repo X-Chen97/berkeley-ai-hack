@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "Li2Bi2B2O7", "lattice": [[6.50345, 0.0, 0.0], [0.0, 10.479953, 0.0], [0.0, 5.117997, 9.25042]], "full_formula": "Li8 Bi8 B8 O28", "natoms": 52}
+{"space_group": "P2_1/c", "formula": "Li2Bi2B2O7", "lattice": [[6.50345, 0.0, 0.0], [0.0, 10.479953, 0.0], [0.0, 5.117997, 9.25042]], "full_formula": "Li8 Bi8 B8 O28", "natoms": 52, "ehull_mp": 80.71471730769098}

@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "LiH2NO3", "lattice": [[14.455976, 0.0, 0.0], [0.0, 3.475636, 0.0], [0.0, 1.890008, 6.203549]], "full_formula": "Li4 H8 N4 O12", "natoms": 28}
+{"space_group": "P2_1/c", "formula": "LiH2NO3", "lattice": [[14.455976, 0.0, 0.0], [0.0, 3.475636, 0.0], [0.0, 1.890008, 6.203549]], "full_formula": "Li4 H8 N4 O12", "natoms": 28, "ehull_mp": 50.24585985714225}

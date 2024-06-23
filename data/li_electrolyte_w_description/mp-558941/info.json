@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "LiYSiO4", "lattice": [[6.251053, 0.0, 0.0], [0.0, 5.451997, 0.0], [0.0, 4.383883, 10.023273]], "full_formula": "Li4 Y4 Si4 O16", "natoms": 28}
+{"space_group": "P2_1/c", "formula": "LiYSiO4", "lattice": [[6.251053, 0.0, 0.0], [0.0, 5.451997, 0.0], [0.0, 4.383883, 10.023273]], "full_formula": "Li4 Y4 Si4 O16", "natoms": 28, "ehull_mp": 0.0}

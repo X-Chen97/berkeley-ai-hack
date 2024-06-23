@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "LiU4P3O20", "lattice": [[9.991224, 0.0, 0.0], [0.0, 9.985142, 0.0], [0.0, 4.925278, 17.051107]], "full_formula": "Li4 U16 P12 O80", "natoms": 112}
+{"space_group": "P2_1/c", "formula": "LiU4P3O20", "lattice": [[9.991224, 0.0, 0.0], [0.0, 9.985142, 0.0], [0.0, 4.925278, 17.051107]], "full_formula": "Li4 U16 P12 O80", "natoms": 112, "ehull_mp": 0.0}

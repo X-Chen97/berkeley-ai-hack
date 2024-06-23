@@ -1,1 +1,1 @@
-{"space_group": "Pc", "formula": "LiMg6Sc(SiO3)8", "lattice": [[14.034785, 0.0, 0.0], [0.0, 7.828603, 0.0], [0.0, 0.516346, 7.926703]], "full_formula": "Li2 Mg12 Sc2 Si16 O48", "natoms": 80}
+{"space_group": "Pc", "formula": "LiMg6Sc(SiO3)8", "lattice": [[14.034785, 0.0, 0.0], [0.0, 7.828603, 0.0], [0.0, 0.516346, 7.926703]], "full_formula": "Li2 Mg12 Sc2 Si16 O48", "natoms": 80, "ehull_mp": 259.75847724999744}

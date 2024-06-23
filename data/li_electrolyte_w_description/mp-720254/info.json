@@ -1,1 +1,1 @@
-{"space_group": "Pccn", "formula": "Li2H4(SO4)3", "lattice": [[5.457257, 0.0, 0.0], [0.0, 11.054557, 0.0], [0.0, 0.0, 17.734734]], "full_formula": "Li8 H16 S12 O48", "natoms": 84}
+{"space_group": "Pccn", "formula": "Li2H4(SO4)3", "lattice": [[5.457257, 0.0, 0.0], [0.0, 11.054557, 0.0], [0.0, 0.0, 17.734734]], "full_formula": "Li8 H16 S12 O48", "natoms": 84, "ehull_mp": 0.0}

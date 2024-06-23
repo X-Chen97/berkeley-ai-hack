@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "Li4Sc3In(SiO3)8", "lattice": [[5.424222, 0.0, 0.0], [-1.738925, -6.512362, 0.0], [-1.945485, 0.315483, -13.021523]], "full_formula": "Li4 Sc3 In1 Si8 O24", "natoms": 40}
+{"space_group": "P1", "formula": "Li4Sc3In(SiO3)8", "lattice": [[5.424222, 0.0, 0.0], [-1.738925, -6.512362, 0.0], [-1.945485, 0.315483, -13.021523]], "full_formula": "Li4 Sc3 In1 Si8 O24", "natoms": 40, "ehull_mp": 5.206872687495867}

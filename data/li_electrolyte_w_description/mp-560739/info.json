@@ -1,1 +1,1 @@
-{"space_group": "Pnma", "formula": "K3Li3TeO6", "lattice": [[6.073841, 0.0, 0.0], [0.0, 9.833974, 0.0], [0.0, 0.0, 11.857585]], "full_formula": "K12 Li12 Te4 O24", "natoms": 52}
+{"space_group": "Pnma", "formula": "K3Li3TeO6", "lattice": [[6.073841, 0.0, 0.0], [0.0, 9.833974, 0.0], [0.0, 0.0, 11.857585]], "full_formula": "K12 Li12 Te4 O24", "natoms": 52, "ehull_mp": 0.0}

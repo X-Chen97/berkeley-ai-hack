@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "K3Li5Al6Si10(O5F)6", "lattice": [[5.352626, 0.0, 0.0], [2.53447, 4.827058, 0.0], [1.146739, 0.173783, 32.61955]], "full_formula": "K3 Li5 Al6 Si10 O30 F6", "natoms": 60}
+{"space_group": "P-1", "formula": "K3Li5Al6Si10(O5F)6", "lattice": [[5.352626, 0.0, 0.0], [2.53447, 4.827058, 0.0], [1.146739, 0.173783, 32.61955]], "full_formula": "K3 Li5 Al6 Si10 O30 F6", "natoms": 60, "ehull_mp": 458.876176437494}

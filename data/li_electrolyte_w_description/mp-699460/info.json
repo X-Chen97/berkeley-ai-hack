@@ -1,1 +1,1 @@
-{"space_group": "P2_1", "formula": "KLiH4S2(NO3)2", "lattice": [[8.568784, 0.0, 0.0], [0.0, 5.302374, 0.0], [0.0, 2.306591, 8.702632]], "full_formula": "K2 Li2 H8 S4 N4 O12", "natoms": 32}
+{"space_group": "P2_1", "formula": "KLiH4S2(NO3)2", "lattice": [[8.568784, 0.0, 0.0], [0.0, 5.302374, 0.0], [0.0, 2.306591, 8.702632]], "full_formula": "K2 Li2 H8 S4 N4 O12", "natoms": 32, "ehull_mp": 63.449800592429995}

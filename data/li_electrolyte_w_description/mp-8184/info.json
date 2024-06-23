@@ -1,1 +1,1 @@
-{"space_group": "Pc", "formula": "Li2ZnGeO4", "lattice": [[5.501216, 0.0, 0.0], [0.0, 5.122283, 0.0], [0.0, 5.098867, 6.444219]], "full_formula": "Li4 Zn2 Ge2 O8", "natoms": 16}
+{"space_group": "Pc", "formula": "Li2ZnGeO4", "lattice": [[5.501216, 0.0, 0.0], [0.0, 5.122283, 0.0], [0.0, 5.098867, 6.444219]], "full_formula": "Li4 Zn2 Ge2 O8", "natoms": 16, "ehull_mp": 0.0}

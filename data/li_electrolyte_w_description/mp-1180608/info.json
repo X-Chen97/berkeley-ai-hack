@@ -1,1 +1,1 @@
-{"space_group": "P4/n", "formula": "LiUAs(H4O5)2", "lattice": [[7.143804, 0.0, 0.0], [0.0, 7.143804, 0.0], [0.0, 0.0, 9.441111]], "full_formula": "Li2 U2 As2 H16 O20", "natoms": 42}
+{"space_group": "P4/n", "formula": "LiUAs(H4O5)2", "lattice": [[7.143804, 0.0, 0.0], [0.0, 7.143804, 0.0], [0.0, 0.0, 9.441111]], "full_formula": "Li2 U2 As2 H16 O20", "natoms": 42, "ehull_mp": 0.538554999999441}

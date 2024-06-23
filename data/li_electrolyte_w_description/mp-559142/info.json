@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "KLi(PO3)2", "lattice": [[7.014832, 6.975573, 0.0], [-7.014832, 6.975573, 0.0], [0.0, 0.057282, 12.015139]], "full_formula": "K8 Li8 P16 O48", "natoms": 80}
+{"space_group": "C2/c", "formula": "KLi(PO3)2", "lattice": [[7.014832, 6.975573, 0.0], [-7.014832, 6.975573, 0.0], [0.0, 0.057282, 12.015139]], "full_formula": "K8 Li8 P16 O48", "natoms": 80, "ehull_mp": 0.0}

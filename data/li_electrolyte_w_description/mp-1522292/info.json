@@ -1,1 +1,1 @@
-{"space_group": "F-43m", "formula": "SrLiSnSbO6", "lattice": [[0.0, -4.02763731, -4.02763731], [4.02763731, -0.0, -4.02763731], [4.02763731, -4.02763731, 0.0]], "full_formula": "Sr1 Li1 Sn1 Sb1 O6", "natoms": 10}
+{"space_group": "F-43m", "formula": "SrLiSnSbO6", "lattice": [[0.0, -4.02763731, -4.02763731], [4.02763731, -0.0, -4.02763731], [4.02763731, -4.02763731, 0.0]], "full_formula": "Sr1 Li1 Sn1 Sb1 O6", "natoms": 10, "ehull_mp": 183.07492350000132}

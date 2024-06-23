@@ -1,1 +1,1 @@
-{"space_group": "Pmmm", "formula": "LiMg14BO16", "lattice": [[8.60117298, 0.0, 0.0], [0.0, 8.30874678, 0.0], [0.0, 0.0, 4.26199877]], "full_formula": "Li1 Mg14 B1 O16", "natoms": 32}
+{"space_group": "Pmmm", "formula": "LiMg14BO16", "lattice": [[8.60117298, 0.0, 0.0], [0.0, 8.30874678, 0.0], [0.0, 0.0, 4.26199877]], "full_formula": "Li1 Mg14 B1 O16", "natoms": 32, "ehull_mp": 127.26816744791324}

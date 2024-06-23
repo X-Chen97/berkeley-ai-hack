@@ -1,1 +1,1 @@
-{"space_group": "Fd-3", "formula": "Li6Bi2B4SO16", "lattice": [[0.0, 6.884491, 6.884491], [6.884491, 0.0, 6.884491], [6.884491, 6.884491, 0.0]], "full_formula": "Li12 Bi4 B8 S2 O32", "natoms": 58}
+{"space_group": "Fd-3", "formula": "Li6Bi2B4SO16", "lattice": [[0.0, 6.884491, 6.884491], [6.884491, 0.0, 6.884491], [6.884491, 6.884491, 0.0]], "full_formula": "Li12 Bi4 B8 S2 O32", "natoms": 58, "ehull_mp": 92.580695948282}

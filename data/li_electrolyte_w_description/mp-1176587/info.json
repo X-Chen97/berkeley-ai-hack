@@ -1,1 +1,1 @@
-{"space_group": "Pca2_1", "formula": "LiSiBiO4", "lattice": [[5.381398, 0.0, 0.0], [0.0, 10.474332, 0.0], [0.0, 0.0, 14.590617]], "full_formula": "Li8 Si8 Bi8 O32", "natoms": 56}
+{"space_group": "Pca2_1", "formula": "LiSiBiO4", "lattice": [[5.381398, 0.0, 0.0], [0.0, 10.474332, 0.0], [0.0, 0.0, 14.590617]], "full_formula": "Li8 Si8 Bi8 O32", "natoms": 56, "ehull_mp": 76.09722095237802}

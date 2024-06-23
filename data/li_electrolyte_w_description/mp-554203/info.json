@@ -1,1 +1,1 @@
-{"space_group": "P-43n", "formula": "Li4Ga3Si3ClO12", "lattice": [[8.615363, 0.0, 0.0], [0.0, 8.615363, 0.0], [0.0, 0.0, 8.615363]], "full_formula": "Li8 Ga6 Si6 Cl2 O24", "natoms": 46}
+{"space_group": "P-43n", "formula": "Li4Ga3Si3ClO12", "lattice": [[8.615363, 0.0, 0.0], [0.0, 8.615363, 0.0], [0.0, 0.0, 8.615363]], "full_formula": "Li8 Ga6 Si6 Cl2 O24", "natoms": 46, "ehull_mp": 0.0}

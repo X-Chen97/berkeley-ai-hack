@@ -1,1 +1,1 @@
-{"space_group": "I4/mcm", "formula": "Rb6LiPr11Se12(Cl4O9)4", "lattice": [[-8.058455, 8.058455, 12.599747], [8.058455, -8.058455, 12.599747], [8.058455, 8.058455, -12.599747]], "full_formula": "Rb12 Li2 Pr22 Se24 Cl32 O72", "natoms": 164}
+{"space_group": "I4/mcm", "formula": "Rb6LiPr11Se12(Cl4O9)4", "lattice": [[-8.058455, 8.058455, 12.599747], [8.058455, -8.058455, 12.599747], [8.058455, 8.058455, -12.599747]], "full_formula": "Rb12 Li2 Pr22 Se24 Cl32 O72", "natoms": 164, "ehull_mp": 0.0}

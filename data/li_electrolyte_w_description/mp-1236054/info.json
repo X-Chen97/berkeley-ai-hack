@@ -1,1 +1,1 @@
-{"space_group": "Cm", "formula": "LiEuYO2", "lattice": [[1.7173, 0.941463, 8.955791], [-1.7173, 0.941463, 8.955791], [0.0, -2.032514, 8.98053]], "full_formula": "Li1 Eu1 Y1 O2", "natoms": 5}
+{"space_group": "Cm", "formula": "LiEuYO2", "lattice": [[1.7173, 0.941463, 8.955791], [-1.7173, 0.941463, 8.955791], [0.0, -2.032514, 8.98053]], "full_formula": "Li1 Eu1 Y1 O2", "natoms": 5, "ehull_mp": 185.55780920833166}

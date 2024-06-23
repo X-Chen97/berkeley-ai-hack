@@ -1,1 +1,1 @@
-{"space_group": "P4_2mc", "formula": "Li10Ge(PO6)2", "lattice": [[7.069309, 0.0, 0.0], [0.0, 7.069309, 0.0], [0.0, 0.0, 10.524366]], "full_formula": "Li20 Ge2 P4 O24", "natoms": 50}
+{"space_group": "P4_2mc", "formula": "Li10Ge(PO6)2", "lattice": [[7.069309, 0.0, 0.0], [0.0, 7.069309, 0.0], [0.0, 0.0, 10.524366]], "full_formula": "Li20 Ge2 P4 O24", "natoms": 50, "ehull_mp": 111.72321339999769}

@@ -1,1 +1,1 @@
-{"space_group": "Pbcn", "formula": "LiB3P(HO3)3", "lattice": [[8.883806, 0.0, 0.0], [0.0, 11.61225, 0.0], [0.0, 0.0, 14.005052]], "full_formula": "Li8 B24 P8 H24 O72", "natoms": 136}
+{"space_group": "Pbcn", "formula": "LiB3P(HO3)3", "lattice": [[8.883806, 0.0, 0.0], [0.0, 11.61225, 0.0], [0.0, 0.0, 14.005052]], "full_formula": "Li8 B24 P8 H24 O72", "natoms": 136, "ehull_mp": 2.2070919362802144}

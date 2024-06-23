@@ -1,1 +1,1 @@
-{"space_group": "Pcca", "formula": "Na2LiAlP2H2O9", "lattice": [[7.031867, 0.0, 0.0], [0.0, 14.208609, 0.0], [0.0, 0.0, 14.247314]], "full_formula": "Na16 Li8 Al8 P16 H16 O72", "natoms": 136}
+{"space_group": "Pcca", "formula": "Na2LiAlP2H2O9", "lattice": [[7.031867, 0.0, 0.0], [0.0, 14.208609, 0.0], [0.0, 0.0, 14.247314]], "full_formula": "Na16 Li8 Al8 P16 H16 O72", "natoms": 136, "ehull_mp": 5.472849379083655}

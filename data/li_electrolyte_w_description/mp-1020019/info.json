@@ -1,1 +1,1 @@
-{"space_group": "Cmc2_1", "formula": "Li2PNO2", "lattice": [[2.730513, -4.577934, 0.0], [2.730513, 4.577934, 0.0], [0.0, 0.0, 4.748969]], "full_formula": "Li4 P2 N2 O4", "natoms": 12}
+{"space_group": "Cmc2_1", "formula": "Li2PNO2", "lattice": [[2.730513, -4.577934, 0.0], [2.730513, 4.577934, 0.0], [0.0, 0.0, 4.748969]], "full_formula": "Li4 P2 N2 O4", "natoms": 12, "ehull_mp": 0.0}

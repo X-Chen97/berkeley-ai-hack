@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "Na2Li5Al7Si29O72", "lattice": [[9.456677, 0.0, 0.0], [-0.600949, 9.370777, 0.0], [-1.468586, -1.868812, 28.089505]], "full_formula": "Na2 Li5 Al7 Si29 O72", "natoms": 115}
+{"space_group": "P1", "formula": "Na2Li5Al7Si29O72", "lattice": [[9.456677, 0.0, 0.0], [-0.600949, 9.370777, 0.0], [-1.468586, -1.868812, 28.089505]], "full_formula": "Na2 Li5 Al7 Si29 O72", "natoms": 115, "ehull_mp": 59.621416376812064}

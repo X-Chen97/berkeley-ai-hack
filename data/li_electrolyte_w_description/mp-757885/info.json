@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "LiSnPO4", "lattice": [[5.573671, 0.0, 0.0], [1.480454, 6.951515, 0.0], [1.84489, 2.547546, 9.566941]], "full_formula": "Li4 Sn4 P4 O16", "natoms": 28}
+{"space_group": "P-1", "formula": "LiSnPO4", "lattice": [[5.573671, 0.0, 0.0], [1.480454, 6.951515, 0.0], [1.84489, 2.547546, 9.566941]], "full_formula": "Li4 Sn4 P4 O16", "natoms": 28, "ehull_mp": 77.40390345238436}

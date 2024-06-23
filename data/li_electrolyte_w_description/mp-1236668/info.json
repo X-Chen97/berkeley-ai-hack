@@ -1,1 +1,1 @@
-{"space_group": "R3m", "formula": "LiSc2Al2(CO)2", "lattice": [[1.627539, 0.939659, 12.26753], [-1.627539, 0.939659, 12.26753], [0.0, -1.879321, 12.26753]], "full_formula": "Li1 Sc2 Al2 C2 O2", "natoms": 9}
+{"space_group": "R3m", "formula": "LiSc2Al2(CO)2", "lattice": [[1.627539, 0.939659, 12.26753], [-1.627539, 0.939659, 12.26753], [0.0, -1.879321, 12.26753]], "full_formula": "Li1 Sc2 Al2 C2 O2", "natoms": 9, "ehull_mp": 129.1039867259247}

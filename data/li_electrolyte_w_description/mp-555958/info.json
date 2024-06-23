@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "Ba2Li3(PO3)7", "lattice": [[8.71383, 0.0, 0.0], [0.0, 11.791901, 0.0], [0.0, 4.544619, 17.6765]], "full_formula": "Ba8 Li12 P28 O84", "natoms": 132}
+{"space_group": "P2_1/c", "formula": "Ba2Li3(PO3)7", "lattice": [[8.71383, 0.0, 0.0], [0.0, 11.791901, 0.0], [0.0, 4.544619, 17.6765]], "full_formula": "Ba8 Li12 P28 O84", "natoms": 132, "ehull_mp": 0.2888340908988596}

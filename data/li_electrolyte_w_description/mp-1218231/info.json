@@ -1,1 +1,1 @@
-{"space_group": "P321", "formula": "SrLiY2(BO3)3", "lattice": [[-7e-06, -8e-06, -6.441586], [-10.432806, -2e-06, -1.1e-05], [-5.216401, 9.035063, 5e-06]], "full_formula": "Sr3 Li3 Y6 B9 O27", "natoms": 48}
+{"space_group": "P321", "formula": "SrLiY2(BO3)3", "lattice": [[-7e-06, -8e-06, -6.441586], [-10.432806, -2e-06, -1.1e-05], [-5.216401, 9.035063, 5e-06]], "full_formula": "Sr3 Li3 Y6 B9 O27", "natoms": 48, "ehull_mp": 0.0}

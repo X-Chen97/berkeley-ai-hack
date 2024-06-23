@@ -1,1 +1,1 @@
-{"space_group": "Pbca", "formula": "LiCaBO3", "lattice": [[6.127266, 0.0, 0.0], [0.0, 6.237534, 0.0], [0.0, 0.0, 13.344837]], "full_formula": "Li8 Ca8 B8 O24", "natoms": 48}
+{"space_group": "Pbca", "formula": "LiCaBO3", "lattice": [[6.127266, 0.0, 0.0], [0.0, 6.237534, 0.0], [0.0, 0.0, 13.344837]], "full_formula": "Li8 Ca8 B8 O24", "natoms": 48, "ehull_mp": 0.0}

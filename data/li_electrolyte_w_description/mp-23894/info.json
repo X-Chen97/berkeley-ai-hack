@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiAs(HO2)2", "lattice": [[6.590291, 0.0, 0.0], [0.0, 7.363206, 0.0], [0.0, 0.0, 7.845648]], "full_formula": "Li4 As4 H8 O16", "natoms": 32}
+{"space_group": "Pna2_1", "formula": "LiAs(HO2)2", "lattice": [[6.590291, 0.0, 0.0], [0.0, 7.363206, 0.0], [0.0, 0.0, 7.845648]], "full_formula": "Li4 As4 H8 O16", "natoms": 32, "ehull_mp": 2.84332531249909}

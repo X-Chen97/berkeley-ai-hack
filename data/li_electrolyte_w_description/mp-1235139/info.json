@@ -1,1 +1,1 @@
-{"space_group": "Immm", "formula": "Ba2LiTbSnO6", "lattice": [[4.285148, 0.0, 4.285148], [-4.274488, 4.56891, -0.01066], [-4.263828, 0.0, 4.263828]], "full_formula": "Ba2 Li1 Tb1 Sn1 O6", "natoms": 11}
+{"space_group": "Immm", "formula": "Ba2LiTbSnO6", "lattice": [[4.285148, 0.0, 4.285148], [-4.274488, 4.56891, -0.01066], [-4.263828, 0.0, 4.263828]], "full_formula": "Ba2 Li1 Tb1 Sn1 O6", "natoms": 11, "ehull_mp": 108.2080086363595}

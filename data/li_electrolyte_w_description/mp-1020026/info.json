@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "LiBeBO3", "lattice": [[4.637602, 0.0, 0.0], [2.270963, 4.122615, 0.0], [1.795878, 1.576697, 5.510993]], "full_formula": "Li2 Be2 B2 O6", "natoms": 12}
+{"space_group": "P-1", "formula": "LiBeBO3", "lattice": [[4.637602, 0.0, 0.0], [2.270963, 4.122615, 0.0], [1.795878, 1.576697, 5.510993]], "full_formula": "Li2 Be2 B2 O6", "natoms": 12, "ehull_mp": 13.394735416661696}

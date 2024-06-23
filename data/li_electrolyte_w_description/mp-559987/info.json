@@ -1,1 +1,1 @@
-{"space_group": "Pbcn", "formula": "LiAl(PO3)4", "lattice": [[8.36172, 0.0, 0.0], [0.0, 9.053219, 0.0], [0.0, 0.0, 12.584991]], "full_formula": "Li4 Al4 P16 O48", "natoms": 72}
+{"space_group": "Pbcn", "formula": "LiAl(PO3)4", "lattice": [[8.36172, 0.0, 0.0], [0.0, 9.053219, 0.0], [0.0, 0.0, 12.584991]], "full_formula": "Li4 Al4 P16 O48", "natoms": 72, "ehull_mp": 2.4191545370442213}

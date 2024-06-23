@@ -1,1 +1,1 @@
-{"space_group": "Pna2_1", "formula": "LiBiB2O5", "lattice": [[4.424553, 0.0, 0.0], [0.0, 11.567212, 0.0], [0.0, 0.0, 13.516923]], "full_formula": "Li8 Bi8 B16 O40", "natoms": 72}
+{"space_group": "Pna2_1", "formula": "LiBiB2O5", "lattice": [[4.424553, 0.0, 0.0], [0.0, 11.567212, 0.0], [0.0, 0.0, 13.516923]], "full_formula": "Li8 Bi8 B16 O40", "natoms": 72, "ehull_mp": 81.5203013888901}

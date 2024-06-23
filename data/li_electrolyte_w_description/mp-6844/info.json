@@ -1,1 +1,1 @@
-{"space_group": "P6/mcc", "formula": "KLi3Si12(SnO15)2", "lattice": [[5.078561, -8.796325, 0.0], [5.078561, 8.796325, 0.0], [0.0, 0.0, 14.513072]], "full_formula": "K2 Li6 Si24 Sn4 O60", "natoms": 96}
+{"space_group": "P6/mcc", "formula": "KLi3Si12(SnO15)2", "lattice": [[5.078561, -8.796325, 0.0], [5.078561, 8.796325, 0.0], [0.0, 0.0, 14.513072]], "full_formula": "K2 Li6 Si24 Sn4 O60", "natoms": 96, "ehull_mp": 0.0}

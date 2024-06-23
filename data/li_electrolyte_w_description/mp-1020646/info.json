@@ -1,1 +1,1 @@
-{"space_group": "P-1", "formula": "NaLi2B(PO4)2", "lattice": [[-5.502868, 0.0, 0.0], [-0.350266, -7.47511, 0.0], [2.703149, 1.752908, 7.44279]], "full_formula": "Na2 Li4 B2 P4 O16", "natoms": 28}
+{"space_group": "P-1", "formula": "NaLi2B(PO4)2", "lattice": [[-5.502868, 0.0, 0.0], [-0.350266, -7.47511, 0.0], [2.703149, 1.752908, 7.44279]], "full_formula": "Na2 Li4 B2 P4 O16", "natoms": 28, "ehull_mp": 0.0}

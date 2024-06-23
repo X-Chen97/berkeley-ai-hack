@@ -1,1 +1,1 @@
-{"space_group": "C2", "formula": "K2LiBO3", "lattice": [[3.082751, 4.428444, 0.0], [-3.082751, 4.428444, 0.0], [0.0, 1.607911, 7.264109]], "full_formula": "K4 Li2 B2 O6", "natoms": 14}
+{"space_group": "C2", "formula": "K2LiBO3", "lattice": [[3.082751, 4.428444, 0.0], [-3.082751, 4.428444, 0.0], [0.0, 1.607911, 7.264109]], "full_formula": "K4 Li2 B2 O6", "natoms": 14, "ehull_mp": 0.0}

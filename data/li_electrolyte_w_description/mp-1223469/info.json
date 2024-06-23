@@ -1,1 +1,1 @@
-{"space_group": "Cm", "formula": "KLiZn3O4", "lattice": [[1.68194, 5.860655, 0.0], [-1.68194, 5.860655, 0.0], [0.0, 5.79334, 5.911587]], "full_formula": "K1 Li1 Zn3 O4", "natoms": 9}
+{"space_group": "Cm", "formula": "KLiZn3O4", "lattice": [[1.68194, 5.860655, 0.0], [-1.68194, 5.860655, 0.0], [0.0, 5.79334, 5.911587]], "full_formula": "K1 Li1 Zn3 O4", "natoms": 9, "ehull_mp": 0.0}

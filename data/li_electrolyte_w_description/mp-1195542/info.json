@@ -1,1 +1,1 @@
-{"space_group": "Pbcm", "formula": "Rb2LiNd(BO3)2", "lattice": [[7.09884529, -0.0, 0.0], [-0.0, 9.70677857, 0.0], [0.0, 0.0, 10.12349857]], "full_formula": "Rb8 Li4 Nd4 B8 O24", "natoms": 48}
+{"space_group": "Pbcm", "formula": "Rb2LiNd(BO3)2", "lattice": [[7.09884529, -0.0, 0.0], [-0.0, 9.70677857, 0.0], [0.0, 0.0, 10.12349857]], "full_formula": "Rb8 Li4 Nd4 B8 O24", "natoms": 48, "ehull_mp": 0.0}

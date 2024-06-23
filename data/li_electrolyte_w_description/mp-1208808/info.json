@@ -1,1 +1,1 @@
-{"space_group": "P2_1/c", "formula": "Sr2LiTeO6", "lattice": [[0.0, -5.679665, 0.0], [-4.640904, 0.0, 3.273589], [-4.641786, 0.0, -6.601427]], "full_formula": "Sr4 Li2 Te2 O12", "natoms": 20}
+{"space_group": "P2_1/c", "formula": "Sr2LiTeO6", "lattice": [[0.0, -5.679665, 0.0], [-4.640904, 0.0, 3.273589], [-4.641786, 0.0, -6.601427]], "full_formula": "Sr4 Li2 Te2 O12", "natoms": 20, "ehull_mp": 20.66268951249839}

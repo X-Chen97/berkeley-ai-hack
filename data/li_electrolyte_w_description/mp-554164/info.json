@@ -1,1 +1,1 @@
-{"space_group": "Pmc2_1", "formula": "KLiZnP2O7", "lattice": [[5.158022, 0.0, 0.0], [0.0, 10.442477, 0.0], [0.0, 0.0, 12.600451]], "full_formula": "K4 Li4 Zn4 P8 O28", "natoms": 48}
+{"space_group": "Pmc2_1", "formula": "KLiZnP2O7", "lattice": [[5.158022, 0.0, 0.0], [0.0, 10.442477, 0.0], [0.0, 0.0, 12.600451]], "full_formula": "K4 Li4 Zn4 P8 O28", "natoms": 48, "ehull_mp": 0.0}

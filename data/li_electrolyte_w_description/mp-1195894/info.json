@@ -1,1 +1,1 @@
-{"space_group": "P2/c", "formula": "K9Li3Nd3(BO3)7", "lattice": [[10.208751, 0.0, 0.0], [0.0, 11.584214, 0.0], [0.0, 6.601326, 10.607397]], "full_formula": "K18 Li6 Nd6 B14 O42", "natoms": 86}
+{"space_group": "P2/c", "formula": "K9Li3Nd3(BO3)7", "lattice": [[10.208751, 0.0, 0.0], [0.0, 11.584214, 0.0], [0.0, 6.601326, 10.607397]], "full_formula": "K18 Li6 Nd6 B14 O42", "natoms": 86, "ehull_mp": 0.0}

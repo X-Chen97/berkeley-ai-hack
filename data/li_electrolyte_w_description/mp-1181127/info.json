@@ -1,1 +1,1 @@
-{"space_group": "R-3", "formula": "Li2Ga3Te6(HO2)12", "lattice": [[9.081353, -4.694651, 0.0], [9.081353, 4.694651, 0.0], [6.654429, 0.0, 7.760753]], "full_formula": "Li2 Ga3 Te6 H12 O24", "natoms": 47}
+{"space_group": "R-3", "formula": "Li2Ga3Te6(HO2)12", "lattice": [[9.081353, -4.694651, 0.0], [9.081353, 4.694651, 0.0], [6.654429, 0.0, 7.760753]], "full_formula": "Li2 Ga3 Te6 H12 O24", "natoms": 47, "ehull_mp": 58.5144496648935}

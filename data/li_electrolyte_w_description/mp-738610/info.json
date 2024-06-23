@@ -1,1 +1,1 @@
-{"space_group": "C2/c", "formula": "LiH20C8ClO4", "lattice": [[4.038534, 6.66526, 0.0], [-4.038534, 6.66526, 0.0], [0.0, 1.183482, 12.154471]], "full_formula": "Li2 H40 C16 Cl2 O8", "natoms": 68}
+{"space_group": "C2/c", "formula": "LiH20C8ClO4", "lattice": [[4.038534, 6.66526, 0.0], [-4.038534, 6.66526, 0.0], [0.0, 1.183482, 12.154471]], "full_formula": "Li2 H40 C16 Cl2 O8", "natoms": 68, "ehull_mp": 192.9535015441175}

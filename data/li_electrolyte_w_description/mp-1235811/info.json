@@ -1,1 +1,1 @@
-{"space_group": "I4/mmm", "formula": "LiPu2TeO2", "lattice": [[4.01148, 0.0, 0.0], [0.0, 4.01148, 0.0], [-2.00574, -2.00574, 7.988373]], "full_formula": "Li1 Pu2 Te1 O2", "natoms": 6}
+{"space_group": "I4/mmm", "formula": "LiPu2TeO2", "lattice": [[4.01148, 0.0, 0.0], [0.0, 4.01148, 0.0], [-2.00574, -2.00574, 7.988373]], "full_formula": "Li1 Pu2 Te1 O2", "natoms": 6, "ehull_mp": 347.8731117361136}

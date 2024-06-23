@@ -1,1 +1,1 @@
-{"space_group": "P-4n2", "formula": "LiPr(SO4)2", "lattice": [[7.768612, 0.0, 0.0], [0.0, 7.764371, 0.0], [0.0, 0.0, 6.205643]], "full_formula": "Li2 Pr2 S4 O16", "natoms": 24}
+{"space_group": "P-4n2", "formula": "LiPr(SO4)2", "lattice": [[7.768612, 0.0, 0.0], [0.0, 7.764371, 0.0], [0.0, 0.0, 6.205643]], "full_formula": "Li2 Pr2 S4 O16", "natoms": 24, "ehull_mp": 129.56649416665388}

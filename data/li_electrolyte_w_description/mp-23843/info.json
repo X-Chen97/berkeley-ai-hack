@@ -1,1 +1,1 @@
-{"space_group": "P2_12_12_1", "formula": "LiHSeO3", "lattice": [[5.155102, 0.0, 0.0], [0.0, 5.370719, 0.0], [0.0, 0.0, 11.392608]], "full_formula": "Li4 H4 Se4 O12", "natoms": 24}
+{"space_group": "P2_12_12_1", "formula": "LiHSeO3", "lattice": [[5.155102, 0.0, 0.0], [0.0, 5.370719, 0.0], [0.0, 0.0, 11.392608]], "full_formula": "Li4 H4 Se4 O12", "natoms": 24, "ehull_mp": 0.0}

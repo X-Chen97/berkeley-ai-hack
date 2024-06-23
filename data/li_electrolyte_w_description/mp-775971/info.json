@@ -1,1 +1,1 @@
-{"space_group": "P1", "formula": "Li5Sn5(PO4)6", "lattice": [[9.155192, 0.0, 0.0], [4.565636, 7.936649, 0.0], [4.434503, 2.532753, 7.74509]], "full_formula": "Li5 Sn5 P6 O24", "natoms": 40}
+{"space_group": "P1", "formula": "Li5Sn5(PO4)6", "lattice": [[9.155192, 0.0, 0.0], [4.565636, 7.936649, 0.0], [4.434503, 2.532753, 7.74509]], "full_formula": "Li5 Sn5 P6 O24", "natoms": 40, "ehull_mp": 97.22132983332799}

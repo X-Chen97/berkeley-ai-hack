@@ -1,1 +1,1 @@
-{"space_group": "Pnma", "formula": "Li2HClO", "lattice": [[0.0, 5.557751, 0.0], [0.0, 0.0, 5.844023], [9.530792, 0.0, 0.0]], "full_formula": "Li8 H4 Cl4 O4", "natoms": 20}
+{"space_group": "Pnma", "formula": "Li2HClO", "lattice": [[0.0, 5.557751, 0.0], [0.0, 0.0, 5.844023], [9.530792, 0.0, 0.0]], "full_formula": "Li8 H4 Cl4 O4", "natoms": 20, "ehull_mp": 0.0}

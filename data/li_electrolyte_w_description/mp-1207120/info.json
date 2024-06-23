@@ -1,1 +1,1 @@
-{"space_group": "Fm-3m", "formula": "Ba2LiIO6", "lattice": [[0.0, 4.153976, 4.153976], [4.153976, 0.0, 4.153976], [4.153976, 4.153976, 0.0]], "full_formula": "Ba2 Li1 I1 O6", "natoms": 10}
+{"space_group": "Fm-3m", "formula": "Ba2LiIO6", "lattice": [[0.0, 4.153976, 4.153976], [4.153976, 0.0, 4.153976], [4.153976, 4.153976, 0.0]], "full_formula": "Ba2 Li1 I1 O6", "natoms": 10, "ehull_mp": 0.0}
