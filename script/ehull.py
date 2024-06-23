@@ -32,6 +32,20 @@ def has_common_element(list1, list2):
     return not set(list1).isdisjoint(list2)
 
 
+def read_json(fjson):
+    
+    with open(fjson) as f:
+        return json.load(f)
+
+
+def write_json(d, fjson):
+    
+    with open(fjson, 'w') as f:
+        json.dump(d, f)
+
+    return
+
+
 def get_ehull(mpr, vasp_entry, mp_entries, compatibility):
     
     mp_entries = compatibility.process_entries(mp_entries)
@@ -128,6 +142,14 @@ if __name__ == '__main__':
     structure = Structure.from_file(structure)
     
     result, ehull = get_relaxation_result(structure)
+    
+    trajectory = []
+    aaa = AseAtomsAdaptor()
+    
+    for i in result['trajectory'].atoms_trajectory:
+        relaxed_structure = aaa.get_structure(i)
+        trajectory.append(relaxed_structure.as_dict())
 
     print(result)
     print("{} meV/atom".format(ehull*1000))
+    write_json(trajectory, './trajectory.json')
