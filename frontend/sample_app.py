@@ -18,6 +18,22 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel, prepare_model_for_kbit_training
 import torch
 
+app = dash.Dash(prevent_initial_callbacks=True)
+
+# now we have two entries in our app layout,
+# the structure component's layout and the button
+
+#from huggingface_hub import login
+
+# use_huggingface = True
+# device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+#if use_huggingface is False:
+#    raise NotImplementedError()
+
+# Login to Hugging Face
+# os.system("huggingface-cli login --token $HUGGINGFACE_TOKEN")
+
 # Scatter plot
 
 styles = {
@@ -28,9 +44,8 @@ styles = {
 }
 
 test_comps_energies = pd.DataFrame({
-    "x": [1, 2, 3, 4],
+    "x": ["LiFePO4", "LiMn2O4", "LiMnO3", "LiTiO4"],
     "y": [1.4, -0.5, -0.25, 0.5],
-    "composition": ["LiFePO4", "LiMn2O4", "LiMnO3", "LiTiO4"],
     "below_threshold": ["False", "True", "True", "False"]
 })
 
@@ -43,7 +58,6 @@ fig = px.scatter(
     x="x",
     y="y",
     color="below_threshold",
-    custom_data=["composition"],
     title="Is your new composition thermodynamically stable?"
 )
 
@@ -51,16 +65,17 @@ fig.update_layout(clickmode='event+select')
 
 fig.update_traces(marker_size=20)
 
-#from huggingface_hub import login
+# now we give a list of structures to pick from
+structures = [
+    Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.5, 0.5]]),
+    Structure(Lattice.cubic(5), ["K", "Cl"], [[0, 0, 0], [0.5, 0.5, 0.5]]),
+]
 
-# use_huggingface = True
-# device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+# we show the first structure by default
+structure_component = ctc.StructureMoleculeComponent(structures[0], id="my_structure")
 
-#if use_huggingface is False:
-#    raise NotImplementedError()
-
-# Login to Hugging Face
-# os.system("huggingface-cli login --token $HUGGINGFACE_TOKEN")
+# and we create a button for user interaction
+my_button = html.Button("Swap Structure", id="change_structure_button")
 
 external_stylesheets = [
     dbc.themes.BOOTSTRAP,
@@ -111,126 +126,39 @@ app.layout = dbc.Container(
                             value="8.4",
                             style={"width": "15%", "height": "150px"},
                         ),
-                        html.Button("Submit", id="my-button", className="mt-2"),
+                        html.Button(
+                            "Submit",
+                            id="add-new-candidate-button",
+                            className="mt-2",
+                            n_clicks=0
+                            ),
                     ],
+                    width=4,
+                ),
+                dbc.Col(
+                    [html.Div([structure_component.layout(), my_button], id="structure_output")],
                     width=4,
                 ),
                 dbc.Col(
                     [
-                        html.Div(
-                            id="my-output",
-                            style={
-                                "width": "100%",
-                                "height": "200px",
-                                "border": "1px solid",
-                                "padding": "10px",
-                            },
+                        dcc.Graph(
+                            id='compositions-energies',
+                            figure=fig
                         ),
-                        html.Div(
-                            id="eval-output",
-                            style={
-                                "width": "100%",
-                                "height": "200px",
-                                "border": "1px solid",
-                                "padding": "10px",
-                            },
-                        ),
-                    ],
-                    width=4,
-                ),
-                dbc.Col(
-                    [html.Div(id="structure-output")],
-                    width=4,
-                ),
+                        # dcc.Textarea(
+                        #     id="new_chemical_formula",
+                        #     value="LiFePO4",
+                        #     style={"width": "15%", "height": "150px"},
+                        # )
+                    ]
+                )
+
             ],
             className="align-items-center mt-4",
-        ),
-        dcc.Graph(
-            id='compositions-energies',
-            figure=fig
-        ),
-
-        # html.Div(className='row', children=[
-        #     html.Div([
-        #         dcc.Markdown("""
-        #             **Hover Data**
-        #
-        #             Mouse over values in the graph.
-        #         """),
-        #         html.Pre(id='hover-data', style=styles['pre'])
-        #     ], className='three columns'),
-        #
-        #     html.Div([
-        #         dcc.Markdown("""
-        #             **Click Data**
-        #
-        #             Click on points in the graph.
-        #         """),
-        #         html.Pre(id='click-data', style=styles['pre']),
-        #     ], className='three columns'),
-        #
-        #     html.Div([
-        #         dcc.Markdown("""
-        #             **Selection Data**
-        #
-        #             Choose the lasso or rectangle tool in the graph's menu
-        #             bar and then select points in the graph.
-        #
-        #             Note that if `layout.clickmode = 'event+select'`, selection data also
-        #             accumulates (or un-accumulates) selected data if you hold down the shift
-        #             button while clicking.
-        #         """),
-        #         html.Pre(id='selected-data', style=styles['pre']),
-        #     ], className='three columns'),
-        #
-        #     html.Div([
-        #         dcc.Markdown("""
-        #             **Zoom and Relayout Data**
-        #
-        #             Click and drag on the graph to zoom or click on the zoom
-        #             buttons in the graph's menu bar.
-        #             Clicking on legend items will also fire
-        #             this event.
-        #         """),
-        #         html.Pre(id='relayout-data', style=styles['pre']),
-        #     ], className='three columns')
-        # ]),
-        dcc.Textarea(
-            id="new_chemical_formula",
-            value="LiFePO4",
-            style={"width": "15%", "height": "150px"},
-        ),
+        )
     ],
     fluid=True,
 )
-
-
-# @callback(
-#     Output('hover-data', 'children'),
-#     Input('compositions-energies', 'hoverData'))
-# def display_hover_data(hoverData):
-#     return json.dumps(hoverData, indent=2)
-#
-#
-# @callback(
-#     Output('click-data', 'children'),
-#     Input('compositions-energies', 'clickData'))
-# def display_click_data(clickData):
-#     return json.dumps(clickData, indent=2)
-#
-#
-# @callback(
-#     Output('selected-data', 'children'),
-#     Input('compositions-energies', 'selectedData'))
-# def display_selected_data(selectedData):
-#     return json.dumps(selectedData, indent=2)
-#
-#
-# @callback(
-#     Output('relayout-data', 'children'),
-#     Input('compositions-energies', 'relayoutData'))
-# def display_relayout_data(relayoutData):
-#     return json.dumps(relayoutData, indent=2)
 
 # Input:
 # Composition, Symmetry, lattic parameter (angle+length), space group
@@ -283,20 +211,34 @@ def call_llm(question):
 
 @app.callback(
     Output("compositions-energies", "figure"),
-    Input("new_chemical_formula", "value")
+    Input("add-new-candidate-button", "n_clicks"),
+    [
+        State("chemical_formula", "value")
+    ],
+    prevent_initial_call=True
 )
-def update_scatter_plot(value):
+def update_scatter_plot(n_clicks, value):
     new_energy = random.choice(random_energies)
     test_comps_energies.loc[len(test_comps_energies.index)] = {
-        "x": test_comps_energies.iloc[-1]['x'] + 1,
+        "x": value,
         "y": new_energy,
-        "composition": [value],
         "below_threshold": "True" if new_energy < 0 else "False"
     }
-    fig = px.scatter(test_comps_energies, x="x", y="y", color="below_threshold", custom_data=["composition"])
+    fig = px.scatter(test_comps_energies, x="x", y="y", color="below_threshold")
     fig.update_layout(clickmode='event+select')
     fig.update_traces(marker_size=20)
     return fig
+
+ctc.register_crystal_toolkit(app=app, layout=app.layout)
+
+# for the interactivity, we use a standard Dash callback
+@app.callback(
+    Output(structure_component.id(), "data"),
+    [Input("change_structure_button", "n_clicks")],
+    prevent_initial_call=True
+)
+def update_structure(n_clicks):
+    return structures[n_clicks % 2]
 
 
 if __name__ == "__main__":
