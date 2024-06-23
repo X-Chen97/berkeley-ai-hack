@@ -153,3 +153,4 @@ if __name__ == '__main__':
     print(result)
     print("{} meV/atom".format(ehull*1000))
     write_json(trajectory, './trajectory.json')
+    result['final_structure'].to(filename='./final_POSCAR', fmt='POSCAR')
