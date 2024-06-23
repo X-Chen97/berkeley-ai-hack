@@ -149,8 +149,11 @@ if __name__ == '__main__':
     for i in result['trajectory'].atoms_trajectory:
         relaxed_structure = aaa.get_structure(i)
         trajectory.append(relaxed_structure.as_dict())
-
+        
+    trajectory.append(ehull*1000)
+    
     print(result)
     print("{} meV/atom".format(ehull*1000))
+
     write_json(trajectory, './trajectory.json')
     result['final_structure'].to(filename='./final_POSCAR', fmt='POSCAR')
