@@ -14,6 +14,7 @@ import re
 from pymatgen.core import Lattice, Structure
 import crystal_toolkit.components as ctc
 import os
+from pprint import pprint
 
 # from transformers import AutoModelForCausalLM, AutoTokenizer
 # from peft import PeftModel, prepare_model_for_kbit_training
@@ -45,6 +46,9 @@ with open('../data/formula_spacegroup_description_map.json', 'r') as fp:
     formula_spacegroup_description_map = json.load(fp)
 
 # now we give a list of structures to pick from
+# with open('../data/trajectory_test.json', 'r') as fp:
+#     structures = [Structure.from_dict(s) for s in json.load(fp)]
+
 structures = [
     Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.5, 0.25, 0.5]]),
     Structure(Lattice.hexagonal(5, 3), ["Na", "Cl"], [[0, 0, 0], [0.25, 0.25, 0.5]]),
@@ -57,7 +61,14 @@ structures = [
 ]
 
 # we show the first structure by default
-structure_component = ctc.StructureMoleculeComponent(structures[0], id="my_structure")
+generated_structure_component = ctc.StructureMoleculeComponent(
+    structures[0],
+    id="generated_structure"
+)
+actual_structure_component = ctc.StructureMoleculeComponent(
+    structures[-1],
+    id="actual_structure"
+)
 
 
 test_comps_energies = pd.DataFrame({
@@ -218,7 +229,7 @@ app.layout = dbc.Container(
                                     className="text-center",
                                     style={'font-size': "10px"}
                                 ),
-                                structure_component.layout(),
+                                generated_structure_component.layout(),
                                 dcc.Slider(
                                     id="relaxation_slider",
                                     min=0,
@@ -230,29 +241,50 @@ app.layout = dbc.Container(
                                     }
                                 )
                             ],
-                            id="structure_output",
-                            # style={'margin-bottom': '10px',
-                            #       'textAlign':'center',
-                            #       'width': '500px',
-                            #       'margin-top':'10px',
-                            #       'margin-bottom': '25px',
-                            #       'margin-left': '60px'}
+                            id="generated_structure_output",
                         )
                     ],
                     width=4,
                 ),
                 dbc.Col(
                     [
-                        dcc.Graph(
-                            id='compositions-energies',
-                            figure=fig
-                        ),
-                    ], width=5
+                        html.Div(
+                            [
+                                html.H3("Actual crystal structure from Materials Project", className="text-center"),
+                                html.P(
+                                    "Visualization interface provided by Materials Project",
+                                    className="text-center",
+                                    style={'font-size': "15px"}
+                                ),
+                                html.P(
+                                    "A. Jain, S. P. Ong, G. Hautier, W. Chen, W. D. Richards, S. Dacek, S. Cholia, D. Gunter, D. S., G. Ceder, and K. A. Persson (2013). Commentary: The Materials Project: A materials genome approach to accelerating materials innovation. MRS APL Materials, 1, 011002.",
+                                    className="text-center",
+                                    style={'font-size': "10px"}
+                                ),
+                                actual_structure_component.layout(),
+                            ],
+                            id="actual_structure",
+                            style={
+                                'margin-bottom': '40px',
+                                'margin-left': '30px'
+                            }
+                        )
+                    ],
+                    width=4,
                 )
-
             ],
             className="align-items-center mt-4",
-        )
+        ),
+        dbc.Row([
+            dbc.Col(
+                [
+                    dcc.Graph(
+                        id='compositions-energies',
+                        figure=fig
+                    ),
+                ]
+            )
+        ])
     ],
     fluid=True,
 )
@@ -333,7 +365,7 @@ ctc.register_crystal_toolkit(app=app, layout=app.layout)
 
 # for the interactivity, we use a standard Dash callback
 @app.callback(
-    Output(structure_component.id(), "data"),
+    Output(generated_structure_component.id(), "data"),
     [Input("relaxation_slider", "value")],
     prevent_initial_call=True
 )
