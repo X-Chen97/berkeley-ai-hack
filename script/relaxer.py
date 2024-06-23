@@ -12,6 +12,7 @@ import pickle
 import logging
 import contextlib
 import numpy as np
+from copy import deepcopy
 
 # IOs
 from pymatgen.core.structure import Structure, Molecule
@@ -67,7 +68,7 @@ class TrajectoryObserver:
     def __call__(self):
         """The logic for saving the properties of an Atoms during the relaxation."""
         
-        self.atoms_trajectory.append(self.atoms)
+        self.atoms_trajectory.append(deepcopy(self.atoms))
         self.energies.append(self.compute_energy())
         self.forces.append(self.atoms.get_forces())
         self.stresses.append(self.atoms.get_stress())
