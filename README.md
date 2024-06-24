@@ -2,6 +2,9 @@
 
 Repo for Materials LLM!
 
+![demo](demo.png)
+
+
 ## Inspiration
 As our climate changes, we need to continue adopting sustainable technologies for energy conversion. As materials scientists, we want to leverage cutting-edge scientific approaches to find the right materials for these needs. To mitigate carbon pollution, industries need to transition to batteries, the most efficient of which are lithium-ion batteries. As researchers, we use first principles atomistic modeling to understand materials properties, such as conductivity and stability; however, building these models is time consuming and presents significant learning curves for non-computational scientists. To bridge the gap between ideation and discovery for new lithium-ion battery opportunities, we fine-tuned an LLM model to automatically suggest structural input files for first principles modeling techniques from natural text descriptions. Our web app allows users to visualize the suggested structure, which is further optimized to reflect a real-world material.
 
